@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-shot_map.py
+load_data.py
 -----------
 Created on Wed Apr 15 21:54:09 2020
 
@@ -17,14 +17,14 @@ played at Santiago Bernabeu, the result ended at 2-6.
 We will be creating shot map for both the teams and will 
 try to analyze the xG for both the teams.
 
-Modules Used():
+Modules Used(1):
 ---------------
+1. json -- module to work with JSON data.
 """
-
 import json        ## importing json module
 
 ## loading the competitions.json file 
-with open('Statsbomb/data/competitions.json') as comp_file:
+with open('../Statsbomb/data/competitions.json') as comp_file:
     comp_data = json.load(comp_file)
 
 ## if you will see the comp_data you will find
@@ -34,7 +34,7 @@ comp = 11
 season_id = 41
 
 ## load all the matches from this competition
-with open('Statsbomb/data/matches/' + str(comp) + '/' + str(season_id) + '.json') as match_file:
+with open('../Statsbomb/data/matches/' + str(comp) + '/' + str(season_id) + '.json') as match_file:
     match_data = json.load(match_file)
 
 ## now finding home team and away team
