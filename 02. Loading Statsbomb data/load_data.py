@@ -7,15 +7,14 @@ Created on Wed Apr 15 21:54:09 2020
 @author: slothfulwave612
 
 This Python module will help to load the 
-Statsbomb's competition and match data, and will
-help to perform a visualization for shots by teams.
+Statsbomb's competition and match data.
 
 Here we will take the football match between
 Real Madrid and Barcelona from La Liga 2008-09
 played at Santiago Bernabeu, the result ended at 2-6.
 
-We will be creating shot map for both the teams and will 
-try to analyze the xG for both the teams.
+And then we will display all the result of Barcelona for
+La Liga Season 2008-09 season from the data present in the dataset.
 
 Modules Used(1):
 ---------------
