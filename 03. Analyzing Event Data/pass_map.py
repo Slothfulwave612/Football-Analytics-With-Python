@@ -3,6 +3,22 @@
 Created on Thu Apr 16 19:35:22 2020
 
 @author: anmol
+
+This Python module will create a pass map for your
+desired Barcelona player.
+
+If you want to make the same pass map for Real Madrid 
+players then you have to change the code described in 
+the for loop.(it's because of the positioning of the players
+from different teams)
+
+Modules Used(5):
+---------------
+1. matplotlib -- the vizualization library.
+2. numpy -- the numerical computation library.
+3. json -- module to work with JSON files.
+4. pandas -- module to work with dataframes.
+5. FCPython -- module to create football pitch map.
 """
 import matplotlib.pyplot as plt
 import numpy as np
