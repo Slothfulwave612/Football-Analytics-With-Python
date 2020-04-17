@@ -10,6 +10,7 @@
 
 * There are *five* Python files that are uploaded:
   * FCPython.py -- This Python file helps to draw the pitch map.
+  * dribble_code.py -- This Python file creates the dribble map for any Barcelona player you will list.(that played in that El Clasico)
   * pass_map.py -- This Python file creates the pass map for any Barcelona player you will list.(that played in that El Clasico)
   * shot_map.py -- This Python file creates the shot map for both the teams.
   * shot_player.py -- This Python file creates a shot map for any Barcelona player you will list.(that played in that El Clasico)
@@ -58,4 +59,30 @@
   
   ![Lionel Andrés Messi Cuccittini pass map](https://user-images.githubusercontent.com/33928040/79595646-dc0a5500-80fc-11ea-9c77-967a4f898da9.jpg)
  
- * From these plot we can see that, how well *Andres Iniesta's* passing game was in that match he achieved 100% pass accuracy and *Xavi* and *Messi* were exceptional
+ * From these plot we can see that, how well *Andres Iniesta's* passing game was in that match as he achieved a 100% pass accuracy and *Xavi* and *Messi* were exceptional too achieving 96% and 98% percent respectively.
+ 
+ * These plot show how the *Pep's* philosophy of the passing game was well demonstrated by the famous trio of *Xavi*, *Messi* and *Iniesta*.(well yes it was a collective effort from the whole team but I think this famous trio made everything easy and possible)
+
+## Lionel Messi's Dribbles:
+
+* Here using dribble_code.py we were able to create a dribble map for Lionel Messi.
+
+* The dark circle represents the successful dribble and faded one represents the unsuccessful dribble.
+
+* Here is the plot:
+  
+  ![Lionel Andrés Messi Cuccittini's Dribbles vs Real Madrid](https://user-images.githubusercontent.com/33928040/79599074-89cc3280-8102-11ea-895d-b24953913404.png)
+
+## Lionel Messi's Shots:
+
+* Here using shot_player.py we were able to create a shot map for Lionel Messi.
+
+* Here is the plot:
+  
+  ![Lionel Andrés Messi Cuccittini's Shots vs Real Madrid](https://user-images.githubusercontent.com/33928040/79599493-35758280-8103-11ea-95c5-c20ea3747cfd.png)
+
+* Here you can see that 4 shots that Messi took had a good xG values, and he converted two of them and it tells that he was really getting into the area of maximum possibility for scoring goals.
+
+--> So this was my very shot analysis on few things that I noticed.
+
+--> Thanks to [Friends of Tracking](https://www.youtube.com/channel/UCUBFJYcag8j2rm_9HkrrA7w/videos) for their lovely course.
