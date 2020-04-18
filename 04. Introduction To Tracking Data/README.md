@@ -40,24 +40,16 @@
   * **Code Line 74:** Plotting the goal post by using goal_line_width. The plot now looks like this:
     ![Capture](https://user-images.githubusercontent.com/33928040/79659930-7f2c9e80-81d1-11ea-8401-537fcd88a7a1.JPG)
   
-  * **Code Line 77-79:** Plotting the six yard box line by line.
-    
-    Plot after *Line 77*
+  * **Code Line 77-79:** Plotting the six yard box line by line. First, plot after *Line 77*, second after *Line 77* and third after *Line 77*. Plots:
+  
       ![Capture](https://user-images.githubusercontent.com/33928040/79667165-8d7bba00-81d3-11ea-8fc1-0a896b2915e1.JPG)
-Plot after *Line 78*
       ![Capture](https://user-images.githubusercontent.com/33928040/79667610-adab7900-81d3-11ea-9845-31a5f46d0a40.JPG)
-Plot after *Line 79*
       ![Capture](https://user-images.githubusercontent.com/33928040/79668482-ee0af700-81d3-11ea-9167-8abf0c59a8b9.JPG)
     
-  * **Code Line 82-84:** Plotting the penalty box line by line.
+  * **Code Line 82-84:** Plotting the penalty box line by line. First, plot after *Line 82*, second after *Line 83* and third after *Line 84*. Plots:
   
-    Plot after *Line 82*:
     ![Capture](https://user-images.githubusercontent.com/33928040/79669063-a2a61800-81d6-11ea-8a3d-a636cba3abc1.JPG)
-    
-    Plot after *Line 83*:
     ![Capture](https://user-images.githubusercontent.com/33928040/79669093-c5d0c780-81d6-11ea-85f2-f8f501f5de1f.JPG)
-    
-    Plot after *Line 84*:
     ![Capture](https://user-images.githubusercontent.com/33928040/79669112-e3059600-81d6-11ea-9299-1f065465a961.JPG)
 
   * **Code Line 87:** Plotting the penalty spot. Here's how the plot looks like:
