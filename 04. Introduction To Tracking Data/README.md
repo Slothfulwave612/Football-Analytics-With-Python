@@ -41,8 +41,7 @@
     ![Capture](https://user-images.githubusercontent.com/33928040/79659930-7f2c9e80-81d1-11ea-8401-537fcd88a7a1.JPG)
   
   * **Code Line 77-79:** Plotting the six yard box line by line.
-    
-    Plot after *line 77*:
+  
       ![Capture](https://user-images.githubusercontent.com/33928040/79667165-8d7bba00-81d3-11ea-8fc1-0a896b2915e1.JPG)
     
     Plot after *Line 78*:
