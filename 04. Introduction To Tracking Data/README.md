@@ -22,10 +22,10 @@
   * **Code Line 40-50:** Since the football dimensions are typically defined in yards so we have converted them into meters.
   
   * **Code Line 53:** Setting the background color, your plot now looks like this:
-    ![Capture](https://user-images.githubusercontent.com/33928040/79645194-69b47600-81cb-11ea-9cdc-6a52f92aaee6.JPG)
+  ![Capture](https://user-images.githubusercontent.com/33928040/79645194-69b47600-81cb-11ea-9cdc-6a52f92aaee6.JPG)
     
   * **Code Line 56-57:** Plotting the half-way line of the pitch and the center circle of the pitch. The plot will look like:
-    ![Capture](https://user-images.githubusercontent.com/33928040/79645289-10007b80-81cc-11ea-814e-4abb894e8f74.JPG)
+  ![Capture](https://user-images.githubusercontent.com/33928040/79645289-10007b80-81cc-11ea-814e-4abb894e8f74.JPG)
   
   * **Code Line 60-61:** Here defining points for x and y to plot or circle. Let's see how this works, the circle whose center is at origin is basically derived by the formula: *x^2 + y^2 = r^2* and at *Line 60* we have our y coordinates and we have radius too with us so by using the given formula as x = sqrt(r^2 - y^2) we will find our x coordinates.
   
