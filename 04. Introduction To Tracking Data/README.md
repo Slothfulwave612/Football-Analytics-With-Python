@@ -41,13 +41,12 @@
     ![Capture](https://user-images.githubusercontent.com/33928040/79659930-7f2c9e80-81d1-11ea-8401-537fcd88a7a1.JPG)
   
   * **Code Line 77-79:** Plotting the six yard box line by line.
-  
+    
+    Plot after *Line 77*
       ![Capture](https://user-images.githubusercontent.com/33928040/79667165-8d7bba00-81d3-11ea-8fc1-0a896b2915e1.JPG)
-    
-    Plot after *Line 78*:
+Plot after *Line 78*
       ![Capture](https://user-images.githubusercontent.com/33928040/79667610-adab7900-81d3-11ea-9845-31a5f46d0a40.JPG)
-    
-    Plot after *Line 79*:
+Plot after *Line 79*
       ![Capture](https://user-images.githubusercontent.com/33928040/79668482-ee0af700-81d3-11ea-9167-8abf0c59a8b9.JPG)
     
   * **Code Line 82-84:** Plotting the penalty box line by line.
