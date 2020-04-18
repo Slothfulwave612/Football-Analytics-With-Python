@@ -1,1 +1,1 @@
-https://github.com/metrica-sports/sample-data
+https://github.com/statsbomb/open-data
