@@ -76,3 +76,12 @@
   
   * **Code 107-111:** Setting the axis limits for the plots. x coordinate will be from (-55.5, 55.5) and y coordinate will be from (-37, 37), the value 3 has been added to have a border around the pitch. So our final plot looks like:
     ![Capture](https://user-images.githubusercontent.com/33928040/79682393-7ecaec80-823f-11ea-9bb7-fb04a7f18333.JPG)
+
+## Editing To Be Done:
+
+![last_goal](https://user-images.githubusercontent.com/33928040/79694172-61703f80-828c-11ea-8767-82cd2a03d6ce.jpg)
+![shot_map](https://user-images.githubusercontent.com/33928040/79694175-633a0300-828c-11ea-9d60-e1fff9aa6335.jpg)
+![away_team_first_goal](https://user-images.githubusercontent.com/33928040/79694176-63d29980-828c-11ea-8b47-ce427ee2a60c.jpg)
+![event_map_goal_1](https://user-images.githubusercontent.com/33928040/79694177-646b3000-828c-11ea-9961-10c1c15eef43.jpg)
+![home_team_first_goal](https://user-images.githubusercontent.com/33928040/79694178-6503c680-828c-11ea-9099-6d0f79eaf2d8.jpg)
+![kick_off](https://user-images.githubusercontent.com/33928040/79694179-659c5d00-828c-11ea-9a77-caadd49d72c6.jpg)
