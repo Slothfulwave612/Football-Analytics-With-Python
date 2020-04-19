@@ -68,7 +68,7 @@
   * **Code Line 98:** Plotting the D:
     ![Capture](https://user-images.githubusercontent.com/33928040/79682105-53470280-823d-11ea-90a4-545eea98ca45.JPG)
   
-  * Now the loop will run on more time for *sign = 1* and will plot the right hand side of the pitch and then our plot will look like this:
+  * Now the loop will run on more time for *sign = 1* and will plot the right hand side of the pitch. Plot:
     ![Capture](https://user-images.githubusercontent.com/33928040/79682212-0ca5d800-823e-11ea-88b2-bfa1666b7f0a.JPG)
   
   * **Code Line 101-104:** Removing all x ticks and y ticks as well as there labels. The plot will now look like:
