@@ -1,6 +1,6 @@
 """
 Created on Sat Apr 18 20:09:17 2020
-@author: anmol
+@author: slothfulwave612
 This Python module will contain function for visualization.
 
 Module Used(2):
@@ -187,7 +187,52 @@ def plot_events(df, fig, ax):
         count += 1
         
     return fig, ax
+
+def plot_frame(home_team_loc, away_team_loc, fig, ax, event_row=None):
+    '''
+    Function will plot a frame for all 11 players at the pitch at 
+    any given time.
     
+    Arguments:
+    home_team_loc -- row for home team frame.
+    away_team_loc -- row for away team frame.
+    fig, ax -- figure and axis object.
+    event_row -- row when particular event has occurred.
+    
+    Retrns:
+    fig, ax -- figure and axis object.
+    '''    
+    team_colors = ('r', 'b')
+    ## red for home team and blue for away team
+    
+    if home_team_loc['Period'] == 2:
+        dist = 1
+    else:
+        dist = -1
+    
+    for team, color in zip([home_team_loc, away_team_loc], team_colors):
+        x_cols = [col for col in team.keys() if col[-1] == 'X' and col != 'ball_X']
+        y_cols = [col for col in team.keys() if col[-1] == 'Y' and col != 'ball_Y']
+        
+        if color == 'r':
+            label = 'Home Team'
+        else:
+            label = 'Away Team'
+            
+        ax.plot(team[x_cols] * dist, team[y_cols] * dist, color+'o', MarkerSize=10, label=label)
+    
+    ax.plot(home_team_loc['ball_X'] * dist, away_team_loc['ball_Y'] * dist, 'ko', MarkerSize=6)
+    
+    if event_row is not None:
+        ax.annotate('', xy=event_row[['End X', 'End Y']] * dist, 
+                    xytext=event_row[['Start X', 'Start Y']] * dist,
+                    arrowprops=dict(arrowstyle='->', color='m'))
+    
+    handles, labels = plt.gca().get_legend_handles_labels()
+    by_label = dict(zip(labels, handles))
+    plt.legend(by_label.values(), by_label.keys(), loc='best', bbox_to_anchor=(0.9, 1, 0, 0), fontsize=12)
+    
+    return fig, ax
 
 
 
