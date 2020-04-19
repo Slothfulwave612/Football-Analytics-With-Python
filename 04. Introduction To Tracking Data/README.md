@@ -54,3 +54,25 @@
 
   * **Code Line 87:** Plotting the penalty spot. Here's how the plot looks like:
     ![Capture](https://user-images.githubusercontent.com/33928040/79669274-067d1080-81d8-11ea-95bc-5eca308aa811.JPG)
+    
+  * **Code Line 90-91:** Here defining the x and y points for our corner flag quadrant. y has been defined from 0 to 1 because we just need one circular quadrant.
+  
+  * **Code Line 92:** Plotting the first corner flag quadrant. Plot will now looks like this:
+    ![Capture](https://user-images.githubusercontent.com/33928040/79681802-a8354980-823a-11ea-95a8-20e8a8c6f0b4.JPG)
+
+  * **Code Line 93:** Plotting our second flag quadrant. Plot will now looks like this:
+    ![Capture](https://user-images.githubusercontent.com/33928040/79681829-f21e2f80-823a-11ea-89a9-ab817c9932c4.JPG)
+
+  * **Code Line 96-97:** Defining the x and y points for our D, here the D_length is the length of the chord that defines the D.
+  
+  * **Code Line 98:** Plotting the D:
+    ![Capture](https://user-images.githubusercontent.com/33928040/79682105-53470280-823d-11ea-90a4-545eea98ca45.JPG)
+  
+  * Now the loop will run on more time for *sign = 1* and will plot the right hand side of the pitch and then our plot will look like this:
+    ![Capture](https://user-images.githubusercontent.com/33928040/79682212-0ca5d800-823e-11ea-88b2-bfa1666b7f0a.JPG)
+  
+  * **Code Line 101-104:** Removing all x ticks and y ticks as well as there labels. The plot will now look like:
+    ![Capture](https://user-images.githubusercontent.com/33928040/79682295-a1a8d100-823e-11ea-94b3-48566a895484.JPG)
+  
+  * **Code 107-111:** Setting the axis limits for the plots. x coordinate will be from (-55.5, 55.5) and y coordinate will be from (-37, 37), the value 3 has been added to have a border around the pitch. So our final plot looks like:
+    ![Capture](https://user-images.githubusercontent.com/33928040/79682393-7ecaec80-823f-11ea-9bb7-fb04a7f18333.JPG)
