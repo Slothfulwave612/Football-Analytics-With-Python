@@ -26,7 +26,7 @@ def plot_pitch():
     
     ## defining some of the parameters, will be used while plotting
     field_dims = (105, 68)
-    field_color = 'meadiumseagreen'
+    field_color = 'mediumseagreen'
     linewidth = 2
     
     ## field dimensions in meters
@@ -112,10 +112,82 @@ def plot_pitch():
     
     return fig, ax
     
-
+def shot_map(df, fig, ax):
+    '''
+    This function will plot the shot map for the given shot
+    dataframe.
     
+    Argument:
+    df -- dataframe object, the dataframe passed(home or away).
+    fig -- figure object.
+    ax -- axis object.
+    
+    Returns:
+    fig, ax -- figure and axis object.
+    '''
+    fig, ax = fig, ax
+    
+    ## iterating thorugh the shot dataframe
+    for row_num, shot in df.iterrows():
+        if shot['Subtype'][-5:] == '-GOAL':
+            color = 'bo'
+            label = 'Goal'
+        else: 
+            color = 'ro'
+            label = 'No Goal'
+            
+        if shot['Period'] == 2:
+            dist = 1
+        else:
+            dist = -1
+        ## plotting the point where the shot took place                
+        plt.plot(shot['Start X'] * dist, shot['Start Y'] * dist, color, label=label)
         
+        ## adding an arrow to see the direction of the shot
+        ax.annotate("", xy=shot[['End X', 'End Y']] * dist, xytext=shot[['Start X', 'Start Y']] * dist, 
+                arrowprops=dict(arrowstyle='->', color=color[0]))
+    
+    handles, labels = plt.gca().get_legend_handles_labels()
+    by_label = dict(zip(labels, handles))
+    plt.legend(by_label.values(), by_label.keys(), loc='best', bbox_to_anchor=(0.9, 1, 0, 0), fontsize=12)
 
+    return fig, ax
+    
+def plot_events(df, fig, ax):
+    '''
+    Function to plot events.
+    
+    Arguments:
+    df -- dataframe object, the dataframe passed
+    fig -- figure object
+    ax -- axis object
+    
+    Returns:
+    fig -- figure object
+    ax -- axis object
+    '''
+    count = 1
+    for row_num, event in df.iterrows():
+        ## iterating through each row 
+        if event['Period'] == 2:
+            dist = 1
+        else:
+            dist = -1
+            
+        if event['Type'] == 'SHOT' and event['Subtype'][-5:] == '-GOAL':
+            color = 'bo'
+        else:
+            color = 'ro'
+        
+        ## plotting the events
+        plt.plot(event['Start X'] * dist, event['Start Y'] * dist, color)
+        ## adding arrows
+        ax.annotate('{}'.format(count), xy=event[['End X', 'End Y']] * dist, xytext=event[['Start X', 'Start Y']] * dist,
+                    arrowprops=dict(arrowstyle='->', color=color[0]))
+        count += 1
+        
+    return fig, ax
+    
 
 
 
