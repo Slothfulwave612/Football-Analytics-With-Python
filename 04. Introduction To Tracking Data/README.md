@@ -81,12 +81,41 @@
   * **Code 107-111:** Setting the axis limits for the plots. x coordinate will be from (-55.5, 55.5) and y coordinate will be from (-37, 37), the value 3 has been added to have a border around the pitch. So our final plot looks like:
     ![Capture](https://user-images.githubusercontent.com/33928040/79682393-7ecaec80-823f-11ea-9bb7-fb04a7f18333.JPG)
 
-[back](#content)
+## Analysis:     
 
-## Analysis:       
-![last_goal](https://user-images.githubusercontent.com/33928040/79694172-61703f80-828c-11ea-8767-82cd2a03d6ce.jpg)
-![shot_map](https://user-images.githubusercontent.com/33928040/79694175-633a0300-828c-11ea-9d60-e1fff9aa6335.jpg)
-![away_team_first_goal](https://user-images.githubusercontent.com/33928040/79694176-63d29980-828c-11ea-8b47-ce427ee2a60c.jpg)
-![event_map_goal_1](https://user-images.githubusercontent.com/33928040/79694177-646b3000-828c-11ea-9961-10c1c15eef43.jpg)
-![home_team_first_goal](https://user-images.githubusercontent.com/33928040/79694178-6503c680-828c-11ea-9099-6d0f79eaf2d8.jpg)
-![kick_off](https://user-images.githubusercontent.com/33928040/79694179-659c5d00-828c-11ea-9a77-caadd49d72c6.jpg)
+ * **Note:** In our pitch map, *home team* is attacking from *left to right* and away team is attacking from *right to left*.
+ 
+ * Firstly we have drawn out the shot map for both the teams, from the plot we can see every kind of shots, i.e. shots which were on traget, blocked shots, shots which were saved, long range shots and of course the goals. The *home team's* two goals were from the edge of the six yard box having a good xG value and one of the shot that led to a goal was a long range shot with a low xG value. For *away team* the two goals were from inside the penalty box, they were trying many long range shots that end up either blocked or saved or of target. Here is the plot for shot-map:
+   ![shot_map](https://user-images.githubusercontent.com/33928040/79694175-633a0300-828c-11ea-9d60-e1fff9aa6335.jpg)
+ 
+ * Then we have plotted some of the event maps for the first three goals:
+   * This is the event map for the first goal of the match scored by the *home team*.
+   * We have numbered the events in the order.
+   * Events from 1 to 8 were all *pass event* and the *9th event* was a shot that led to the first goal.
+   * **Note:** Ball carry data is not present in the data set that is why the events sometime looks incomplete,
+   * e.g. event from end point 3 to 4 starting point should be a carry event since it's not in the data set that why it's looking empty.
+   ![event_map_goal_1](https://user-images.githubusercontent.com/33928040/79694177-646b3000-828c-11ea-9961-10c1c15eef43.jpg)
+   
+   * Next is the event map for the second goal of the match
+     ![event_map_goal_2](https://user-images.githubusercontent.com/33928040/79879729-b6d35a80-840c-11ea-9a28-bfca66d9f733.jpg) 
+   
+   * And at last for the third goal of the match.
+     ![event_map_goal_3](https://user-images.githubusercontent.com/33928040/79879715-b3d86a00-840c-11ea-9a4e-129a0c51c346.jpg)
+
+ * Next we have plotted our tracking data:
+   * Here at first we have plotted the position of all 22 players on the pitch at the start of the kick off:
+     ![kick_off](https://user-images.githubusercontent.com/33928040/79694179-659c5d00-828c-11ea-9a77-caadd49d72c6.jpg)
+   
+   * Then we have plotted the tracking data when *home team* scored their first goal:
+     ![home_team_first_goal](https://user-images.githubusercontent.com/33928040/79694178-6503c680-828c-11ea-9099-6d0f79eaf2d8.jpg)
+   
+   * Tracking plot when *away team* scored their first goal:
+     ![away_team_first_goal](https://user-images.githubusercontent.com/33928040/79694176-63d29980-828c-11ea-8b47-ce427ee2a60c.jpg)   
+   
+   * Tracking plot when *home team* scored the last goal of the match
+     ![last_goal](https://user-images.githubusercontent.com/33928040/79694172-61703f80-828c-11ea-8767-82cd2a03d6ce.jpg)
+ 
+ * And then we went on and took *Player 9* for our analysis/plotting and plotted his shots on goal and tracking data when he scored the goal.
+  ![player_9_shots](https://user-images.githubusercontent.com/33928040/79879721-b5099700-840c-11ea-99af-5b4524b39258.jpg)
+  ![position_player9_goal](https://user-images.githubusercontent.com/33928040/79879725-b63ac400-840c-11ea-8330-c19891e54148.jpg)
+  
