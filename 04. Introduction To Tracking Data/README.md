@@ -1,6 +1,8 @@
 # Introduction To Tracking Data
 
-[a link](#editing-to-be-done)
+## Content:
+  * [Steps to create a football pitch](#editing-to-be-done).
+  * [Analysis](#analysis).
 
 ## Steps to create a football pitch map:
 
@@ -79,7 +81,7 @@
   * **Code 107-111:** Setting the axis limits for the plots. x coordinate will be from (-55.5, 55.5) and y coordinate will be from (-37, 37), the value 3 has been added to have a border around the pitch. So our final plot looks like:
     ![Capture](https://user-images.githubusercontent.com/33928040/79682393-7ecaec80-823f-11ea-9bb7-fb04a7f18333.JPG)
 
-## Editing To Be Done:
+## Analysis:
 
 ![last_goal](https://user-images.githubusercontent.com/33928040/79694172-61703f80-828c-11ea-8767-82cd2a03d6ce.jpg)
 ![shot_map](https://user-images.githubusercontent.com/33928040/79694175-633a0300-828c-11ea-9d60-e1fff9aa6335.jpg)
