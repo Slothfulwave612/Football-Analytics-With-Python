@@ -1,7 +1,7 @@
 # Introduction To Tracking Data
 
 ## Content:
-  * [Steps to create a football pitch](#editing-to-be-done).
+  * [Steps to create a football pitch](#steps-to-create-a-football-pitch-map).
   * [Analysis](#analysis).
 
 ## Steps to create a football pitch map:
