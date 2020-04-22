@@ -1,0 +1,804 @@
+,away_score,away_team_away_team_gender,away_team_away_team_id,away_team_away_team_name,competition_competition_id,competition_competition_name,competition_country_name,competition_stage_id,competition_stage_name,home_score,home_team_home_team_gender,home_team_home_team_id,home_team_home_team_name,kick_off,last_updated,match_date,match_id,match_status,match_week,metadata_data_version,season_season_id,season_season_name
+0,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,212,Atlético Madrid,20:45:00.000,2019-12-16T23:09:16.168756,2017-10-14,9642,available,8,1.0.2,1,2017/2018
+1,1,male,205,Leganés,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2018-04-07,9870,available,31,1.0.2,1,2017/2018
+2,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,215,Athletic Bilbao,20:45:00.000,2019-12-16T23:09:16.168756,2017-10-28,9661,available,10,1.0.2,1,2017/2018
+3,2,male,209,Celta Vigo,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,13:00:00.000,2019-12-16T23:09:16.168756,2017-12-02,9700,available,14,1.0.2,1,2017/2018
+4,0,male,221,Levante,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,16:15:00.000,2019-12-16T23:09:16.168756,2018-01-07,9742,available,18,1.0.2,1,2017/2018
+5,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,205,Leganés,16:15:00.000,2019-12-16T23:09:16.168756,2017-11-18,9682,available,12,1.0.2,1,2017/2018
+6,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,322,Eibar,16:15:00.000,2019-12-16T23:09:16.168756,2018-02-17,9799,available,24,1.0.2,1,2017/2018
+7,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,222,Villarreal,20:45:00.000,2019-12-16T23:09:16.168756,2017-12-10,9717,available,15,1.0.2,1,2017/2018
+8,1,male,213,Sevilla,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2017-11-04,9673,available,11,1.0.2,1,2017/2018
+9,0,male,223,Málaga,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2017-10-21,9650,available,9,1.0.2,1,2017/2018
+10,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,219,Deportivo La Coruna,20:45:00.000,2019-12-16T23:09:16.168756,2018-04-29,9912,available,35,1.0.2,1,2017/2018
+11,1,male,211,Girona,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2018-02-24,9811,available,25,1.0.2,1,2017/2018
+12,5,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,218,Real Betis,20:45:00.000,2019-12-16T23:09:16.168756,2018-01-21,9765,available,20,1.1.0,1,2017/2018
+13,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,220,Real Madrid,13:00:00.000,2019-12-16T23:09:16.168756,2017-12-23,9736,available,17,1.1.0,1,2017/2018
+14,0,male,210,Real Sociedad,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2018-05-20,9948,available,38,1.0.2,1,2017/2018
+15,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,216,Getafe,16:15:00.000,2019-12-16T23:09:16.168756,2017-09-16,9602,available,4,1.0.2,1,2017/2018
+16,2,male,220,Real Madrid,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2018-05-06,9924,available,36,1.0.2,1,2017/2018
+17,0,male,219,Deportivo La Coruna,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2017-12-17,9726,available,16,1.0.2,1,2017/2018
+18,0,male,218,Real Betis,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:15:00.000,2019-12-16T23:09:16.168756,2017-08-20,9575,available,1,1.1.0,1,2017/2018
+19,0,male,214,Espanyol,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2017-09-09,9592,available,3,1.1.0,1,2017/2018
+20,1,male,206,Deportivo Alavés,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2018-01-28,9774,available,21,1.0.2,1,2017/2018
+21,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,208,Las Palmas,21:00:00.000,2019-12-16T23:09:16.168756,2018-03-01,9827,available,26,1.0.2,1,2017/2018
+22,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,206,Deportivo Alavés,18:15:00.000,2019-12-16T23:09:16.168756,2017-08-26,9581,available,2,1.0.2,1,2017/2018
+23,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,209,Celta Vigo,21:00:00.000,2019-12-16T23:09:16.168756,2018-04-17,9889,available,33,1.1.0,1,2017/2018
+24,1,male,207,Valencia,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,16:15:00.000,2019-12-16T23:09:16.168756,2018-04-14,9880,available,32,1.0.2,1,2017/2018
+25,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,210,Real Sociedad,20:45:00.000,2019-12-16T23:09:16.168756,2018-01-14,9754,available,19,1.1.0,1,2017/2018
+26,1,male,222,Villarreal,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2018-05-09,9928,available,34,1.1.0,1,2017/2018
+27,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,207,Valencia,20:45:00.000,2019-12-16T23:09:16.168756,2017-11-26,9695,available,13,1.0.2,1,2017/2018
+28,0,male,208,Las Palmas,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,16:15:00.000,2019-12-16T23:09:16.168756,2017-10-01,9636,available,7,1.0.2,1,2017/2018
+29,0,male,212,Atlético Madrid,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,16:15:00.000,2019-12-16T23:09:16.168756,2018-03-04,9837,available,27,1.0.2,1,2017/2018
+30,0,male,216,Getafe,11,La Liga,Spain,1,Regular Season,0,male,217,Barcelona,16:15:00.000,2019-12-16T23:09:16.168756,2018-02-11,9794,available,23,1.0.2,1,2017/2018
+31,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,211,Girona,20:45:00.000,2019-12-16T23:09:16.168756,2017-09-23,9620,available,6,1.0.2,1,2017/2018
+32,1,male,322,Eibar,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2017-09-19,9609,available,5,1.0.2,1,2017/2018
+33,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,214,Espanyol,16:15:00.000,2019-12-16T23:09:16.168756,2018-02-04,9783,available,22,1.0.2,1,2017/2018
+34,0,male,215,Athletic Bilbao,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,16:15:00.000,2019-12-16T23:09:16.168756,2018-03-18,9855,available,29,1.0.2,1,2017/2018
+35,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,213,Sevilla,20:45:00.000,2019-12-16T23:09:16.168756,2018-03-31,9860,available,30,1.0.2,1,2017/2018
+0,0,male,1049,Granada,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2016-10-29,267058,available,10,1.1.0,2,2016/2017
+1,2,male,206,Deportivo Alavés,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,20:30:00.000,2019-12-16T23:09:16.168756,2016-09-10,266669,available,3,1.1.0,2,2016/2017
+2,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,212,Atlético Madrid,16:15:00.000,2019-12-16T23:09:16.168756,2017-02-26,267464,available,24,1.1.0,2,2016/2017
+3,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,222,Villarreal,20:45:00.000,2019-12-16T23:09:16.168756,2017-01-08,266477,available,17,1.1.0,2,2016/2017
+4,2,male,322,Eibar,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2017-05-21,267432,available,38,1.1.0,2,2016/2017
+5,1,male,220,Real Madrid,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,16:15:00.000,2019-12-16T23:09:16.168756,2016-12-03,267076,available,14,1.1.0,2,2016/2017
+6,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,223,Málaga,20:45:00.000,2019-12-16T23:09:16.168756,2017-04-08,267590,available,31,1.1.0,2,2016/2017
+7,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,208,Las Palmas,20:00:00.000,2019-12-16T23:09:16.168756,2017-05-14,267039,available,37,1.1.0,2,2016/2017
+8,2,male,210,Real Sociedad,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2017-04-15,267373,available,32,1.1.0,2,2016/2017
+9,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,215,Athletic Bilbao,20:15:00.000,2019-12-16T23:09:16.168756,2016-08-28,266892,available,2,1.1.0,2,2016/2017
+10,1,male,222,Villarreal,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,18:30:00.000,2019-12-16T23:09:16.168756,2017-05-06,266952,available,36,1.1.0,2,2016/2017
+11,0,male,209,Celta Vigo,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2017-03-04,266299,available,26,1.1.0,2,2016/2017
+12,2,male,207,Valencia,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2017-03-19,266440,available,28,1.1.0,2,2016/2017
+13,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,220,Real Madrid,20:45:00.000,2019-12-16T23:09:16.168756,2017-04-23,267569,available,33,1.1.0,2,2016/2017
+14,1,male,205,Leganés,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2017-02-19,267596,available,23,1.1.0,2,2016/2017
+15,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,210,Real Sociedad,20:45:00.000,2019-12-16T23:09:16.168756,2016-11-27,266191,available,13,1.1.0,2,2016/2017
+16,6,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,206,Deportivo Alavés,16:15:00.000,2019-12-16T23:09:16.168756,2017-02-11,266273,available,22,1.1.0,2,2016/2017
+17,0,male,213,Sevilla,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,19:30:00.000,2019-12-16T23:09:16.168756,2017-04-05,266280,available,30,1.1.0,2,2016/2017
+18,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,422,Osasuna,13:00:00.000,2019-12-16T23:09:16.168756,2016-12-10,266357,available,15,1.1.0,2,2016/2017
+19,1,male,214,Espanyol,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2016-12-18,266528,available,16,1.1.0,2,2016/2017
+20,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,218,Real Betis,12:00:00.000,2019-12-16T23:09:16.168756,2017-01-29,266516,available,20,1.1.0,2,2016/2017
+21,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,322,Eibar,20:45:00.000,2019-12-16T23:09:16.168756,2017-01-22,266731,available,19,1.1.0,2,2016/2017
+22,0,male,215,Athletic Bilbao,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,16:15:00.000,2019-12-16T23:09:16.168756,2017-02-04,266874,available,21,1.1.0,2,2016/2017
+23,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,213,Sevilla,20:45:00.000,2019-12-16T23:09:16.168756,2016-11-06,266989,available,11,1.1.0,2,2016/2017
+24,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,214,Espanyol,20:45:00.000,2019-12-16T23:09:16.168756,2017-04-29,267077,available,35,1.1.0,2,2016/2017
+25,1,male,212,Atlético Madrid,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2016-09-21,267220,available,5,1.1.0,2,2016/2017
+26,0,male,219,Deportivo La Coruna,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,16:15:00.000,2019-12-16T23:09:16.168756,2016-10-15,267492,available,8,1.1.0,2,2016/2017
+27,1,male,422,Osasuna,11,La Liga,Spain,1,Regular Season,7,male,217,Barcelona,19:30:00.000,2019-12-16T23:09:16.168756,2017-04-26,267101,available,34,1.1.0,2,2016/2017
+28,2,male,218,Real Betis,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,18:15:00.000,2019-12-16T23:09:16.168756,2016-08-20,267670,available,1,1.1.0,2,2016/2017
+29,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,207,Valencia,16:15:00.000,2019-12-16T23:09:16.168756,2016-10-22,266033,available,9,1.1.0,2,2016/2017
+30,1,male,1041,Sporting Gijón,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,19:30:00.000,2019-12-16T23:09:16.168756,2017-03-01,265952,available,25,1.1.0,2,2016/2017
+31,0,male,208,Las Palmas,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,16:15:00.000,2019-12-16T23:09:16.168756,2017-01-14,267395,available,18,1.1.0,2,2016/2017
+32,5,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,205,Leganés,13:00:00.000,2019-12-16T23:09:16.168756,2016-09-17,267212,available,4,1.1.0,2,2016/2017
+33,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,219,Deportivo La Coruna,16:15:00.000,2019-12-16T23:09:16.168756,2017-03-12,267660,available,27,1.1.0,2,2016/2017
+0,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,213,Sevilla,21:00:00.000,2019-12-16T23:09:16.168756,2010-05-08,69239,available,37,1.1.0,21,2009/2010
+1,0,male,219,Deportivo La Coruna,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2010-04-14,69221,available,32,1.1.0,21,2009/2010
+2,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,219,Deportivo La Coruna,22:00:00.000,2019-12-16T23:09:16.168756,2009-12-05,69218,available,13,1.1.0,21,2009/2010
+3,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,901,Real Valladolid,20:00:00.000,2019-12-16T23:09:16.168756,2010-01-23,69210,available,19,1.1.0,21,2009/2010
+4,5,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,627,Tenerife,21:00:00.000,2019-12-16T23:09:16.168756,2010-01-10,69219,available,17,1.1.0,21,2009/2010
+5,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1041,Sporting Gijón,20:00:00.000,2019-12-16T23:09:16.168756,2010-01-30,69220,available,20,1.1.0,21,2009/2010
+6,1,male,1219,Xerez,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,18:00:00.000,2019-12-16T23:09:16.168756,2010-04-24,69214,available,34,1.1.0,21,2009/2010
+7,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,395,Real Zaragoza,21:00:00.000,2019-12-16T23:09:16.168756,2010-03-21,69227,available,27,1.1.0,21,2009/2010
+8,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,216,Getafe,18:00:00.000,2019-12-16T23:09:16.168756,2009-09-12,69229,available,2,1.1.0,21,2009/2010
+9,0,male,1217,Racing Santander,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2010-02-20,69233,available,23,1.1.0,21,2009/2010
+10,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,214,Espanyol,20:00:00.000,2019-12-16T23:09:16.168756,2010-04-17,69213,available,33,1.1.0,21,2009/2010
+11,0,male,207,Valencia,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2010-03-14,69224,available,26,1.1.0,21,2009/2010
+12,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,403,Almería,20:00:00.000,2019-12-16T23:09:16.168756,2010-03-06,69226,available,25,1.1.0,21,2009/2010
+13,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,212,Atlético Madrid,21:00:00.000,2019-12-16T23:09:16.168756,2010-02-14,69237,available,22,1.1.0,21,2009/2010
+14,1,male,223,Málaga,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2010-02-27,69238,available,24,1.1.0,21,2009/2010
+15,0,male,901,Real Valladolid,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2010-05-16,69242,available,38,1.1.0,21,2009/2010
+16,1,male,215,Athletic Bilbao,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2010-04-03,69247,available,30,1.1.0,21,2009/2010
+17,1,male,216,Getafe,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2010-02-06,69240,available,21,1.1.0,21,2009/2010
+18,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,222,Villarreal,22:00:00.000,2019-12-16T23:09:16.168756,2010-05-01,69244,available,35,1.1.0,21,2009/2010
+19,1,male,627,Tenerife,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2010-05-04,69241,available,36,1.1.0,21,2009/2010
+20,2,male,1043,Mallorca,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2009-11-07,69250,available,10,1.1.0,21,2009/2010
+21,0,male,213,Sevilla,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2010-01-16,69243,available,18,1.1.0,21,2009/2010
+22,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,1217,Racing Santander,22:00:00.000,2019-12-16T23:09:16.168756,2009-09-22,69254,available,4,1.1.0,21,2009/2010
+23,0,male,403,Almería,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2009-10-03,69256,available,6,1.1.0,21,2009/2010
+24,1,male,395,Real Zaragoza,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2009-10-25,69253,available,8,1.1.0,21,2009/2010
+25,0,male,422,Osasuna,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2010-03-24,69257,available,28,1.1.0,21,2009/2010
+26,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,223,Málaga,20:00:00.000,2019-12-16T23:09:16.168756,2009-09-26,69255,available,5,1.1.0,21,2009/2010
+27,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1219,Xerez,22:00:00.000,2019-12-16T23:09:16.168756,2009-12-02,69267,available,15,1.1.0,21,2009/2010
+28,0,male,220,Real Madrid,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2009-11-29,69262,available,12,1.1.0,21,2009/2010
+29,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,207,Valencia,22:00:00.000,2019-12-16T23:09:16.168756,2009-10-17,69252,available,7,1.1.0,21,2009/2010
+30,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,220,Real Madrid,22:00:00.000,2019-12-16T23:09:16.168756,2010-04-10,69259,available,31,1.1.0,21,2009/2010
+31,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,422,Osasuna,20:00:00.000,2019-12-16T23:09:16.168756,2009-10-31,69277,available,9,1.1.0,21,2009/2010
+32,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,215,Athletic Bilbao,22:00:00.000,2019-12-16T23:09:16.168756,2009-11-21,69288,available,11,1.1.0,21,2009/2010
+33,2,male,212,Atlético Madrid,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2009-09-19,69292,available,3,1.1.0,21,2009/2010
+34,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1043,Mallorca,20:00:00.000,2019-12-16T23:09:16.168756,2010-03-27,69298,available,29,1.1.0,21,2009/2010
+0,1,male,1043,Mallorca,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2010-10-03,69236,available,6,1.1.0,22,2010/2011
+1,0,male,214,Espanyol,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2011-05-08,69234,available,35,1.1.0,22,2010/2011
+2,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,210,Real Sociedad,20:00:00.000,2019-12-16T23:09:16.168756,2011-04-30,69246,available,34,1.1.0,22,2010/2011
+3,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,1041,Sporting Gijón,20:00:00.000,2019-12-16T23:09:16.168756,2011-02-12,69248,available,23,1.1.0,22,2010/2011
+4,1,male,207,Valencia,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2010-10-16,69260,available,7,1.1.0,22,2010/2011
+5,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,395,Real Zaragoza,18:00:00.000,2019-12-16T23:09:16.168756,2010-10-23,69263,available,8,1.1.0,22,2010/2011
+6,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,221,Levante,20:00:00.000,2019-12-16T23:09:16.168756,2011-05-11,69272,available,36,1.1.0,22,2010/2011
+7,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,212,Atlético Madrid,19:00:00.000,2019-12-16T23:09:16.168756,2010-09-19,69269,available,3,1.1.0,22,2010/2011
+8,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,216,Getafe,19:00:00.000,2019-12-16T23:09:16.168756,2010-11-07,69270,available,10,1.1.0,22,2010/2011
+9,0,male,422,Osasuna,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2011-04-23,69271,available,33,1.1.0,22,2010/2011
+10,1,male,223,Málaga,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2011-01-16,69278,available,19,1.1.0,22,2010/2011
+11,0,male,212,Atlético Madrid,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2011-02-05,69276,available,22,1.1.0,22,2010/2011
+12,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,219,Deportivo La Coruna,22:00:00.000,2019-12-16T23:09:16.168756,2011-01-08,69280,available,18,1.1.0,22,2010/2011
+13,5,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,214,Espanyol,20:00:00.000,2019-12-16T23:09:16.168756,2010-12-18,69275,available,16,1.1.0,22,2010/2011
+14,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1043,Mallorca,20:00:00.000,2019-12-16T23:09:16.168756,2011-02-26,69283,available,25,1.1.0,22,2010/2011
+15,1,male,215,Athletic Bilbao,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2011-02-20,69282,available,24,1.1.0,22,2010/2011
+16,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,207,Valencia,22:00:00.000,2019-12-16T23:09:16.168756,2011-03-02,69274,available,26,1.1.0,22,2010/2011
+17,2,male,1218,Hércules,11,La Liga,Spain,1,Regular Season,0,male,217,Barcelona,18:00:00.000,2019-12-16T23:09:16.168756,2010-09-11,69287,available,2,1.1.0,22,2010/2011
+18,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1217,Racing Santander,19:00:00.000,2019-12-16T23:09:16.168756,2010-08-29,69286,available,1,1.1.0,22,2010/2011
+19,0,male,213,Sevilla,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2010-10-30,69289,available,9,1.1.0,22,2010/2011
+20,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,213,Sevilla,21:00:00.000,2019-12-16T23:09:16.168756,2011-03-13,69291,available,28,1.1.0,22,2010/2011
+21,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1218,Hércules,20:00:00.000,2019-12-16T23:09:16.168756,2011-01-29,69296,available,21,1.1.0,22,2010/2011
+22,0,male,1217,Racing Santander,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2011-01-22,69295,available,20,1.1.0,22,2010/2011
+23,0,male,395,Real Zaragoza,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2011-03-05,69300,available,27,1.1.0,22,2010/2011
+24,0,male,220,Real Madrid,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2010-11-29,69299,available,13,1.1.0,22,2010/2011
+25,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,222,Villarreal,22:00:00.000,2019-12-16T23:09:16.168756,2011-04-02,69304,available,30,1.1.0,22,2010/2011
+26,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,422,Osasuna,20:45:00.000,2019-12-16T23:09:16.168756,2010-12-04,69307,available,14,1.1.0,22,2010/2011
+27,1,male,222,Villarreal,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2010-11-13,69308,available,11,1.1.0,22,2010/2011
+28,0,male,210,Real Sociedad,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2010-12-12,69302,available,15,1.1.0,22,2010/2011
+29,1,male,216,Getafe,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2011-03-19,69303,available,29,1.1.0,22,2010/2011
+30,8,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,403,Almería,20:00:00.000,2019-12-16T23:09:16.168756,2010-11-20,69306,available,12,1.1.0,22,2010/2011
+31,1,male,403,Almería,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2011-04-09,69305,available,31,1.1.0,22,2010/2011
+32,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,220,Real Madrid,22:00:00.000,2019-12-16T23:09:16.168756,2011-04-16,69245,available,32,1.1.0,22,2010/2011
+0,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,210,Real Sociedad,18:00:00.000,2019-12-16T23:09:16.168756,2011-09-10,69264,available,3,1.1.0,23,2011/2012
+1,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1041,Sporting Gijón,20:00:00.000,2019-12-16T23:09:16.168756,2011-10-02,69265,available,7,1.1.0,23,2011/2012
+2,0,male,222,Villarreal,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2011-08-29,69268,available,2,1.1.0,23,2011/2012
+3,0,male,1217,Racing Santander,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2011-10-15,69293,available,8,1.1.0,23,2011/2012
+4,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,395,Real Zaragoza,20:00:00.000,2019-12-16T23:09:16.168756,2012-04-07,70219,available,32,1.1.0,23,2011/2012
+5,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,214,Espanyol,21:30:00.000,2019-12-16T23:09:16.168756,2012-01-08,69312,available,18,1.1.0,23,2011/2012
+6,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,216,Getafe,22:00:00.000,2019-12-16T23:09:16.168756,2011-11-26,69315,available,14,1.1.0,23,2011/2012
+7,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1049,Granada,20:00:00.000,2019-12-16T23:09:16.168756,2011-10-25,69318,available,10,1.1.0,23,2011/2012
+8,0,male,1043,Mallorca,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2011-10-29,69314,available,11,1.1.0,23,2011/2012
+9,1,male,210,Real Sociedad,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2012-02-04,69316,available,22,1.1.0,23,2011/2012
+10,0,male,214,Espanyol,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2012-05-05,69320,available,37,1.1.0,23,2011/2012
+11,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,218,Real Betis,22:00:00.000,2019-12-16T23:09:16.168756,2012-05-12,69319,available,38,1.1.0,23,2011/2012
+12,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1217,Racing Santander,18:00:00.000,2019-12-16T23:09:16.168756,2012-03-11,69322,available,27,1.1.0,23,2011/2012
+13,0,male,215,Athletic Bilbao,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2012-03-31,69323,available,31,1.1.0,23,2011/2012
+14,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,221,Levante,22:00:00.000,2019-12-16T23:09:16.168756,2012-04-14,70221,available,34,1.1.0,23,2011/2012
+15,2,male,220,Real Madrid,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2012-04-21,69324,available,35,1.1.0,23,2011/2012
+16,3,male,1049,Granada,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2012-03-20,70225,available,29,1.1.0,23,2011/2012
+17,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,207,Valencia,22:00:00.000,2019-12-16T23:09:16.168756,2011-09-21,70223,available,5,1.1.0,23,2011/2012
+18,0,male,395,Real Zaragoza,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2011-11-19,69331,available,13,1.1.0,23,2011/2012
+19,1,male,207,Valencia,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,21:30:00.000,2019-12-16T23:09:16.168756,2012-02-19,69328,available,24,1.1.0,23,2011/2012
+20,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1043,Mallorca,18:00:00.000,2019-12-16T23:09:16.168756,2012-03-24,69325,available,30,1.1.0,23,2011/2012
+21,2,male,218,Real Betis,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,21:30:00.000,2019-12-16T23:09:16.168756,2012-01-15,69327,available,19,1.1.0,23,2011/2012
+22,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,213,Sevilla,20:00:00.000,2019-12-16T23:09:16.168756,2012-03-17,69326,available,28,1.1.0,23,2011/2012
+23,0,male,213,Sevilla,11,La Liga,Spain,1,Regular Season,0,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2011-10-22,69329,available,9,1.1.0,23,2011/2012
+24,0,male,221,Levante,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2011-12-03,69333,available,15,1.1.0,23,2011/2012
+25,0,male,360,Rayo Vallecano,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2011-11-29,69332,available,17,1.1.0,23,2011/2012
+26,0,male,422,Osasuna,11,La Liga,Spain,1,Regular Season,8,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2011-09-17,70220,available,4,1.1.0,23,2011/2012
+27,7,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,360,Rayo Vallecano,21:30:00.000,2019-12-16T23:09:16.168756,2012-04-29,70224,available,36,1.1.0,23,2011/2012
+28,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,223,Málaga,18:00:00.000,2019-12-16T23:09:16.168756,2012-01-22,69335,available,1,1.1.0,23,2011/2012
+29,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,222,Villarreal,22:00:00.000,2019-12-16T23:09:16.168756,2012-01-28,69338,available,21,1.1.0,23,2011/2012
+30,1,male,223,Málaga,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2012-05-02,69340,available,20,1.1.0,23,2011/2012
+31,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,212,Atlético Madrid,21:30:00.000,2019-12-16T23:09:16.168756,2012-02-26,69337,available,25,1.1.0,23,2011/2012
+32,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,220,Real Madrid,22:00:00.000,2019-12-16T23:09:16.168756,2011-12-10,69334,available,16,1.1.0,23,2011/2012
+33,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,3,male,422,Osasuna,20:00:00.000,2019-12-16T23:09:16.168756,2012-02-11,69336,available,23,1.1.0,23,2011/2012
+34,0,male,216,Getafe,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2012-04-10,69343,available,33,1.1.0,23,2011/2012
+35,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,215,Athletic Bilbao,20:00:00.000,2019-12-16T23:09:16.168756,2011-11-06,69330,available,12,1.1.0,23,2011/2012
+36,0,male,212,Atlético Madrid,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2011-09-24,69297,available,6,1.1.0,23,2011/2012
+0,1,male,422,Osasuna,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2013-01-27,70260,available,21,1.1.0,24,2012/2013
+1,1,male,215,Athletic Bilbao,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2012-12-01,70263,available,14,1.1.0,24,2012/2013
+2,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,901,Real Valladolid,18:00:00.000,2019-12-16T23:09:16.168756,2012-12-22,266015,available,17,1.1.0,24,2012/2013
+3,1,male,213,Sevilla,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2013-02-23,70271,available,25,1.1.0,24,2012/2013
+4,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,422,Osasuna,19:00:00.000,2019-12-16T23:09:16.168756,2012-08-26,70262,available,2,1.1.0,24,2012/2013
+5,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,209,Celta Vigo,18:00:00.000,2019-12-16T23:09:16.168756,2013-03-30,70256,available,29,1.1.0,24,2012/2013
+6,1,male,210,Real Sociedad,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2012-08-19,70259,available,1,1.1.0,24,2012/2013
+7,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,220,Real Madrid,16:00:00.000,2019-12-16T23:09:16.168756,2013-03-02,70272,available,26,1.1.0,24,2012/2013
+8,0,male,1049,Granada,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2012-09-22,70270,available,5,1.1.0,24,2012/2013
+9,2,male,218,Real Betis,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2013-05-05,70281,available,34,1.1.0,24,2012/2013
+10,1,male,209,Celta Vigo,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,18:00:00.000,2019-12-16T23:09:16.168756,2012-11-03,70308,available,10,1.1.0,24,2012/2013
+11,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,207,Valencia,19:00:00.000,2019-12-16T23:09:16.168756,2013-02-03,70282,available,22,1.1.0,24,2012/2013
+12,1,male,395,Real Zaragoza,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2012-11-17,70309,available,12,1.1.0,24,2012/2013
+13,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,212,Atlético Madrid,19:00:00.000,2019-12-16T23:09:16.168756,2013-05-12,70284,available,35,1.1.0,24,2012/2013
+14,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,3,male,210,Real Sociedad,18:00:00.000,2019-12-16T23:09:16.168756,2013-01-19,70287,available,20,1.1.0,24,2012/2013
+15,5,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,4,male,219,Deportivo La Coruna,22:00:00.000,2019-12-16T23:09:16.168756,2012-10-20,70304,available,8,1.1.0,24,2012/2013
+16,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,213,Sevilla,22:00:00.000,2019-12-16T23:09:16.168756,2012-09-29,70275,available,6,1.1.0,24,2012/2013
+17,2,male,220,Real Madrid,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,19:50:00.000,2019-12-16T23:09:16.168756,2012-10-07,70300,available,7,1.1.0,24,2012/2013
+18,1,male,216,Getafe,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,12:00:00.000,2019-12-16T23:09:16.168756,2013-02-10,70297,available,23,1.1.0,24,2012/2013
+19,5,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,360,Rayo Vallecano,22:00:00.000,2019-12-16T23:09:16.168756,2012-10-27,70276,available,9,1.1.0,24,2012/2013
+20,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,221,Levante,21:00:00.000,2019-12-16T23:09:16.168756,2012-11-25,70280,available,13,1.1.0,24,2012/2013
+21,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,218,Real Betis,21:00:00.000,2019-12-16T23:09:16.168756,2012-12-09,70295,available,15,1.1.0,24,2012/2013
+22,0,male,207,Valencia,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,21:30:00.000,2019-12-16T23:09:16.168756,2012-09-02,70286,available,3,1.1.0,24,2012/2013
+23,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,1049,Granada,20:00:00.000,2019-12-16T23:09:16.168756,2013-02-16,70294,available,24,1.1.0,24,2012/2013
+24,1,male,360,Rayo Vallecano,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2013-03-17,70307,available,28,1.1.0,24,2012/2013
+25,0,male,219,Deportivo La Coruna,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2013-03-09,70305,available,27,1.1.0,24,2012/2013
+26,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,216,Getafe,20:00:00.000,2019-12-16T23:09:16.168756,2012-09-15,70292,available,4,1.1.0,24,2012/2013
+27,1,male,212,Atlético Madrid,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2012-12-16,70296,available,16,1.1.0,24,2012/2013
+28,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,1043,Mallorca,17:50:00.000,2019-12-16T23:09:16.168756,2012-11-11,266724,available,11,1.1.0,24,2012/2013
+29,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,223,Málaga,21:00:00.000,2019-12-16T23:09:16.168756,2013-01-13,266827,available,19,1.1.0,24,2012/2013
+30,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,215,Athletic Bilbao,18:00:00.000,2019-12-16T23:09:16.168756,2013-04-27,267502,available,33,1.1.0,24,2012/2013
+31,0,male,214,Espanyol,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2013-01-06,266433,available,18,1.1.0,24,2012/2013
+0,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,218,Real Betis,21:00:00.000,2019-12-16T23:09:16.168756,2013-11-10,266883,available,13,1.1.0,25,2013/2014
+1,2,male,213,Sevilla,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2013-09-14,70301,available,4,1.1.0,25,2013/2014
+2,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,214,Espanyol,16:00:00.000,2019-12-16T23:09:16.168756,2014-03-29,70306,available,31,1.1.0,25,2013/2014
+3,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,222,Villarreal,21:00:00.000,2019-12-16T23:09:16.168756,2014-04-27,70289,available,35,1.1.0,25,2013/2014
+4,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,221,Levante,19:00:00.000,2019-12-16T23:09:16.168756,2014-01-19,70288,available,20,1.1.0,25,2013/2014
+5,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,360,Rayo Vallecano,20:00:00.000,2019-12-16T23:09:16.168756,2013-09-21,70302,available,5,1.1.0,25,2013/2014
+6,0,male,221,Levante,11,La Liga,Spain,1,Regular Season,7,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2013-08-18,70277,available,1,1.1.0,25,2013/2014
+7,0,male,223,Málaga,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2014-01-26,70291,available,21,1.1.0,25,2013/2014
+8,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,207,Valencia,21:00:00.000,2019-12-16T23:09:16.168756,2013-09-01,70298,available,3,1.1.0,25,2013/2014
+9,1,male,220,Real Madrid,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,18:00:00.000,2019-12-16T23:09:16.168756,2013-10-26,70293,available,10,1.1.0,25,2013/2014
+10,0,male,214,Espanyol,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2013-11-01,70283,available,12,1.1.0,25,2013/2014
+11,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,3,male,210,Real Sociedad,20:00:00.000,2019-12-16T23:09:16.168756,2014-02-22,265837,available,25,1.1.0,25,2013/2014
+12,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,3,male,220,Real Madrid,21:00:00.000,2019-12-16T23:09:16.168756,2014-03-23,265857,available,29,1.1.0,25,2013/2014
+13,1,male,403,Almería,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2014-03-02,266066,available,26,1.1.0,25,2013/2014
+14,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,403,Almería,18:00:00.000,2019-12-16T23:09:16.168756,2013-09-28,266420,available,7,1.1.0,25,2013/2014
+15,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,422,Osasuna,20:00:00.000,2019-12-16T23:09:16.168756,2013-10-19,266462,available,9,1.1.0,25,2013/2014
+16,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,901,Real Valladolid,16:00:00.000,2019-12-16T23:09:16.168756,2014-03-08,266603,available,27,1.1.0,25,2013/2014
+17,1,male,218,Real Betis,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,18:00:00.000,2019-12-16T23:09:16.168756,2014-04-05,267368,available,32,1.1.0,25,2013/2014
+18,1,male,215,Athletic Bilbao,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2014-04-20,267567,available,34,1.1.0,25,2013/2014
+19,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,212,Atlético Madrid,20:00:00.000,2019-12-16T23:09:16.168756,2014-01-11,265830,available,19,1.1.0,25,2013/2014
+20,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1042,Elche,19:00:00.000,2019-12-16T23:09:16.168756,2014-05-11,266201,available,37,1.1.0,25,2013/2014
+21,3,male,207,Valencia,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,16:00:00.000,2019-12-16T23:09:16.168756,2014-02-01,266613,available,22,1.1.0,25,2013/2014
+22,2,male,216,Getafe,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,16:00:00.000,2019-12-16T23:09:16.168756,2014-05-03,266491,available,36,1.1.0,25,2013/2014
+23,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,209,Celta Vigo,22:00:00.000,2019-12-16T23:09:16.168756,2013-10-29,267192,available,11,1.1.0,25,2013/2014
+24,1,male,212,Atlético Madrid,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,18:00:00.000,2019-12-16T23:09:16.168756,2014-05-17,266256,available,38,1.1.0,25,2013/2014
+25,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,213,Sevilla,21:00:00.000,2019-12-16T23:09:16.168756,2014-02-09,267675,available,23,1.1.0,25,2013/2014
+26,0,male,209,Celta Vigo,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2014-03-26,266274,available,30,1.1.0,25,2013/2014
+27,1,male,210,Real Sociedad,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2013-09-24,267520,available,6,1.1.0,25,2013/2014
+28,0,male,422,Osasuna,11,La Liga,Spain,1,Regular Season,7,male,217,Barcelona,17:00:00.000,2019-12-16T23:09:16.168756,2014-03-16,266074,available,28,1.1.0,25,2013/2014
+29,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,1049,Granada,20:00:00.000,2019-12-16T23:09:16.168756,2014-04-12,267138,available,33,1.1.0,25,2013/2014
+30,0,male,360,Rayo Vallecano,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2014-02-15,265918,available,24,1.1.0,25,2013/2014
+0,1,male,212,Atlético Madrid,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2015-01-11,70303,available,18,1.1.0,26,2014/2015
+1,0,male,215,Athletic Bilbao,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,16:00:00.000,2019-12-16T23:09:16.168756,2014-09-13,70273,available,3,1.1.0,26,2014/2015
+2,1,male,220,Real Madrid,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2015-03-22,267183,available,28,1.1.0,26,2014/2015
+3,5,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,215,Athletic Bilbao,21:00:00.000,2019-12-16T23:09:16.168756,2015-02-08,266871,available,22,1.1.0,26,2014/2015
+4,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,322,Eibar,18:00:00.000,2019-12-16T23:09:16.168756,2015-03-14,266967,available,27,1.1.0,26,2014/2015
+5,8,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,373,Córdoba,16:00:00.000,2019-12-16T23:09:16.168756,2015-05-02,265866,available,35,1.1.0,26,2014/2015
+6,0,male,322,Eibar,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2014-10-18,265896,available,8,1.1.0,26,2014/2015
+7,1,male,223,Málaga,11,La Liga,Spain,1,Regular Season,0,male,217,Barcelona,16:00:00.000,2019-12-16T23:09:16.168756,2015-02-21,266148,available,24,1.1.0,26,2014/2015
+8,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,213,Sevilla,20:00:00.000,2019-12-16T23:09:16.168756,2015-04-11,266142,available,31,1.1.0,26,2014/2015
+9,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,210,Real Sociedad,21:00:00.000,2019-12-16T23:09:16.168756,2015-01-04,266240,available,17,1.1.0,26,2014/2015
+10,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,219,Deportivo La Coruna,19:00:00.000,2019-12-16T23:09:16.168756,2015-01-18,266230,available,19,1.1.0,26,2014/2015
+11,1,male,214,Espanyol,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,17:00:00.000,2019-12-16T23:09:16.168756,2014-12-07,266320,available,14,1.1.0,26,2014/2015
+12,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,207,Valencia,21:00:00.000,2019-12-16T23:09:16.168756,2014-11-30,266560,available,13,1.1.0,26,2014/2015
+13,0,male,207,Valencia,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,16:00:00.000,2019-12-16T23:09:16.168756,2015-04-18,266525,available,32,1.1.0,26,2014/2015
+14,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,212,Atlético Madrid,19:00:00.000,2019-12-16T23:09:16.168756,2015-05-17,266631,available,37,1.1.0,26,2014/2015
+15,0,male,221,Levante,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,17:00:00.000,2019-12-16T23:09:16.168756,2015-02-15,266741,available,23,1.1.0,26,2014/2015
+16,6,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1042,Elche,18:00:00.000,2019-12-16T23:09:16.168756,2015-01-24,266794,available,20,1.1.0,26,2014/2015
+17,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,223,Málaga,22:00:00.000,2019-12-16T23:09:16.168756,2014-09-24,266838,available,5,1.1.0,26,2014/2015
+18,1,male,360,Rayo Vallecano,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,12:00:00.000,2019-12-16T23:09:16.168756,2015-03-08,266916,available,26,1.1.0,26,2014/2015
+19,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,209,Celta Vigo,21:00:00.000,2019-12-16T23:09:16.168756,2015-04-05,266929,available,29,1.1.0,26,2014/2015
+20,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,3,male,220,Real Madrid,18:00:00.000,2019-12-16T23:09:16.168756,2014-10-25,267085,available,9,1.1.0,26,2014/2015
+21,2,male,219,Deportivo La Coruna,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,18:30:00.000,2019-12-16T23:09:16.168756,2015-05-23,267197,available,38,1.1.0,26,2014/2015
+22,1,male,209,Celta Vigo,11,La Liga,Spain,1,Regular Season,0,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2014-11-01,267301,available,10,1.1.0,26,2014/2015
+23,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,1049,Granada,16:00:00.000,2019-12-16T23:09:16.168756,2015-02-28,267343,available,25,1.1.0,26,2014/2015
+24,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,360,Rayo Vallecano,18:00:00.000,2019-12-16T23:09:16.168756,2014-10-04,267561,available,7,1.1.0,26,2014/2015
+25,0,male,216,Getafe,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2015-04-28,265963,available,34,1.1.0,26,2014/2015
+26,5,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,221,Levante,21:00:00.000,2019-12-16T23:09:16.168756,2014-09-21,266770,available,4,1.1.0,26,2014/2015
+27,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,216,Getafe,16:00:00.000,2019-12-16T23:09:16.168756,2014-12-13,70264,available,15,1.1.0,26,2014/2015
+28,0,male,403,Almería,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2015-04-08,267400,available,30,1.1.0,26,2014/2015
+29,0,male,373,Córdoba,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,16:00:00.000,2019-12-16T23:09:16.168756,2014-12-20,266846,available,16,1.1.0,26,2014/2015
+30,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,403,Almería,16:00:00.000,2019-12-16T23:09:16.168756,2014-11-08,267499,available,11,1.1.0,26,2014/2015
+31,1,male,213,Sevilla,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2014-11-22,265835,available,12,1.1.0,26,2014/2015
+32,0,male,210,Real Sociedad,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,18:00:00.000,2019-12-16T23:09:16.168756,2015-05-09,266045,available,36,1.1.0,26,2014/2015
+33,2,male,222,Villarreal,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2015-02-01,267597,available,21,1.1.0,26,2014/2015
+34,0,male,1049,Granada,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,18:00:00.000,2019-12-16T23:09:16.168756,2014-09-27,266117,available,6,1.1.0,26,2014/2015
+35,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,222,Villarreal,19:00:00.000,2019-12-16T23:09:16.168756,2014-08-31,266406,available,2,1.1.0,26,2014/2015
+36,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,214,Espanyol,16:00:00.000,2019-12-16T23:09:16.168756,2015-04-25,266531,available,33,1.1.0,26,2014/2015
+37,0,male,1042,Elche,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2014-08-24,266921,available,1,1.1.0,26,2014/2015
+0,8,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,219,Deportivo La Coruna,20:00:00.000,2019-12-16T23:09:16.168756,2016-04-20,266310,available,34,1.1.0,27,2015/2016
+1,0,male,216,Getafe,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,16:00:00.000,2019-12-16T23:09:16.168756,2016-03-12,266498,available,29,1.1.0,27,2015/2016
+2,1,male,213,Sevilla,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:30:00.000,2019-12-16T23:09:16.168756,2016-02-28,265839,available,26,1.1.0,27,2015/2016
+3,0,male,214,Espanyol,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,17:00:00.000,2019-12-16T23:09:16.168756,2016-05-08,265958,available,37,1.1.0,27,2015/2016
+4,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,222,Villarreal,16:00:00.000,2019-12-16T23:09:16.168756,2016-03-20,266106,available,30,1.1.0,27,2015/2016
+5,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,221,Levante,12:00:00.000,2019-12-16T23:09:16.168756,2016-02-07,266160,available,23,1.1.0,27,2015/2016
+6,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,215,Athletic Bilbao,18:30:00.000,2019-12-16T23:09:16.168756,2015-08-23,266236,available,1,1.1.0,27,2015/2016
+7,1,male,209,Celta Vigo,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,20:30:00.000,2019-12-16T23:09:16.168756,2016-02-14,266254,available,24,1.1.0,27,2015/2016
+8,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,220,Real Madrid,18:15:00.000,2019-12-16T23:09:16.168756,2015-11-21,266424,available,12,1.1.0,27,2015/2016
+9,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,4,male,209,Celta Vigo,20:00:00.000,2019-12-16T23:09:16.168756,2015-09-23,266467,available,5,1.1.0,27,2015/2016
+10,5,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,360,Rayo Vallecano,21:00:00.000,2019-12-16T23:09:16.168756,2016-03-03,266653,available,27,1.1.0,27,2015/2016
+11,0,male,1049,Granada,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,16:00:00.000,2019-12-16T23:09:16.168756,2016-01-09,266620,available,19,1.1.0,27,2015/2016
+12,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,210,Real Sociedad,20:30:00.000,2019-12-16T23:09:16.168756,2016-04-09,266664,available,32,1.1.0,27,2015/2016
+13,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,1041,Sporting Gijón,18:30:00.000,2019-12-16T23:09:16.168756,2016-02-17,266815,available,16,1.1.0,27,2015/2016
+14,0,male,210,Real Sociedad,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,16:00:00.000,2019-12-16T23:09:16.168756,2015-11-28,266885,available,13,1.1.0,27,2015/2016
+15,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,207,Valencia,20:30:00.000,2019-12-16T23:09:16.168756,2015-12-05,267274,available,14,1.1.0,27,2015/2016
+16,0,male,218,Real Betis,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:30:00.000,2019-12-16T23:09:16.168756,2015-12-30,267327,available,17,1.1.0,27,2015/2016
+17,0,male,223,Málaga,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,20:30:00.000,2019-12-16T23:09:16.168756,2015-08-29,267422,available,2,1.1.0,27,2015/2016
+18,2,male,220,Real Madrid,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,20:30:00.000,2019-12-16T23:09:16.168756,2016-04-02,267533,available,31,1.1.0,27,2015/2016
+19,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1049,Granada,17:00:00.000,2019-12-16T23:09:16.168756,2016-05-14,267506,available,38,1.1.0,27,2015/2016
+20,1,male,208,Las Palmas,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,16:00:00.000,2019-12-16T23:09:16.168756,2015-09-26,267611,available,6,1.1.0,27,2015/2016
+21,2,male,219,Deportivo La Coruna,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,16:00:00.000,2019-12-16T23:09:16.168756,2015-12-12,266961,available,15,1.1.0,27,2015/2016
+22,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,322,Eibar,16:00:00.000,2019-12-16T23:09:16.168756,2016-03-06,266056,available,28,1.1.0,27,2015/2016
+23,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,223,Málaga,16:00:00.000,2019-12-16T23:09:16.168756,2016-01-23,265894,available,21,1.1.0,27,2015/2016
+24,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,214,Espanyol,16:00:00.000,2019-12-16T23:09:16.168756,2016-01-02,266670,available,18,1.1.0,27,2015/2016
+25,0,male,215,Athletic Bilbao,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,20:30:00.000,2019-12-16T23:09:16.168756,2016-01-17,266149,available,20,1.1.0,27,2015/2016
+26,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,212,Atlético Madrid,20:30:00.000,2019-12-16T23:09:16.168756,2015-09-12,266166,available,3,1.1.0,27,2015/2016
+27,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,208,Las Palmas,16:00:00.000,2019-12-16T23:09:16.168756,2016-02-20,267273,available,25,1.1.0,27,2015/2016
+28,1,male,212,Atlético Madrid,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,16:00:00.000,2019-12-16T23:09:16.168756,2016-01-30,267576,available,22,1.1.0,27,2015/2016
+29,2,male,207,Valencia,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,20:30:00.000,2019-12-16T23:09:16.168756,2016-04-17,266557,available,33,1.1.0,27,2015/2016
+30,0,male,1041,Sporting Gijón,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,20:30:00.000,2019-12-16T23:09:16.168756,2016-04-23,265944,available,35,1.1.0,27,2015/2016
+31,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,218,Real Betis,20:30:00.000,2019-12-16T23:09:16.168756,2016-04-30,266986,available,36,1.1.0,27,2015/2016
+32,1,male,221,Levante,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:30:00.000,2019-12-16T23:09:16.168756,2015-09-20,266490,available,4,1.1.0,27,2015/2016
+0,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,608,Albacete,20:00:00.000,2019-12-16T23:09:16.168756,2004-12-11,69153,available,15,1.1.0,37,2004/2005
+1,0,male,422,Osasuna,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2004-10-24,68313,available,8,1.1.0,37,2004/2005
+2,0,male,223,Málaga,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2004-12-04,68314,available,14,1.1.0,37,2004/2005
+3,1,male,221,Levante,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2004-12-21,68315,available,17,1.1.0,37,2004/2005
+4,0,male,608,Albacete,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2005-05-01,68316,available,34,1.1.0,37,2004/2005
+5,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,214,Espanyol,22:00:00.000,2019-12-16T23:09:16.168756,2004-10-16,68353,available,7,1.1.0,37,2004/2005
+6,0,male,216,Getafe,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2005-04-17,68352,available,32,1.1.0,37,2004/2005
+0,0,male,223,Málaga,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:30:00.000,2019-12-16T23:09:16.168756,2005-10-26,69164,available,11,1.1.0,38,2005/2006
+1,1,male,218,Real Betis,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2006-02-18,69172,available,24,1.1.0,38,2005/2006
+2,2,male,395,Real Zaragoza,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2005-10-01,68317,available,6,1.1.0,38,2005/2006
+3,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,552,Cádiz,22:00:00.000,2019-12-16T23:09:16.168756,2005-12-17,68322,available,16,1.1.0,38,2005/2006
+4,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1043,Mallorca,19:00:00.000,2019-12-16T23:09:16.168756,2006-01-29,68325,available,21,1.1.0,38,2005/2006
+5,0,male,209,Celta Vigo,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2005-12-20,68323,available,17,1.1.0,38,2005/2006
+6,0,male,206,Deportivo Alavés,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2006-01-22,68324,available,20,1.1.0,38,2005/2006
+7,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,222,Villarreal,19:00:00.000,2019-12-16T23:09:16.168756,2005-12-04,68320,available,14,1.1.0,38,2005/2006
+8,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,220,Real Madrid,20:00:00.000,2019-12-16T23:09:16.168756,2005-11-19,68319,available,12,1.1.0,38,2005/2006
+9,0,male,422,Osasuna,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2005-10-22,68318,available,8,1.1.0,38,2005/2006
+10,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,216,Getafe,21:00:00.000,2019-12-16T23:09:16.168756,2005-11-06,68339,available,10,1.1.0,38,2005/2006
+11,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,214,Espanyol,22:00:00.000,2019-12-16T23:09:16.168756,2006-01-07,68348,available,18,1.1.0,38,2005/2006
+12,1,male,215,Athletic Bilbao,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2006-01-15,68342,available,19,1.1.0,38,2005/2006
+13,1,male,213,Sevilla,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2005-12-11,68321,available,15,1.1.0,38,2005/2006
+14,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,395,Real Zaragoza,22:00:00.000,2019-12-16T23:09:16.168756,2006-02-25,68351,available,25,1.1.0,38,2005/2006
+15,3,male,212,Atlético Madrid,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2006-02-05,68350,available,22,1.1.0,38,2005/2006
+16,1,male,1217,Racing Santander,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2005-11-27,68354,available,13,1.1.0,38,2005/2006
+0,0,male,1217,Racing Santander,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2007-02-11,69154,available,22,1.1.0,39,2006/2007
+1,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,222,Villarreal,21:00:00.000,2019-12-16T23:09:16.168756,2007-04-22,69155,available,31,1.1.0,39,2006/2007
+2,0,male,216,Getafe,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2007-05-26,69157,available,36,1.1.0,39,2006/2007
+3,0,male,221,Levante,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2007-04-29,69156,available,32,1.1.0,39,2006/2007
+4,0,male,1043,Mallorca,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2007-04-15,69159,available,30,1.1.0,39,2006/2007
+5,2,male,214,Espanyol,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2007-06-09,69165,available,37,1.1.0,39,2006/2007
+6,1,male,218,Real Betis,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2007-05-13,69162,available,34,1.1.0,39,2006/2007
+7,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,210,Real Sociedad,20:00:00.000,2019-12-16T23:09:16.168756,2007-05-05,69160,available,33,1.1.0,39,2006/2007
+8,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,209,Celta Vigo,21:00:00.000,2019-12-16T23:09:16.168756,2006-08-28,68326,available,1,1.1.0,39,2006/2007
+9,0,male,215,Athletic Bilbao,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2007-02-25,68333,available,24,1.1.0,39,2006/2007
+10,5,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,1036,Gimnàstic Tarragona,21:00:00.000,2019-12-16T23:09:16.168756,2007-06-17,68336,available,38,1.1.0,39,2006/2007
+11,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,220,Real Madrid,21:00:00.000,2019-12-16T23:09:16.168756,2006-10-22,68330,available,7,1.1.0,39,2006/2007
+12,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,207,Valencia,19:00:00.000,2019-12-16T23:09:16.168756,2007-02-18,68332,available,23,1.1.0,39,2006/2007
+13,1,male,395,Real Zaragoza,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2006-11-12,68331,available,10,1.1.0,39,2006/2007
+14,1,male,213,Sevilla,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2006-10-15,68329,available,6,1.1.0,39,2006/2007
+15,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,213,Sevilla,22:00:00.000,2019-12-16T23:09:16.168756,2007-03-03,68334,available,25,1.1.0,39,2006/2007
+16,0,male,422,Osasuna,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2006-09-09,68327,available,2,1.1.0,39,2006/2007
+17,1,male,207,Valencia,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2006-09-24,68328,available,4,1.1.0,39,2006/2007
+18,3,male,220,Real Madrid,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2007-03-10,68335,available,26,1.1.0,39,2006/2007
+19,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1217,Racing Santander,20:00:00.000,2019-12-16T23:09:16.168756,2006-09-17,68340,available,3,1.1.0,39,2006/2007
+20,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1220,Recreativo Huelva,20:00:00.000,2019-12-16T23:09:16.168756,2007-03-17,68341,available,27,1.1.0,39,2006/2007
+21,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,215,Athletic Bilbao,22:00:00.000,2019-12-16T23:09:16.168756,2006-09-30,68347,available,5,1.1.0,39,2006/2007
+22,6,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,212,Atlético Madrid,21:00:00.000,2019-12-16T23:09:16.168756,2007-05-20,69176,available,35,1.1.0,39,2006/2007
+23,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,219,Deportivo La Coruna,22:00:00.000,2019-12-16T23:09:16.168756,2006-11-04,69174,available,9,1.1.0,39,2006/2007
+24,1,male,219,Deportivo La Coruna,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2007-03-31,69175,available,28,1.1.0,39,2006/2007
+25,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,395,Real Zaragoza,20:00:00.000,2019-12-16T23:09:16.168756,2007-04-07,69179,available,29,1.1.0,39,2006/2007
+0,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,218,Real Betis,20:45:00.000,2019-12-16T23:09:16.168756,2019-03-17,16215,available,28,1.1.0,4,2018/2019
+1,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,220,Real Madrid,20:45:00.000,2019-12-16T23:09:16.168756,2019-03-02,16196,available,26,1.1.0,4,2018/2019
+2,1,male,360,Rayo Vallecano,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,18:30:00.000,2019-12-16T23:09:16.168756,2019-03-09,16205,available,27,1.1.0,4,2018/2019
+3,0,male,322,Eibar,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,18:30:00.000,2019-12-16T23:09:16.168756,2019-01-13,16131,available,19,1.0.3,4,2018/2019
+4,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,211,Girona,16:15:00.000,2019-12-16T23:09:16.168756,2019-01-27,16149,available,21,1.0.3,4,2018/2019
+5,1,male,210,Real Sociedad,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2019-04-20,16265,available,33,1.1.0,4,2018/2019
+6,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,214,Espanyol,20:45:00.000,2019-12-16T23:09:16.168756,2018-12-08,16086,available,15,1.1.0,4,2018/2019
+7,2,male,207,Valencia,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,18:30:00.000,2019-12-16T23:09:16.168756,2019-02-02,16157,available,22,1.1.0,4,2018/2019
+8,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,322,Eibar,16:15:00.000,2019-12-16T23:09:16.168756,2019-05-19,16317,available,38,1.1.0,4,2018/2019
+9,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,206,Deportivo Alavés,21:30:00.000,2019-12-16T23:09:16.168756,2019-04-23,16275,available,34,1.1.0,4,2018/2019
+10,0,male,221,Levante,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2019-04-27,16289,available,35,1.1.0,4,2018/2019
+11,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,213,Sevilla,16:15:00.000,2019-12-16T23:09:16.168756,2019-02-23,16190,available,25,1.1.0,4,2018/2019
+12,2,male,902,Huesca,11,La Liga,Spain,1,Regular Season,8,male,217,Barcelona,18:30:00.000,2019-12-16T23:09:16.168756,2018-09-02,15973,available,3,1.0.3,4,2018/2019
+13,0,male,206,Deportivo Alavés,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,22:15:00.000,2019-12-16T23:09:16.168756,2018-08-18,15946,available,1,1.0.2,4,2018/2019
+14,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,901,Real Valladolid,22:15:00.000,2019-12-16T23:09:16.168756,2018-08-25,15956,available,2,1.0.2,4,2018/2019
+15,4,male,218,Real Betis,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,16:15:00.000,2019-12-16T23:09:16.168756,2018-11-11,16056,available,12,1.0.3,4,2018/2019
+16,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,207,Valencia,20:45:00.000,2019-12-16T23:09:16.168756,2018-10-07,16023,available,8,1.0.3,4,2018/2019
+17,0,male,222,Villarreal,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,18:30:00.000,2019-12-16T23:09:16.168756,2018-12-02,16079,available,14,1.0.3,4,2018/2019
+18,1,male,215,Athletic Bilbao,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,16:15:00.000,2019-12-16T23:09:16.168756,2018-09-29,16010,available,7,1.0.3,4,2018/2019
+19,1,male,205,Leganés,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2019-01-20,16136,available,20,1.0.3,4,2018/2019
+20,0,male,209,Celta Vigo,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,18:30:00.000,2019-12-16T23:09:16.168756,2018-12-22,16109,available,17,1.0.3,4,2018/2019
+21,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,4,male,222,Villarreal,21:30:00.000,2019-12-16T23:09:16.168756,2019-04-02,16240,available,30,1.1.0,4,2018/2019
+22,5,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,221,Levante,20:45:00.000,2019-12-16T23:09:16.168756,2018-12-16,16095,available,16,1.0.3,4,2018/2019
+23,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,215,Athletic Bilbao,20:45:00.000,2019-12-16T23:09:16.168756,2019-02-10,16173,available,23,1.0.3,4,2018/2019
+24,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,216,Getafe,20:45:00.000,2019-12-16T23:09:16.168756,2019-01-06,16120,available,18,1.1.0,4,2018/2019
+25,0,male,901,Real Valladolid,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2019-02-16,16182,available,24,1.1.0,4,2018/2019
+26,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,210,Real Sociedad,16:15:00.000,2019-12-16T23:09:16.168756,2018-09-15,15978,available,4,1.0.3,4,2018/2019
+27,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,212,Atlético Madrid,20:45:00.000,2019-12-16T23:09:16.168756,2018-11-24,16073,available,13,1.1.0,4,2018/2019
+28,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,205,Leganés,20:00:00.000,2019-12-16T23:09:16.168756,2018-09-26,15998,available,6,1.1.0,4,2018/2019
+29,2,male,213,Sevilla,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2018-10-20,16029,available,9,1.1.0,4,2018/2019
+30,0,male,216,Getafe,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,18:30:00.000,2019-12-16T23:09:16.168756,2019-05-12,16306,available,37,1.1.0,4,2018/2019
+31,2,male,211,Girona,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2018-09-23,15986,available,5,1.0.3,4,2018/2019
+32,0,male,214,Espanyol,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,16:15:00.000,2019-12-16T23:09:16.168756,2019-03-30,16231,available,29,1.1.0,4,2018/2019
+33,0,male,212,Atlético Madrid,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:45:00.000,2019-12-16T23:09:16.168756,2019-04-06,16248,available,31,1.1.0,4,2018/2019
+0,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,3,male,222,Villarreal,20:00:00.000,2019-12-16T23:09:16.168756,2007-10-20,68364,available,8,1.1.0,40,2007/2008
+1,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,901,Real Valladolid,22:00:00.000,2019-12-16T23:09:16.168756,2007-11-01,68363,available,10,1.1.0,40,2007/2008
+2,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,214,Espanyol,22:00:00.000,2019-12-16T23:09:16.168756,2007-12-01,68356,available,14,1.1.0,40,2007/2008
+3,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,4,male,212,Atlético Madrid,20:00:00.000,2019-12-16T23:09:16.168756,2008-03-01,68365,available,26,1.1.0,40,2007/2008
+4,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,1220,Recreativo Huelva,22:00:00.000,2019-12-16T23:09:16.168756,2008-04-12,68358,available,32,1.1.0,40,2007/2008
+5,0,male,214,Espanyol,11,La Liga,Spain,1,Regular Season,0,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2008-04-19,68359,available,33,1.1.0,40,2007/2008
+6,3,male,1043,Mallorca,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2008-05-11,68366,available,37,1.1.0,40,2007/2008
+7,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,213,Sevilla,22:00:00.000,2019-12-16T23:09:16.168756,2008-02-09,69146,available,23,1.1.0,40,2007/2008
+8,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,221,Levante,22:00:00.000,2019-12-16T23:09:16.168756,2007-09-29,69151,available,6,1.1.0,40,2007/2008
+9,0,male,218,Real Betis,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2007-11-04,69166,available,11,1.1.0,40,2007/2008
+10,0,male,403,Almería,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2007-10-28,69158,available,9,1.1.0,40,2007/2008
+11,1,male,215,Athletic Bilbao,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2007-09-02,69169,available,2,1.1.0,40,2007/2008
+12,1,male,219,Deportivo La Coruna,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2007-12-09,69170,available,15,1.1.0,40,2007/2008
+13,1,male,221,Levante,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2008-02-24,68360,available,25,1.1.0,40,2007/2008
+14,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,4,male,220,Real Madrid,22:00:00.000,2019-12-16T23:09:16.168756,2008-05-07,68361,available,36,1.1.0,40,2007/2008
+15,0,male,207,Valencia,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2008-05-04,69141,available,35,1.1.0,40,2007/2008
+16,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,207,Valencia,22:00:00.000,2019-12-16T23:09:16.168756,2007-12-15,69145,available,16,1.1.0,40,2007/2008
+17,1,male,213,Sevilla,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2007-09-22,69148,available,4,1.1.0,40,2007/2008
+18,0,male,1217,Racing Santander,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,21:00:00.000,2019-12-16T23:09:16.168756,2008-01-20,69173,available,20,1.1.0,40,2007/2008
+19,0,male,422,Osasuna,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2008-02-03,69187,available,22,1.1.0,40,2007/2008
+20,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1217,Racing Santander,19:00:00.000,2019-12-16T23:09:16.168756,2007-08-26,69180,available,1,1.1.0,40,2007/2008
+21,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,216,Getafe,20:00:00.000,2019-12-16T23:09:16.168756,2007-11-10,69178,available,12,1.1.0,40,2007/2008
+22,5,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,3,male,1230,Real Murcia,22:00:00.000,2019-12-16T23:09:16.168756,2008-05-17,69186,available,38,1.1.0,40,2007/2008
+23,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,215,Athletic Bilbao,19:00:00.000,2019-12-16T23:09:16.168756,2008-01-27,69181,available,21,1.1.0,40,2007/2008
+24,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,395,Real Zaragoza,22:00:00.000,2019-12-16T23:09:16.168756,2008-02-16,69182,available,24,1.1.0,40,2007/2008
+25,1,male,395,Real Zaragoza,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2007-09-26,69143,available,5,1.1.0,40,2007/2008
+26,0,male,212,Atlético Madrid,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,17:00:00.000,2019-12-16T23:09:16.168756,2007-10-07,69144,available,7,1.1.0,40,2007/2008
+27,0,male,1220,Recreativo Huelva,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2007-11-24,69184,available,13,1.1.0,40,2007/2008
+0,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,222,Villarreal,19:00:00.000,2019-12-16T23:09:16.168756,2008-12-21,69228,available,16,1.1.0,41,2008/2009
+1,6,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,1041,Sporting Gijón,21:00:00.000,2019-12-16T23:09:16.168756,2008-09-21,69138,available,3,1.1.0,41,2008/2009
+2,2,male,214,Espanyol,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2009-02-21,69139,available,24,1.1.0,41,2008/2009
+3,0,male,223,Málaga,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2009-03-22,69142,available,28,1.1.0,41,2008/2009
+4,0,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,444,Numancia,19:00:00.000,2019-12-16T23:09:16.168756,2008-08-31,69147,available,1,1.1.0,41,2008/2009
+5,0,male,207,Valencia,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2008-12-06,69149,available,14,1.1.0,41,2008/2009
+6,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,213,Sevilla,22:00:00.000,2019-12-16T23:09:16.168756,2008-11-29,69171,available,13,1.1.0,41,2008/2009
+7,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,403,Almería,21:03:00.000,2019-12-16T23:09:16.168756,2009-03-15,69177,available,27,1.1.0,41,2008/2009
+8,0,male,219,Deportivo La Coruna,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2009-01-17,69183,available,19,1.1.0,41,2008/2009
+9,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,4,male,212,Atlético Madrid,19:00:00.000,2019-12-16T23:09:16.168756,2009-03-01,69185,available,25,1.1.0,41,2008/2009
+10,1,male,444,Numancia,11,La Liga,Spain,1,Regular Season,4,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2009-01-24,69189,available,20,1.1.0,41,2008/2009
+11,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,218,Real Betis,20:00:00.000,2019-12-16T23:09:16.168756,2009-02-14,69195,available,23,1.1.0,41,2008/2009
+12,0,male,220,Real Madrid,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2008-12-13,69225,available,15,1.1.0,41,2008/2009
+13,4,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,223,Málaga,20:00:00.000,2019-12-16T23:09:16.168756,2008-11-01,69235,available,9,1.1.0,41,2008/2009
+14,1,male,1217,Racing Santander,11,La Liga,Spain,1,Regular Season,1,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2008-09-13,69215,available,2,1.1.0,41,2008/2009
+15,0,male,215,Athletic Bilbao,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2009-03-07,69216,available,26,1.1.0,41,2008/2009
+16,1,male,212,Atlético Madrid,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2008-10-04,69212,available,6,1.1.0,41,2008/2009
+17,2,male,218,Real Betis,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2008-09-24,69207,available,4,1.1.0,41,2008/2009
+18,3,male,222,Villarreal,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,19:03:00.000,2019-12-16T23:09:16.168756,2009-05-10,69217,available,35,1.1.0,41,2008/2009
+19,1,male,1041,Sporting Gijón,11,La Liga,Spain,1,Regular Season,3,male,217,Barcelona,19:00:00.000,2019-12-16T23:09:16.168756,2009-02-08,69231,available,22,1.1.0,41,2008/2009
+20,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,1217,Racing Santander,17:00:00.000,2019-12-16T23:09:16.168756,2009-02-01,69209,available,21,1.1.0,41,2008/2009
+21,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,1,male,214,Espanyol,22:00:00.000,2019-12-16T23:09:16.168756,2008-09-27,69211,available,5,1.1.0,41,2008/2009
+22,0,male,403,Almería,11,La Liga,Spain,1,Regular Season,5,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2008-10-25,69232,available,8,1.1.0,41,2008/2009
+23,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,216,Getafe,20:00:00.000,2019-12-16T23:09:16.168756,2009-04-18,69223,available,31,1.1.0,41,2008/2009
+24,0,male,1220,Recreativo Huelva,11,La Liga,Spain,1,Regular Season,2,male,217,Barcelona,20:00:00.000,2019-12-16T23:09:16.168756,2009-04-11,69222,available,30,1.1.0,41,2008/2009
+25,3,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,422,Osasuna,21:00:00.000,2019-12-16T23:09:16.168756,2009-01-11,69230,available,18,1.1.0,41,2008/2009
+26,6,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,220,Real Madrid,20:00:00.000,2019-12-16T23:09:16.168756,2009-05-02,69249,available,34,1.1.0,41,2008/2009
+27,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,2,male,207,Valencia,22:00:00.000,2019-12-16T23:09:16.168756,2009-04-25,69251,available,33,1.1.0,41,2008/2009
+28,0,male,901,Real Valladolid,11,La Liga,Spain,1,Regular Season,6,male,217,Barcelona,22:00:00.000,2019-12-16T23:09:16.168756,2008-11-08,69279,available,10,1.1.0,41,2008/2009
+29,1,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,901,Real Valladolid,20:00:00.000,2019-12-16T23:09:16.168756,2009-04-04,69273,available,29,1.1.0,41,2008/2009
+30,2,male,217,Barcelona,11,La Liga,Spain,1,Regular Season,0,male,1220,Recreativo Huelva,21:00:00.000,2019-12-16T23:09:16.168756,2008-11-16,69285,available,11,1.1.0,41,2008/2009
+0,3,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,1,female,967,Everton LFC,20:00:00.000,2019-12-16T23:09:16.168756,2019-04-17,19756,available,16,1.1.0,4,2018/2019
+1,0,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,0,female,969,Birmingham City WFC,13:30:00.000,2019-12-16T23:09:16.168756,2018-10-21,19743,available,6,1.0.3,4,2018/2019
+2,0,female,970,Yeovil Town LFC,37,FA Women's Super League,England,1,Regular Season,4,female,974,Reading WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-09-09,19716,available,1,1.0.3,4,2018/2019
+3,1,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,0,female,972,West Ham United LFC,16:00:00.000,2019-12-16T23:09:16.168756,2018-10-21,19740,available,6,1.0.3,4,2018/2019
+4,1,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,3,female,746,Manchester City WFC,20:00:00.000,2019-12-16T23:09:16.168756,2019-02-20,19798,available,17,1.0.3,4,2018/2019
+5,0,female,970,Yeovil Town LFC,37,FA Women's Super League,England,1,Regular Season,3,female,968,Arsenal WFC,20:30:00.000,2019-12-16T23:09:16.168756,2019-02-20,19797,available,17,1.0.3,4,2018/2019
+6,1,female,970,Yeovil Town LFC,37,FA Women's Super League,England,1,Regular Season,0,female,967,Everton LFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-03-31,19808,available,19,1.1.0,4,2018/2019
+7,4,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,0,female,973,Bristol City WFC,16:00:00.000,2019-12-16T23:09:16.168756,2018-10-28,19744,available,7,1.0.3,4,2018/2019
+8,4,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,0,female,966,Liverpool WFC,20:00:00.000,2019-12-16T23:09:16.168756,2019-03-13,19799,available,18,1.1.0,4,2018/2019
+9,1,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,973,Bristol City WFC,16:00:00.000,2019-12-16T23:09:16.168756,2018-10-14,19738,available,5,1.0.3,4,2018/2019
+10,6,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,965,Brighton & Hove Albion WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-10-21,19739,available,6,1.0.3,4,2018/2019
+11,0,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,6,female,968,Arsenal WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-10-21,19741,available,6,1.0.3,4,2018/2019
+12,2,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,1,female,970,Yeovil Town LFC,16:00:00.000,2019-12-16T23:09:16.168756,2018-10-21,19742,available,6,1.0.3,4,2018/2019
+13,5,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,0,female,971,Chelsea FCW,15:00:00.000,2019-12-16T23:09:16.168756,2018-10-14,19736,available,5,1.0.3,4,2018/2019
+14,1,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,1,female,746,Manchester City WFC,20:00:00.000,2019-12-16T23:09:16.168756,2018-10-26,19747,available,7,1.0.3,4,2018/2019
+15,0,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,0,female,973,Bristol City WFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-02-10,19757,available,16,1.0.3,4,2018/2019
+16,1,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,0,female,965,Brighton & Hove Albion WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-12-02,19769,available,11,1.0.3,4,2018/2019
+17,0,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,2,female,746,Manchester City WFC,13:30:00.000,2019-12-16T23:09:16.168756,2018-12-02,19770,available,11,1.0.3,4,2018/2019
+18,2,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,966,Liverpool WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-11-25,19765,available,10,1.0.3,4,2018/2019
+19,1,female,970,Yeovil Town LFC,37,FA Women's Super League,England,1,Regular Season,2,female,969,Birmingham City WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-12-02,19771,available,11,1.0.3,4,2018/2019
+20,4,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,970,Yeovil Town LFC,16:00:00.000,2019-12-16T23:09:16.168756,2018-11-25,19764,available,10,1.0.3,4,2018/2019
+21,1,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,2,female,967,Everton LFC,13:00:00.000,2019-12-16T23:09:16.168756,2018-12-02,19773,available,11,1.0.3,4,2018/2019
+22,0,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,3,female,971,Chelsea FCW,15:00:00.000,2019-12-16T23:09:16.168756,2019-01-06,19783,available,13,1.0.3,4,2018/2019
+23,1,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,969,Birmingham City WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-01-13,19787,available,14,1.0.3,4,2018/2019
+24,2,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,1,female,970,Yeovil Town LFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-01-13,19788,available,14,1.0.3,4,2018/2019
+25,0,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,0,female,965,Brighton & Hove Albion WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-01-13,19784,available,14,1.0.3,4,2018/2019
+26,0,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,1,female,971,Chelsea FCW,15:00:00.000,2019-12-16T23:09:16.168756,2018-12-02,19772,available,11,1.0.3,4,2018/2019
+27,2,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,967,Everton LFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-12-09,19774,available,12,1.0.3,4,2018/2019
+28,5,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,0,female,970,Yeovil Town LFC,16:00:00.000,2019-12-16T23:09:16.168756,2018-12-09,19777,available,12,1.0.3,4,2018/2019
+29,2,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,2,female,974,Reading WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-12-09,19775,available,12,1.0.3,4,2018/2019
+30,0,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,6,female,971,Chelsea FCW,20:30:00.000,2019-12-16T23:09:16.168756,2019-02-20,19794,available,17,1.0.3,4,2018/2019
+31,0,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,2,female,969,Birmingham City WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-04-28,19816,available,21,1.1.0,4,2018/2019
+32,2,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,3,female,967,Everton LFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-04-28,19817,available,21,1.1.0,4,2018/2019
+33,1,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,0,female,972,West Ham United LFC,20:45:00.000,2019-12-16T23:09:16.168756,2019-03-13,19803,available,18,1.1.0,4,2018/2019
+34,1,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,1,female,970,Yeovil Town LFC,20:45:00.000,2019-12-16T23:09:16.168756,2019-03-13,19802,available,18,1.1.0,4,2018/2019
+35,4,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,3,female,974,Reading WFC,20:30:00.000,2019-12-16T23:09:16.168756,2019-03-13,19801,available,18,1.1.0,4,2018/2019
+36,1,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,0,female,973,Bristol City WFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-03-31,19806,available,19,1.1.0,4,2018/2019
+37,1,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,2,female,746,Manchester City WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-03-31,19807,available,19,1.1.0,4,2018/2019
+38,1,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,1,female,971,Chelsea FCW,15:00:00.000,2019-12-16T23:09:16.168756,2019-03-31,19805,available,19,1.1.0,4,2018/2019
+39,2,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,5,female,966,Liverpool WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-04-21,19810,available,20,1.1.0,4,2018/2019
+40,5,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,0,female,970,Yeovil Town LFC,20:45:00.000,2019-12-16T23:09:16.168756,2019-04-17,19758,available,16,1.1.0,4,2018/2019
+41,0,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,1,female,974,Reading WFC,14:00:00.000,2019-12-16T23:09:16.168756,2019-04-20,19809,available,20,1.1.0,4,2018/2019
+42,1,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,2,female,968,Arsenal WFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-04-21,19811,available,20,1.1.0,4,2018/2019
+43,2,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,1,female,972,West Ham United LFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-04-21,19813,available,20,1.1.0,4,2018/2019
+44,3,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,966,Liverpool WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-11-04,19752,available,8,1.0.3,4,2018/2019
+45,1,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,2,female,973,Bristol City WFC,16:00:00.000,2019-12-16T23:09:16.168756,2018-11-17,19761,available,9,1.0.3,4,2018/2019
+46,4,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,1,female,965,Brighton & Hove Albion WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-11-18,19762,available,9,1.0.3,4,2018/2019
+47,0,female,970,Yeovil Town LFC,37,FA Women's Super League,England,1,Regular Season,5,female,971,Chelsea FCW,15:00:00.000,2019-12-16T23:09:16.168756,2018-11-18,19760,available,9,1.0.3,4,2018/2019
+48,2,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,0,female,966,Liverpool WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-01-06,19780,available,13,1.0.3,4,2018/2019
+49,3,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,0,female,974,Reading WFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-01-27,19791,available,15,1.0.3,4,2018/2019
+50,1,female,970,Yeovil Town LFC,37,FA Women's Super League,England,1,Regular Season,2,female,965,Brighton & Hove Albion WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-10-28,19745,available,7,1.0.3,4,2018/2019
+51,2,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,1,female,967,Everton LFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-10-28,19746,available,7,1.0.3,4,2018/2019
+52,3,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,2,female,969,Birmingham City WFC,13:30:00.000,2019-12-16T23:09:16.168756,2018-09-30,19733,available,4,1.0.3,4,2018/2019
+53,1,female,970,Yeovil Town LFC,37,FA Women's Super League,England,1,Regular Season,2,female,973,Bristol City WFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-01-27,19792,available,15,1.0.3,4,2018/2019
+54,1,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,0,female,966,Liverpool WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-09-30,19732,available,4,1.0.3,4,2018/2019
+55,0,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,4,female,968,Arsenal WFC,20:30:00.000,2019-12-16T23:09:16.168756,2019-03-14,19800,available,18,1.1.0,4,2018/2019
+56,0,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,1,female,973,Bristol City WFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-03-24,19729,available,4,1.1.0,4,2018/2019
+57,1,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,3,female,968,Arsenal WFC,13:30:00.000,2019-12-16T23:09:16.168756,2018-11-04,19749,available,8,1.0.3,4,2018/2019
+58,3,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,1,female,972,West Ham United LFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-01-13,19786,available,14,1.0.3,4,2018/2019
+59,0,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,1,female,966,Liverpool WFC,20:00:00.000,2019-12-16T23:09:16.168756,2019-01-28,19793,available,15,1.0.3,4,2018/2019
+60,2,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,1,female,968,Arsenal WFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-01-13,19785,available,14,1.0.3,4,2018/2019
+61,3,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,2,female,971,Chelsea FCW,15:00:00.000,2019-12-16T23:09:16.168756,2019-01-27,19789,available,15,1.0.3,4,2018/2019
+62,4,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,0,female,972,West Ham United LFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-05-11,19819,available,22,1.1.0,4,2018/2019
+63,3,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,2,female,974,Reading WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-05-11,19820,available,22,1.1.0,4,2018/2019
+64,0,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,1,female,968,Arsenal WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-05-11,19821,available,22,1.1.0,4,2018/2019
+65,2,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,2,female,746,Manchester City WFC,14:00:00.000,2019-12-16T23:09:16.168756,2019-02-10,19755,available,16,1.0.3,4,2018/2019
+66,0,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,1,female,746,Manchester City WFC,13:15:00.000,2019-12-16T23:09:16.168756,2018-12-09,19778,available,12,1.0.3,4,2018/2019
+67,2,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,970,Yeovil Town LFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-05-11,19822,available,22,1.1.0,4,2018/2019
+68,1,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,0,female,969,Birmingham City WFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-03-31,19804,available,19,1.1.0,4,2018/2019
+69,5,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,1,female,966,Liverpool WFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-03-24,19754,available,16,1.1.0,4,2018/2019
+70,1,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,2,female,965,Brighton & Hove Albion WFC,20:45:00.000,2019-12-16T23:09:16.168756,2019-02-20,19796,available,17,1.0.3,4,2018/2019
+71,0,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,1,female,970,Yeovil Town LFC,16:00:00.000,2019-12-16T23:09:16.168756,2018-11-04,19750,available,8,1.0.3,4,2018/2019
+72,0,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,3,female,974,Reading WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-11-04,19753,available,8,1.0.3,4,2018/2019
+73,1,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,1,female,973,Bristol City WFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-01-06,19779,available,13,1.0.3,4,2018/2019
+74,1,female,970,Yeovil Town LFC,37,FA Women's Super League,England,1,Regular Season,2,female,746,Manchester City WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-04-28,19818,available,21,1.1.0,4,2018/2019
+75,2,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,1,female,973,Bristol City WFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-04-28,19814,available,21,1.1.0,4,2018/2019
+76,0,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,1,female,969,Birmingham City WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-09-09,19718,available,1,1.0.3,4,2018/2019
+77,0,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,5,female,968,Arsenal WFC,13:30:00.000,2019-12-16T23:09:16.168756,2018-09-09,19717,available,1,1.0.3,4,2018/2019
+78,1,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,7,female,746,Manchester City WFC,13:30:00.000,2019-12-16T23:09:16.168756,2018-10-14,19735,available,5,1.0.3,4,2018/2019
+79,0,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,2,female,972,West Ham United LFC,16:00:00.000,2019-12-16T23:09:16.168756,2018-11-25,19768,available,10,1.0.3,4,2018/2019
+80,2,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,1,female,974,Reading WFC,20:30:00.000,2019-12-16T23:09:16.168756,2019-02-20,19795,available,17,1.0.3,4,2018/2019
+81,4,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,0,female,965,Brighton & Hove Albion WFC,13:15:00.000,2019-12-16T23:09:16.168756,2019-04-28,19815,available,21,1.1.0,4,2018/2019
+82,1,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,965,Brighton & Hove Albion WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-09-09,19715,available,1,1.0.3,4,2018/2019
+83,0,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,0,female,973,Bristol City WFC,20:00:00.000,2019-12-16T23:09:16.168756,2018-09-19,19720,available,2,1.0.3,4,2018/2019
+84,2,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,0,female,972,West Ham United LFC,16:00:00.000,2019-12-16T23:09:16.168756,2018-11-04,19751,available,8,1.0.3,4,2018/2019
+85,1,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,974,Reading WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-09-23,19727,available,3,1.0.3,4,2018/2019
+86,0,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,0,female,972,West Ham United LFC,20:45:00.000,2019-12-16T23:09:16.168756,2018-09-19,19719,available,2,1.0.3,4,2018/2019
+87,1,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,2,female,969,Birmingham City WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-01-06,19782,available,13,1.0.3,4,2018/2019
+88,4,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,2,female,972,West Ham United LFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-01-06,19781,available,13,1.0.3,4,2018/2019
+89,1,female,970,Yeovil Town LFC,37,FA Women's Super League,England,1,Regular Season,2,female,972,West Ham United LFC,16:00:00.000,2019-12-16T23:09:16.168756,2018-09-30,19731,available,4,1.0.3,4,2018/2019
+90,0,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,2,female,971,Chelsea FCW,15:00:00.000,2019-12-16T23:09:16.168756,2018-09-30,19730,available,4,1.0.3,4,2018/2019
+91,0,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,971,Chelsea FCW,15:00:00.000,2019-12-16T23:09:16.168756,2018-09-09,19714,available,1,1.0.3,4,2018/2019
+92,0,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,0,female,967,Everton LFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-09-23,19726,available,3,1.0.3,4,2018/2019
+93,7,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,0,female,970,Yeovil Town LFC,20:45:00.000,2019-12-16T23:09:16.168756,2018-09-19,19722,available,2,1.0.3,4,2018/2019
+94,3,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,4,female,968,Arsenal WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-09-23,19724,available,3,1.0.3,4,2018/2019
+95,2,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,2,female,746,Manchester City WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-09-23,19728,available,3,1.0.3,4,2018/2019
+96,4,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,967,Everton LFC,20:00:00.000,2019-12-16T23:09:16.168756,2018-09-20,19723,available,2,1.0.3,4,2018/2019
+97,1,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,0,female,965,Brighton & Hove Albion WFC,13:15:00.000,2019-12-16T23:09:16.168756,2018-09-23,19725,available,3,1.0.3,4,2018/2019
+98,4,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,0,female,967,Everton LFC,13:30:00.000,2019-12-16T23:09:16.168756,2018-11-18,19759,available,9,1.0.3,4,2018/2019
+99,0,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,3,female,969,Birmingham City WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-11-18,19763,available,9,1.0.3,4,2018/2019
+100,1,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,2,female,974,Reading WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-11-25,19767,available,10,1.0.3,4,2018/2019
+101,1,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,4,female,968,Arsenal WFC,13:30:00.000,2019-12-16T23:09:16.168756,2018-11-25,19766,available,10,1.0.3,4,2018/2019
+102,4,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,0,female,965,Brighton & Hove Albion WFC,15:30:00.000,2019-12-16T23:09:16.168756,2018-12-09,19776,available,12,1.0.3,4,2018/2019
+103,0,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,3,female,746,Manchester City WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-01-27,19790,available,15,1.0.3,4,2018/2019
+104,1,female,970,Yeovil Town LFC,37,FA Women's Super League,England,1,Regular Season,2,female,966,Liverpool WFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-10-14,19737,available,5,1.0.3,4,2018/2019
+105,0,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,1,female,971,Chelsea FCW,13:30:00.000,2019-12-16T23:09:16.168756,2018-10-28,19748,available,7,1.0.3,4,2018/2019
+106,3,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,3,female,967,Everton LFC,15:00:00.000,2019-12-16T23:09:16.168756,2018-10-14,19734,available,5,1.0.3,4,2018/2019
+0,0,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,2,female,974,Reading WFC,20:30:00.000,2020-02-14T17:43:49.368,2020-02-12,2275038,available,16,1.1.0,42,2019/2020
+1,1,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,2,female,746,Manchester City WFC,15:00:00.000,2020-02-04T17:25:33.263,2020-02-02,2275037,available,14,1.1.0,42,2019/2020
+2,0,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,1,female,965,Brighton & Hove Albion WFC,15:00:00.000,2020-02-04T17:28:02.434,2020-02-02,2275027,available,14,1.1.0,42,2019/2020
+3,0,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,1,female,965,Brighton & Hove Albion WFC,15:00:00.000,2020-01-07T16:39:26.820,2020-01-05,2275054,available,11,1.1.0,42,2019/2020
+4,1,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,0,female,966,Liverpool WFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-11-17,2275056,available,6,1.1.0,42,2019/2020
+5,0,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,8,female,971,Chelsea FCW,15:00:00.000,2020-02-03T21:07:52.701,2020-02-02,2275057,available,14,1.1.0,42,2019/2020
+6,3,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,2,female,966,Liverpool WFC,20:00:00.000,2020-02-15T18:25:32.723,2020-02-13,2275062,available,16,1.1.0,42,2019/2020
+7,1,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,3,female,971,Chelsea FCW,13:30:00.000,2020-01-06T18:39:35.098,2020-01-05,2275072,available,11,1.1.0,42,2019/2020
+8,2,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,2,female,749,Tottenham Hotspur Women,20:30:00.000,2020-02-14T12:43:58.327,2020-02-12,2275073,available,16,1.1.0,42,2019/2020
+9,0,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,2,female,971,Chelsea FCW,20:00:00.000,2020-02-17T21:57:27.227,2020-02-12,2275074,available,16,1.1.0,42,2019/2020
+10,1,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,3,female,746,Manchester City WFC,18:30:00.000,2020-01-14T08:54:46.277,2020-01-11,2275078,available,12,1.1.0,42,2019/2020
+11,4,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,1,female,749,Tottenham Hotspur Women,15:00:00.000,2020-01-07T17:38:55.979,2020-01-05,2275085,available,11,1.1.0,42,2019/2020
+12,0,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,2,female,968,Arsenal WFC,15:00:00.000,2020-01-09T10:53:47.748,2020-01-05,2275089,available,11,1.1.0,42,2019/2020
+13,4,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,0,female,965,Brighton & Hove Albion WFC,15:00:00.000,2020-01-14T14:33:42.290,2020-01-12,2275098,available,12,1.1.0,42,2019/2020
+14,0,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,1,female,746,Manchester City WFC,20:00:00.000,2020-02-17T05:02:41.433,2020-02-12,2275106,available,16,1.1.0,42,2019/2020
+15,1,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,2,female,972,West Ham United LFC,16:00:00.000,2020-01-23T14:47:58.638,2020-01-19,2275113,available,13,1.1.0,42,2019/2020
+16,1,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,1,female,966,Liverpool WFC,15:00:00.000,2019-12-19T02:16:05.563,2019-12-15,2275045,available,10,1.1.0,42,2019/2020
+17,0,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,1,female,749,Tottenham Hotspur Women,15:00:00.000,2019-12-16T23:09:16.168756,2019-12-08,2275091,available,9,1.1.0,42,2019/2020
+18,0,female,749,Tottenham Hotspur Women,37,FA Women's Super League,England,1,Regular Season,3,female,1475,Manchester United,13:00:00.000,2020-01-21T20:40:20.340,2020-01-19,2275137,available,13,1.1.0,42,2019/2020
+19,1,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,1475,Manchester United,13:00:00.000,2020-01-29T07:53:34.792,2020-01-05,2275142,available,11,1.1.0,42,2019/2020
+20,2,female,1475,Manchester United,37,FA Women's Super League,England,1,Regular Season,3,female,972,West Ham United LFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-12-01,2275150,available,8,1.1.0,42,2019/2020
+21,1,female,1475,Manchester United,37,FA Women's Super League,England,1,Regular Season,1,female,974,Reading WFC,15:00:00.000,2020-02-11T14:08:54.246,2020-02-02,2275153,available,14,1.1.0,42,2019/2020
+22,1,female,1475,Manchester United,37,FA Women's Super League,England,1,Regular Season,1,female,965,Brighton & Hove Albion WFC,20:45:00.000,2020-02-16T09:13:16.303,2020-02-12,2275151,available,16,1.1.0,42,2019/2020
+23,1,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,0,female,1475,Manchester United,20:30:00.000,2019-12-16T23:09:16.168756,2019-09-16,2275156,available,2,1.1.0,42,2019/2020
+24,0,female,1475,Manchester United,37,FA Women's Super League,England,1,Regular Season,1,female,746,Manchester City WFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-09-07,2275136,available,1,1.1.0,42,2019/2020
+25,0,female,1475,Manchester United,37,FA Women's Super League,England,1,Regular Season,1,female,971,Chelsea FCW,15:00:00.000,2019-12-16T23:09:16.168756,2019-11-17,2275154,available,6,1.1.0,42,2019/2020
+26,0,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,2,female,1475,Manchester United,13:30:00.000,2019-12-16T23:09:16.168756,2019-10-27,2275157,available,5,1.1.0,42,2019/2020
+27,1,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,0,female,966,Liverpool WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-09-08,2275099,available,1,1.1.0,42,2019/2020
+28,0,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,1,female,746,Manchester City WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-12-01,2275116,available,8,1.1.0,42,2019/2020
+29,2,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,3,female,974,Reading WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-10-13,2275127,available,4,1.1.0,42,2019/2020
+30,1,female,749,Tottenham Hotspur Women,37,FA Women's Super League,England,1,Regular Season,3,female,974,Reading WFC,15:00:00.000,2019-12-17T07:44:42.341499,2019-12-15,2275075,available,10,1.1.0,42,2019/2020
+31,1,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,2,female,749,Tottenham Hotspur Women,15:00:00.000,2020-01-14T14:31:31.939,2020-01-12,2275077,available,12,1.1.0,42,2019/2020
+32,0,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,5,female,746,Manchester City WFC,13:30:00.000,2019-12-22T00:48:51.460,2019-12-15,2275097,available,10,1.1.0,42,2019/2020
+33,3,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,1,female,967,Everton LFC,13:30:00.000,2019-12-17T07:44:42.341499,2019-12-15,2275117,available,10,1.1.0,42,2019/2020
+34,4,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,1,female,968,Arsenal WFC,15:00:00.000,2020-01-21T22:23:00.270,2020-01-19,2275090,available,13,1.1.0,42,2019/2020
+35,1,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,3,female,967,Everton LFC,15:00:00.000,2020-01-21T13:40:25.093,2020-01-19,2275036,available,13,1.1.0,42,2019/2020
+36,1,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,6,female,971,Chelsea FCW,15:00:00.000,2020-01-14T09:59:26.598,2020-01-12,2275080,available,12,1.1.0,42,2019/2020
+37,2,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,969,Birmingham City WFC,13:00:00.000,2020-01-22T14:12:05.862,2020-01-19,2275092,available,13,1.1.0,42,2019/2020
+38,1,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,0,female,973,Bristol City WFC,16:00:00.000,2020-01-21T20:38:24.467,2020-01-19,2275029,available,13,1.1.0,42,2019/2020
+39,0,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,1,female,974,Reading WFC,15:00:00.000,2020-02-08T18:47:15.453,2020-01-12,2275050,available,12,1.1.0,42,2019/2020
+40,6,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,0,female,969,Birmingham City WFC,15:45:00.000,2019-12-16T23:09:16.168756,2019-11-24,2275093,available,7,1.1.0,42,2019/2020
+41,0,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,2,female,967,Everton LFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-09-15,2275041,available,2,1.1.0,42,2019/2020
+42,0,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,1,female,749,Tottenham Hotspur Women,15:00:00.000,2019-12-16T23:09:16.168756,2019-09-15,2275034,available,2,1.1.0,42,2019/2020
+43,3,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,1,female,965,Brighton & Hove Albion WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-10-13,2275040,available,4,1.1.0,42,2019/2020
+44,0,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,3,female,746,Manchester City WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-10-12,2275028,available,4,1.1.0,42,2019/2020
+45,5,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,973,Bristol City WFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-11-24,2275026,available,7,1.1.0,42,2019/2020
+46,0,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,5,female,746,Manchester City WFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-11-17,2275042,available,6,1.1.0,42,2019/2020
+47,0,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,1,female,968,Arsenal WFC,15:30:00.000,2019-12-16T23:09:16.168756,2019-10-27,2275044,available,5,1.1.0,42,2019/2020
+48,3,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,2,female,972,West Ham United LFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-11-24,2275049,available,7,1.1.0,42,2019/2020
+49,1,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,1,female,965,Brighton & Hove Albion WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-09-15,2275052,available,2,1.1.0,42,2019/2020
+50,0,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,0,female,973,Bristol City WFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-09-07,2275061,available,1,1.1.0,42,2019/2020
+51,0,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,3,female,965,Brighton & Hove Albion WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-11-17,2275065,available,6,1.1.0,42,2019/2020
+52,1,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,1,female,966,Liverpool WFC,13:00:00.000,2019-12-16T23:09:16.168756,2019-10-13,2275070,available,4,1.1.0,42,2019/2020
+53,0,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,1,female,968,Arsenal WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-11-24,2275079,available,7,1.1.0,42,2019/2020
+54,1,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,2,female,968,Arsenal WFC,15:30:00.000,2019-12-16T23:09:16.168756,2019-09-08,2275096,available,1,1.1.0,42,2019/2020
+55,0,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,1,female,972,West Ham United LFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-09-15,2275094,available,2,1.1.0,42,2019/2020
+56,1,female,972,West Ham United LFC,37,FA Women's Super League,England,1,Regular Season,1,female,966,Liverpool WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-12-08,2275103,available,9,1.1.0,42,2019/2020
+57,2,female,974,Reading WFC,37,FA Women's Super League,England,1,Regular Season,2,female,965,Brighton & Hove Albion WFC,20:45:00.000,2019-12-16T23:09:16.168756,2019-11-29,2275102,available,8,1.1.0,42,2019/2020
+58,1,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,0,female,969,Birmingham City WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-09-08,2275120,available,1,1.1.0,42,2019/2020
+59,3,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,3,female,974,Reading WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-11-17,2275122,available,6,1.1.0,42,2019/2020
+60,0,female,749,Tottenham Hotspur Women,37,FA Women's Super League,England,1,Regular Season,1,female,971,Chelsea FCW,13:30:00.000,2019-12-16T23:09:16.168756,2019-09-08,2275132,available,1,1.1.0,42,2019/2020
+61,2,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,974,Reading WFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-09-15,2275107,available,2,1.1.0,42,2019/2020
+62,0,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,4,female,968,Arsenal WFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-09-29,2275121,available,3,1.1.0,42,2019/2020
+63,1,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,967,Everton LFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-09-29,2275131,available,3,1.1.0,42,2019/2020
+64,4,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,0,female,973,Bristol City WFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-09-29,2275108,available,3,1.1.0,42,2019/2020
+65,0,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,2,female,1475,Manchester United,13:00:00.000,2019-12-16T23:09:16.168756,2019-09-28,2275138,available,3,1.1.0,42,2019/2020
+66,3,female,1475,Manchester United,37,FA Women's Super League,England,1,Regular Season,0,female,749,Tottenham Hotspur Women,13:30:00.000,2019-12-16T23:09:16.168756,2019-10-13,2275139,available,4,1.1.0,42,2019/2020
+67,1,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,2,female,971,Chelsea FCW,16:00:00.000,2019-12-16T23:09:16.168756,2019-10-13,2275063,available,4,1.1.0,42,2019/2020
+68,3,female,971,Chelsea FCW,37,FA Women's Super League,England,1,Regular Season,1,female,972,West Ham United LFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-10-27,2275084,available,5,1.1.0,42,2019/2020
+69,0,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,4,female,1475,Manchester United,13:00:00.000,2019-12-16T23:09:16.168756,2019-11-24,2275140,available,7,1.1.0,42,2019/2020
+70,2,female,749,Tottenham Hotspur Women,37,FA Women's Super League,England,1,Regular Season,1,female,973,Bristol City WFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-10-27,2275033,available,5,1.1.0,42,2019/2020
+71,0,female,966,Liverpool WFC,37,FA Women's Super League,England,1,Regular Season,2,female,969,Birmingham City WFC,15:00:00.000,2019-12-16T23:09:16.168756,2019-10-27,2275110,available,5,1.1.0,42,2019/2020
+72,1,female,749,Tottenham Hotspur Women,37,FA Women's Super League,England,1,Regular Season,1,female,969,Birmingham City WFC,20:30:00.000,2019-12-16T23:09:16.168756,2019-12-04,2275109,available,8,1.1.0,42,2019/2020
+73,0,female,965,Brighton & Hove Albion WFC,37,FA Women's Super League,England,1,Regular Season,2,female,967,Everton LFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-10-27,2275051,available,5,1.1.0,42,2019/2020
+74,2,female,969,Birmingham City WFC,37,FA Women's Super League,England,1,Regular Season,0,female,973,Bristol City WFC,16:00:00.000,2019-12-16T23:09:16.168756,2019-12-08,2275088,available,9,1.1.0,42,2019/2020
+75,2,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,0,female,749,Tottenham Hotspur Women,16:00:00.000,2019-12-16T23:09:16.168756,2019-11-17,2275082,available,6,1.1.0,42,2019/2020
+76,1,female,749,Tottenham Hotspur Women,37,FA Women's Super League,England,1,Regular Season,3,female,967,Everton LFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-11-24,2275126,available,7,1.1.0,42,2019/2020
+77,1,female,967,Everton LFC,37,FA Women's Super League,England,1,Regular Season,3,female,1475,Manchester United,13:00:00.000,2019-12-16T23:09:16.168756,2019-12-08,2275146,available,9,1.1.0,42,2019/2020
+78,1,female,973,Bristol City WFC,37,FA Women's Super League,England,1,Regular Season,11,female,968,Arsenal WFC,13:30:00.000,2019-12-16T23:09:16.168756,2019-12-01,2275104,available,8,1.1.0,42,2019/2020
+79,1,female,746,Manchester City WFC,37,FA Women's Super League,England,1,Regular Season,2,female,971,Chelsea FCW,13:00:00.000,2019-12-16T23:09:16.168756,2019-12-08,2275130,available,9,1.1.0,42,2019/2020
+80,2,female,749,Tottenham Hotspur Women,37,FA Women's Super League,England,1,Regular Season,0,female,972,West Ham United LFC,15:30:00.000,2019-12-16T23:09:16.168756,2019-09-29,2275048,available,3,1.1.0,42,2019/2020
+81,3,female,968,Arsenal WFC,37,FA Women's Super League,England,1,Regular Season,0,female,974,Reading WFC,15:30:00.000,2019-12-16T23:09:16.168756,2019-12-08,2275086,available,9,1.1.0,42,2019/2020
+0,2,male,784,Peru,43,FIFA World Cup,International,10,Group Stage,0,male,792,Australia,16:00:00.000,2019-12-16T23:09:16.168756,2018-06-26,7562,available,3,1.0.2,3,2018
+1,0,male,793,Iceland,43,FIFA World Cup,International,10,Group Stage,2,male,775,Nigeria,17:00:00.000,2019-12-16T23:09:16.168756,2018-06-22,7549,available,2,1.0.2,3,2018
+2,2,male,781,Brazil,43,FIFA World Cup,International,10,Group Stage,0,male,786,Serbia,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-27,7565,available,3,1.0.2,3,2018
+3,1,male,776,Denmark,43,FIFA World Cup,International,33,Round of 16,1,male,785,Croatia,20:00:00.000,2019-12-16T23:09:16.168756,2018-07-01,7581,available,3,1.0.2,3,2018
+4,1,male,780,Portugal,43,FIFA World Cup,International,10,Group Stage,1,male,797,Iran,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-25,7557,available,3,1.0.2,3,2018
+5,3,male,790,Sweden,43,FIFA World Cup,International,10,Group Stage,0,male,794,Mexico,16:00:00.000,2019-12-16T23:09:16.168756,2018-06-27,7566,available,3,1.0.2,3,2018
+6,0,male,795,Costa Rica,43,FIFA World Cup,International,10,Group Stage,2,male,781,Brazil,14:00:00.000,2019-12-16T23:09:16.168756,2018-06-22,7548,available,2,1.0.2,3,2018
+7,1,male,794,Mexico,43,FIFA World Cup,International,10,Group Stage,0,male,770,Germany,17:00:00.000,2019-12-16T23:09:16.168756,2018-06-17,7534,available,1,1.0.2,3,2018
+8,3,male,772,Spain,43,FIFA World Cup,International,10,Group Stage,3,male,780,Portugal,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-15,7576,available,1,1.0.2,3,2018
+9,1,male,774,Egypt,43,FIFA World Cup,International,10,Group Stage,3,male,796,Russia,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-19,7540,available,2,1.0.2,3,2018
+10,2,male,795,Costa Rica,43,FIFA World Cup,International,10,Group Stage,2,male,773,Switzerland,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-27,7568,available,3,1.0.2,3,2018
+11,2,male,777,Tunisia,43,FIFA World Cup,International,10,Group Stage,1,male,798,Panama,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-28,7569,available,3,1.0.2,3,2018
+12,1,male,782,Belgium,43,FIFA World Cup,International,10,Group Stage,0,male,768,England,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-28,7570,available,3,1.0.2,3,2018
+13,0,male,782,Belgium,43,FIFA World Cup,International,15,Semi-finals,1,male,771,France,20:00:00.000,2019-12-16T23:09:16.168756,2018-07-10,8655,available,2,1.0.2,3,2018
+14,0,male,768,England,43,FIFA World Cup,International,25,3rd Place Final,2,male,782,Belgium,16:00:00.000,2019-12-16T23:09:16.168756,2018-07-14,8657,available,1,1.0.2,3,2018
+15,1,male,772,Spain,43,FIFA World Cup,International,10,Group Stage,0,male,797,Iran,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-20,7543,available,2,1.0.2,3,2018
+16,0,male,796,Russia,43,FIFA World Cup,International,10,Group Stage,3,male,783,Uruguay,16:00:00.000,2019-12-16T23:09:16.168756,2018-06-25,7558,available,3,1.0.2,3,2018
+17,0,male,775,Nigeria,43,FIFA World Cup,International,10,Group Stage,2,male,785,Croatia,21:00:00.000,2019-12-16T23:09:16.168756,2018-06-16,7529,available,1,1.0.2,3,2018
+18,2,male,782,Belgium,43,FIFA World Cup,International,11,Quarter-finals,1,male,781,Brazil,20:00:00.000,2019-12-16T23:09:16.168756,2018-07-06,8650,available,2,1.0.2,3,2018
+19,0,male,784,Peru,43,FIFA World Cup,International,10,Group Stage,1,male,771,France,17:00:00.000,2019-12-16T23:09:16.168756,2018-06-21,7546,available,2,1.0.2,3,2018
+20,2,male,768,England,43,FIFA World Cup,International,10,Group Stage,1,male,777,Tunisia,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-18,7537,available,1,1.0.2,3,2018
+21,3,male,779,Argentina,43,FIFA World Cup,International,33,Round of 16,4,male,771,France,16:00:00.000,2019-12-16T23:09:16.168756,2018-06-30,7580,available,3,1.0.2,3,2018
+22,3,male,785,Croatia,43,FIFA World Cup,International,10,Group Stage,0,male,779,Argentina,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-21,7545,available,2,1.0.2,3,2018
+23,0,male,798,Panama,43,FIFA World Cup,International,10,Group Stage,3,male,782,Belgium,17:00:00.000,2019-12-16T23:09:16.168756,2018-06-18,7536,available,1,1.0.2,3,2018
+24,1,male,792,Australia,43,FIFA World Cup,International,10,Group Stage,2,male,771,France,12:00:00.000,2019-12-16T23:09:16.168756,2018-06-16,7530,available,1,1.0.2,3,2018
+25,1,male,786,Serbia,43,FIFA World Cup,International,10,Group Stage,0,male,795,Costa Rica,14:00:00.000,2019-12-16T23:09:16.168756,2018-06-17,7535,available,1,1.0.2,3,2018
+26,2,male,778,Japan,43,FIFA World Cup,International,33,Round of 16,3,male,782,Belgium,20:00:00.000,2019-12-16T23:09:16.168756,2018-07-02,7584,available,3,1.0.2,3,2018
+27,2,male,771,France,43,FIFA World Cup,International,11,Quarter-finals,0,male,783,Uruguay,16:00:00.000,2019-12-16T23:09:16.168756,2018-07-06,8649,available,2,1.0.2,3,2018
+28,0,male,791,South Korea,43,FIFA World Cup,International,10,Group Stage,1,male,790,Sweden,14:00:00.000,2019-12-16T23:09:16.168756,2018-06-18,7538,available,1,1.0.2,3,2018
+29,1,male,773,Switzerland,43,FIFA World Cup,International,10,Group Stage,1,male,781,Brazil,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-17,7533,available,1,1.0.2,3,2018
+30,2,male,788,Morocco,43,FIFA World Cup,International,10,Group Stage,2,male,772,Spain,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-25,7560,available,3,1.0.2,3,2018
+31,0,male,799,Saudi Arabia,43,FIFA World Cup,International,10,Group Stage,5,male,796,Russia,17:00:00.000,2019-12-16T23:09:16.168756,2018-06-14,7525,available,1,1.0.2,3,2018
+32,1,male,776,Denmark,43,FIFA World Cup,International,10,Group Stage,0,male,784,Peru,18:00:00.000,2019-12-16T23:09:16.168756,2018-06-16,7532,available,1,1.0.2,3,2018
+33,3,male,769,Colombia,43,FIFA World Cup,International,10,Group Stage,0,male,789,Poland,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-24,7555,available,2,1.0.2,3,2018
+34,1,male,769,Colombia,43,FIFA World Cup,International,10,Group Stage,0,male,787,Senegal,16:00:00.000,2019-12-16T23:09:16.168756,2018-06-28,7571,available,3,1.0.2,3,2018
+35,2,male,785,Croatia,43,FIFA World Cup,International,11,Quarter-finals,2,male,796,Russia,20:00:00.000,2019-12-16T23:09:16.168756,2018-07-07,8652,available,2,1.0.2,3,2018
+36,2,male,794,Mexico,43,FIFA World Cup,International,10,Group Stage,1,male,791,South Korea,17:00:00.000,2019-12-16T23:09:16.168756,2018-06-23,7553,available,2,1.0.2,3,2018
+37,1,male,774,Egypt,43,FIFA World Cup,International,10,Group Stage,2,male,799,Saudi Arabia,16:00:00.000,2019-12-16T23:09:16.168756,2018-06-25,7559,available,3,1.0.2,3,2018
+38,1,male,797,Iran,43,FIFA World Cup,International,10,Group Stage,0,male,788,Morocco,17:00:00.000,2019-12-16T23:09:16.168756,2018-06-15,7577,available,1,1.0.2,3,2018
+39,2,male,787,Senegal,43,FIFA World Cup,International,10,Group Stage,1,male,789,Poland,17:00:00.000,2019-12-16T23:09:16.168756,2018-06-19,7539,available,1,1.0.2,3,2018
+40,2,male,773,Switzerland,43,FIFA World Cup,International,10,Group Stage,1,male,786,Serbia,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-22,7550,available,2,1.0.2,3,2018
+41,2,male,787,Senegal,43,FIFA World Cup,International,10,Group Stage,2,male,778,Japan,17:00:00.000,2019-12-16T23:09:16.168756,2018-06-24,7556,available,2,1.0.2,3,2018
+42,2,male,785,Croatia,43,FIFA World Cup,International,10,Group Stage,1,male,793,Iceland,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-26,7561,available,3,1.0.2,3,2018
+43,0,male,773,Switzerland,43,FIFA World Cup,International,33,Round of 16,1,male,790,Sweden,16:00:00.000,2019-12-16T23:09:16.168756,2018-07-03,7586,available,3,1.0.2,3,2018
+44,0,male,771,France,43,FIFA World Cup,International,10,Group Stage,0,male,776,Denmark,16:00:00.000,2019-12-16T23:09:16.168756,2018-06-26,7563,available,3,1.0.2,3,2018
+45,1,male,780,Portugal,43,FIFA World Cup,International,33,Round of 16,2,male,783,Uruguay,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-30,7579,available,3,1.0.2,3,2018
+46,1,male,783,Uruguay,43,FIFA World Cup,International,10,Group Stage,0,male,774,Egypt,14:00:00.000,2019-12-16T23:09:16.168756,2018-06-15,7578,available,1,1.0.2,3,2018
+47,2,male,768,England,43,FIFA World Cup,International,11,Quarter-finals,0,male,790,Sweden,16:00:00.000,2019-12-16T23:09:16.168756,2018-07-07,8651,available,2,1.0.2,3,2018
+48,1,male,793,Iceland,43,FIFA World Cup,International,10,Group Stage,1,male,779,Argentina,15:00:00.000,2019-12-16T23:09:16.168756,2018-06-16,7531,available,1,1.0.2,3,2018
+49,2,male,777,Tunisia,43,FIFA World Cup,International,10,Group Stage,5,male,782,Belgium,14:00:00.000,2019-12-16T23:09:16.168756,2018-06-23,7552,available,2,1.0.2,3,2018
+50,2,male,785,Croatia,43,FIFA World Cup,International,26,Final,4,male,771,France,17:00:00.000,2019-12-16T23:09:16.168756,2018-07-15,8658,available,1,1.0.2,3,2018
+51,1,male,768,England,43,FIFA World Cup,International,33,Round of 16,1,male,769,Colombia,20:00:00.000,2019-12-16T23:09:16.168756,2018-07-03,7585,available,3,1.0.2,3,2018
+52,1,male,798,Panama,43,FIFA World Cup,International,10,Group Stage,6,male,768,England,14:00:00.000,2019-12-16T23:09:16.168756,2018-06-24,7554,available,2,1.0.2,3,2018
+53,0,male,788,Morocco,43,FIFA World Cup,International,10,Group Stage,1,male,780,Portugal,14:00:00.000,2019-12-16T23:09:16.168756,2018-06-20,7542,available,2,1.0.2,3,2018
+54,1,male,790,Sweden,43,FIFA World Cup,International,10,Group Stage,2,male,770,Germany,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-23,7551,available,2,1.0.2,3,2018
+55,2,male,779,Argentina,43,FIFA World Cup,International,10,Group Stage,1,male,775,Nigeria,20:00:00.000,2019-12-16T23:09:16.168756,2018-06-26,7564,available,3,1.0.2,3,2018
+56,0,male,770,Germany,43,FIFA World Cup,International,10,Group Stage,2,male,791,South Korea,16:00:00.000,2019-12-16T23:09:16.168756,2018-06-27,7567,available,3,1.0.2,3,2018
+57,0,male,799,Saudi Arabia,43,FIFA World Cup,International,10,Group Stage,1,male,783,Uruguay,17:00:00.000,2019-12-16T23:09:16.168756,2018-06-20,7544,available,2,1.0.2,3,2018
+58,2,male,778,Japan,43,FIFA World Cup,International,10,Group Stage,1,male,769,Colombia,14:00:00.000,2019-12-16T23:09:16.168756,2018-06-19,7541,available,1,1.0.2,3,2018
+59,0,male,794,Mexico,43,FIFA World Cup,International,33,Round of 16,2,male,781,Brazil,16:00:00.000,2019-12-16T23:09:16.168756,2018-07-02,7583,available,3,1.0.2,3,2018
+60,1,male,789,Poland,43,FIFA World Cup,International,10,Group Stage,0,male,778,Japan,16:00:00.000,2019-12-16T23:09:16.168756,2018-06-28,7572,available,3,1.0.2,3,2018
+61,1,male,792,Australia,43,FIFA World Cup,International,10,Group Stage,1,male,776,Denmark,14:00:00.000,2019-12-16T23:09:16.168756,2018-06-21,7547,available,2,1.0.2,3,2018
+62,1,male,796,Russia,43,FIFA World Cup,International,33,Round of 16,1,male,772,Spain,16:00:00.000,2019-12-16T23:09:16.168756,2018-07-01,7582,available,3,1.0.2,3,2018
+63,1,male,768,England,43,FIFA World Cup,International,15,Semi-finals,2,male,785,Croatia,20:00:00.000,2019-12-16T23:09:16.168756,2018-07-11,8656,available,2,1.0.2,3,2018
+0,3,female,761,Chicago Red Stars,49,NWSL,United States of America,1,Regular Season,2,female,764,Orlando Pride,23:00:00.000,2020-02-08T14:12:26.683232,2019-06-30,265905,available,1,1.1.0,3,2018
+1,1,female,760,Seattle Reign,49,NWSL,United States of America,1,Regular Season,0,female,765,Portland Thorns,05:00:00.000,2020-02-08T14:12:26.683232,2019-07-06,266234,available,2,1.1.0,3,2018
+2,2,female,766,North Carolina Courage,49,NWSL,United States of America,1,Regular Season,1,female,759,Washington Spirit,02:00:00.000,2020-02-02T19:51:45.549433,2019-06-30,266466,available,1,1.1.0,3,2018
+3,2,female,760,Seattle Reign,49,NWSL,United States of America,1,Regular Season,0,female,767,Utah Royals,04:00:00.000,2020-01-30T20:58:20.965640,2019-06-29,266574,available,1,1.1.0,3,2018
+4,2,female,765,Portland Thorns,49,NWSL,United States of America,1,Regular Season,1,female,762,Houston Dash,04:00:00.000,2020-01-31T20:51:12.566443,2019-06-30,266933,available,1,1.1.0,3,2018
+5,2,female,763,Sky Blue FC,49,NWSL,United States of America,1,Regular Season,1,female,761,Chicago Red Stars,02:00:00.000,2020-02-06T02:03:35.420636,2019-07-07,267161,available,3,1.1.0,3,2018
+6,1,female,760,Seattle Reign,49,NWSL,United States of America,1,Regular Season,0,female,761,Chicago Red Stars,00:00:00.000,2020-02-01T05:23:26.069181,2019-06-24,267405,available,1,1.1.0,3,2018
+7,2,female,762,Houston Dash,49,NWSL,United States of America,1,Regular Season,5,female,766,North Carolina Courage,01:30:00.000,2020-01-31T20:15:43.143810,2019-07-06,267609,available,2,1.1.0,3,2018
+8,3,female,759,Washington Spirit,49,NWSL,United States of America,1,Regular Season,4,female,764,Orlando Pride,02:20:00.000,2020-01-31T21:50:17.990017,2019-07-07,267679,available,2,1.1.0,3,2018
+9,0,female,764,Orlando Pride,49,NWSL,United States of America,1,Regular Season,5,female,766,North Carolina Courage,01:00:00.000,2020-01-26T02:37:05.981617,2019-04-18,22536,available,23,1.1.0,3,2018
+10,4,female,766,North Carolina Courage,49,NWSL,United States of America,1,Regular Season,2,female,759,Washington Spirit,01:00:00.000,2019-12-16T23:09:16.168756,2018-04-15,7430,available,22,1.0.2,3,2018
+11,0,female,760,Seattle Reign,49,NWSL,United States of America,1,Regular Season,1,female,761,Chicago Red Stars,02:00:00.000,2019-12-16T23:09:16.168756,2018-07-15,7485,available,9,1.0.2,3,2018
+12,2,female,765,Portland Thorns,49,NWSL,United States of America,1,Regular Season,0,female,764,Orlando Pride,01:30:00.000,2019-12-16T23:09:16.168756,2018-08-12,7500,available,5,1.0.2,3,2018
+13,2,female,767,Utah Royals,49,NWSL,United States of America,1,Regular Season,1,female,763,Sky Blue FC,01:00:00.000,2019-12-16T23:09:16.168756,2018-06-03,7521,available,15,1.0.2,3,2018
+14,0,female,759,Washington Spirit,49,NWSL,United States of America,1,Regular Season,1,female,766,North Carolina Courage,01:00:00.000,2019-12-16T23:09:16.168756,2018-05-13,7451,available,18,1.0.2,3,2018
+15,0,female,759,Washington Spirit,49,NWSL,United States of America,1,Regular Season,2,female,760,Seattle Reign,03:00:00.000,2019-12-16T23:09:16.168756,2018-08-06,7493,available,6,1.0.2,3,2018
+16,0,female,767,Utah Royals,49,NWSL,United States of America,1,Regular Season,1,female,760,Seattle Reign,04:30:00.000,2019-12-16T23:09:16.168756,2018-07-12,7480,available,9,1.0.2,3,2018
+17,2,female,766,North Carolina Courage,49,NWSL,United States of America,1,Regular Season,1,female,763,Sky Blue FC,01:00:00.000,2019-12-16T23:09:16.168756,2018-05-20,7456,available,17,1.0.2,3,2018
+18,4,female,766,North Carolina Courage,49,NWSL,United States of America,1,Regular Season,3,female,764,Orlando Pride,01:30:00.000,2019-12-16T23:09:16.168756,2018-05-24,7457,available,16,1.0.2,3,2018
+19,1,female,762,Houston Dash,49,NWSL,United States of America,1,Regular Season,3,female,765,Portland Thorns,05:00:00.000,2019-12-16T23:09:16.168756,2018-07-16,7486,available,9,1.0.2,3,2018
+20,0,female,766,North Carolina Courage,49,NWSL,United States of America,1,Regular Season,0,female,767,Utah Royals,04:00:00.000,2019-12-16T23:09:16.168756,2018-07-21,7487,available,8,1.0.2,3,2018
+21,0,female,764,Orlando Pride,49,NWSL,United States of America,1,Regular Season,0,female,760,Seattle Reign,03:00:00.000,2019-12-16T23:09:16.168756,2018-06-04,7523,available,15,1.0.2,3,2018
+22,2,female,767,Utah Royals,49,NWSL,United States of America,1,Regular Season,1,female,762,Houston Dash,02:30:00.000,2019-12-16T23:09:16.168756,2018-08-06,7494,available,6,1.0.2,3,2018
+23,2,female,763,Sky Blue FC,49,NWSL,United States of America,1,Regular Season,2,female,764,Orlando Pride,01:30:00.000,2019-12-16T23:09:16.168756,2018-08-06,7492,available,6,1.0.2,3,2018
+24,0,female,767,Utah Royals,49,NWSL,United States of America,1,Regular Season,4,female,765,Portland Thorns,05:00:00.000,2019-12-16T23:09:16.168756,2018-07-07,7477,available,10,1.0.2,3,2018
+25,0,female,765,Portland Thorns,49,NWSL,United States of America,1,Regular Season,1,female,760,Seattle Reign,04:00:00.000,2019-12-16T23:09:16.168756,2018-07-01,7472,available,11,1.0.2,3,2018
+26,1,female,761,Chicago Red Stars,49,NWSL,United States of America,1,Regular Season,4,female,766,North Carolina Courage,01:00:00.000,2019-12-16T23:09:16.168756,2018-07-05,7475,available,10,1.0.2,3,2018
+27,1,female,761,Chicago Red Stars,49,NWSL,United States of America,1,Regular Season,1,female,766,North Carolina Courage,21:00:00.000,2019-12-16T23:09:16.168756,2018-05-06,7444,available,19,1.0.2,3,2018
+28,0,female,759,Washington Spirit,49,NWSL,United States of America,1,Regular Season,2,female,766,North Carolina Courage,01:00:00.000,2019-12-16T23:09:16.168756,2018-07-12,7482,available,9,1.0.2,3,2018
+29,4,female,766,North Carolina Courage,49,NWSL,United States of America,1,Regular Season,0,female,763,Sky Blue FC,01:00:00.000,2019-12-16T23:09:16.168756,2018-07-15,7484,available,9,1.0.2,3,2018
+30,2,female,765,Portland Thorns,49,NWSL,United States of America,1,Regular Season,1,female,763,Sky Blue FC,01:00:00.000,2019-12-16T23:09:16.168756,2018-07-22,7490,available,8,1.0.2,3,2018
+31,3,female,760,Seattle Reign,49,NWSL,United States of America,1,Regular Season,2,female,765,Portland Thorns,21:30:00.000,2019-12-16T23:09:16.168756,2018-05-05,7443,available,19,1.0.2,3,2018
+32,1,female,763,Sky Blue FC,49,NWSL,United States of America,1,Regular Season,3,female,767,Utah Royals,04:00:00.000,2019-12-16T23:09:16.168756,2018-07-01,7473,available,11,1.0.2,3,2018
+33,1,female,764,Orlando Pride,49,NWSL,United States of America,1,Regular Season,3,female,762,Houston Dash,02:30:00.000,2019-12-16T23:09:16.168756,2018-07-12,7524,available,9,1.0.2,3,2018
+34,1,female,759,Washington Spirit,49,NWSL,United States of America,1,Regular Season,2,female,764,Orlando Pride,01:30:00.000,2019-12-16T23:09:16.168756,2018-07-08,7479,available,10,1.0.2,3,2018
+35,1,female,766,North Carolina Courage,49,NWSL,United States of America,1,Regular Season,1,female,761,Chicago Red Stars,02:00:00.000,2019-12-16T23:09:16.168756,2018-08-11,7497,available,5,1.0.2,3,2018
+36,0,female,759,Washington Spirit,49,NWSL,United States of America,1,Regular Season,1,female,767,Utah Royals,04:00:00.000,2019-12-16T23:09:16.168756,2018-08-09,7496,available,5,1.0.2,3,2018
+37,3,female,766,North Carolina Courage,49,NWSL,United States of America,1,Regular Season,0,female,764,Orlando Pride,21:30:00.000,2019-12-16T23:09:16.168756,2018-06-30,7471,available,11,1.0.2,3,2018
+38,2,female,764,Orlando Pride,49,NWSL,United States of America,1,Regular Season,1,female,767,Utah Royals,01:00:00.000,2019-12-16T23:09:16.168756,2018-07-15,7483,available,9,1.0.2,3,2018
+39,0,female,759,Washington Spirit,49,NWSL,United States of America,1,Regular Season,2,female,761,Chicago Red Stars,00:00:00.000,2019-12-16T23:09:16.168756,2018-07-02,7474,available,11,1.0.2,3,2018
+40,1,female,762,Houston Dash,49,NWSL,United States of America,1,Regular Season,3,female,760,Seattle Reign,04:00:00.000,2019-12-16T23:09:16.168756,2018-07-08,7478,available,10,1.0.2,3,2018
+41,0,female,759,Washington Spirit,49,NWSL,United States of America,1,Regular Season,2,female,767,Utah Royals,03:00:00.000,2019-12-16T23:09:16.168756,2018-05-06,7445,available,19,1.0.2,3,2018
+42,3,female,761,Chicago Red Stars,49,NWSL,United States of America,1,Regular Season,1,female,763,Sky Blue FC,01:00:00.000,2019-12-16T23:09:16.168756,2018-07-08,7476,available,10,1.0.2,3,2018
+43,2,female,761,Chicago Red Stars,49,NWSL,United States of America,1,Regular Season,0,female,759,Washington Spirit,03:00:00.000,2019-12-16T23:09:16.168756,2018-06-03,7520,available,15,1.0.2,3,2018
+44,1,female,766,North Carolina Courage,49,NWSL,United States of America,1,Regular Season,1,female,762,Houston Dash,01:00:00.000,2019-12-16T23:09:16.168756,2018-06-04,7522,available,15,1.0.2,3,2018
+45,4,female,766,North Carolina Courage,49,NWSL,United States of America,1,Regular Season,1,female,765,Portland Thorns,04:30:00.000,2019-12-16T23:09:16.168756,2018-05-31,7519,available,15,1.0.2,3,2018
+0,3,female,1204,Argentina Women's,72,Women's World Cup,International,1,Regular Season,3,female,866,Scotland Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-19,68338,available,3,1.1.0,30,2019
+1,1,female,1205,Australia Women's,72,Women's World Cup,International,1,Regular Season,1,female,852,Norway Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-22,68357,available,4,1.1.0,30,2019
+2,2,female,1214,United States Women's,72,Women's World Cup,International,1,Regular Season,1,female,863,Spain Women's,18:00:00.000,2019-12-16T23:09:16.168756,2019-06-24,69161,available,4,1.1.0,30,2019
+3,0,female,1206,Canada Women's,72,Women's World Cup,International,1,Regular Season,1,female,858,Sweden Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-24,69163,available,4,1.1.0,30,2019
+4,1,female,1216,South Africa Women's,72,Women's World Cup,International,1,Regular Season,3,female,863,Spain Women's,18:00:00.000,2019-12-16T23:09:16.168756,2019-06-08,22930,available,1,1.1.0,30,2019
+5,0,female,1207,China PR Women's,72,Women's World Cup,International,1,Regular Season,1,female,857,Germany Women's,15:00:00.000,2019-12-16T23:09:16.168756,2019-06-08,22926,available,1,1.1.0,30,2019
+6,0,female,1212,Jamaica Women's,72,Women's World Cup,International,1,Regular Season,3,female,1203,Brazil Women's,15:30:00.000,2019-12-16T23:09:16.168756,2019-06-09,22934,available,1,1.1.0,30,2019
+7,1,female,866,Scotland Women's,72,Women's World Cup,International,1,Regular Season,2,female,865,England Women's,18:00:00.000,2019-12-16T23:09:16.168756,2019-06-09,22936,available,1,1.1.0,30,2019
+8,2,female,855,Italy Women's,72,Women's World Cup,International,1,Regular Season,1,female,1205,Australia Women's,13:00:00.000,2019-12-16T23:09:16.168756,2019-06-09,22933,available,1,1.1.0,30,2019
+9,0,female,1210,Japan Women's,72,Women's World Cup,International,1,Regular Season,0,female,1204,Argentina Women's,18:00:00.000,2019-12-16T23:09:16.168756,2019-06-10,22940,available,1,1.1.0,30,2019
+10,0,female,1208,Cameroon Women's,72,Women's World Cup,International,1,Regular Season,1,female,1206,Canada Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-10,22939,available,1,1.1.0,30,2019
+11,2,female,858,Sweden Women's,72,Women's World Cup,International,1,Regular Season,0,female,1209,Chile Women's,18:00:00.000,2019-12-16T23:09:16.168756,2019-06-11,22944,available,1,1.1.0,30,2019
+12,1,female,851,Netherlands Women's,72,Women's World Cup,International,1,Regular Season,0,female,1215,New Zealand Women's,15:00:00.000,2019-12-16T23:09:16.168756,2019-06-11,22942,available,1,1.1.0,30,2019
+13,0,female,1107,Thailand Women's,72,Women's World Cup,International,1,Regular Season,13,female,1214,United States Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-11,22943,available,1,1.1.0,30,2019
+14,0,female,1211,Korea Republic Women's,72,Women's World Cup,International,1,Regular Season,2,female,1213,Nigeria Women's,15:00:00.000,2019-12-16T23:09:16.168756,2019-06-12,22945,available,2,1.1.0,30,2019
+15,0,female,863,Spain Women's,72,Women's World Cup,International,1,Regular Season,1,female,857,Germany Women's,18:00:00.000,2019-12-16T23:09:16.168756,2019-06-12,22949,available,2,1.1.0,30,2019
+16,1,female,852,Norway Women's,72,Women's World Cup,International,1,Regular Season,2,female,861,France Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-12,22948,available,2,1.1.0,30,2019
+17,2,female,1203,Brazil Women's,72,Women's World Cup,International,1,Regular Season,3,female,1205,Australia Women's,18:00:00.000,2019-12-16T23:09:16.168756,2019-06-13,22955,available,2,1.1.0,30,2019
+18,1,female,1207,China PR Women's,72,Women's World Cup,International,1,Regular Season,0,female,1216,South Africa Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-13,22956,available,2,1.1.0,30,2019
+19,1,female,866,Scotland Women's,72,Women's World Cup,International,1,Regular Season,2,female,1210,Japan Women's,15:00:00.000,2019-12-16T23:09:16.168756,2019-06-14,22961,available,2,1.1.0,30,2019
+20,0,female,1209,Chile Women's,72,Women's World Cup,International,1,Regular Season,3,female,1214,United States Women's,18:00:00.000,2019-12-16T23:09:16.168756,2019-06-16,22974,available,2,1.1.0,30,2019
+21,1,female,1107,Thailand Women's,72,Women's World Cup,International,1,Regular Season,5,female,858,Sweden Women's,15:00:00.000,2019-12-16T23:09:16.168756,2019-06-16,22973,available,2,1.1.0,30,2019
+22,1,female,861,France Women's,72,Women's World Cup,International,1,Regular Season,0,female,1213,Nigeria Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-17,22980,available,3,1.1.0,30,2019
+23,4,female,857,Germany Women's,72,Women's World Cup,International,1,Regular Season,0,female,1216,South Africa Women's,18:00:00.000,2019-12-16T23:09:16.168756,2019-06-17,22984,available,3,1.1.0,30,2019
+24,0,female,863,Spain Women's,72,Women's World Cup,International,1,Regular Season,0,female,1207,China PR Women's,18:00:00.000,2019-12-16T23:09:16.168756,2019-06-17,22983,available,3,1.1.0,30,2019
+25,2,female,852,Norway Women's,72,Women's World Cup,International,1,Regular Season,1,female,1211,Korea Republic Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-17,22981,available,3,1.1.0,30,2019
+26,1,female,1203,Brazil Women's,72,Women's World Cup,International,1,Regular Season,0,female,855,Italy Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-18,68312,available,3,1.1.0,30,2019
+27,4,female,1205,Australia Women's,72,Women's World Cup,International,1,Regular Season,1,female,1212,Jamaica Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-18,68311,available,3,1.1.0,30,2019
+28,2,female,865,England Women's,72,Women's World Cup,International,1,Regular Season,0,female,1210,Japan Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-19,68337,available,3,1.1.0,30,2019
+29,2,female,1214,United States Women's,72,Women's World Cup,International,1,Regular Season,0,female,858,Sweden Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-20,68345,available,3,1.1.0,30,2019
+30,1,female,1215,New Zealand Women's,72,Women's World Cup,International,1,Regular Season,2,female,1208,Cameroon Women's,18:00:00.000,2019-12-16T23:09:16.168756,2019-06-20,68346,available,3,1.1.0,30,2019
+31,1,female,1206,Canada Women's,72,Women's World Cup,International,1,Regular Season,2,female,851,Netherlands Women's,18:00:00.000,2019-12-16T23:09:16.168756,2019-06-20,68344,available,3,1.1.0,30,2019
+32,2,female,1209,Chile Women's,72,Women's World Cup,International,1,Regular Season,0,female,1107,Thailand Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-20,68343,available,3,1.1.0,30,2019
+33,0,female,1213,Nigeria Women's,72,Women's World Cup,International,1,Regular Season,3,female,857,Germany Women's,17:30:00.000,2019-12-16T23:09:16.168756,2019-06-22,68355,available,4,1.1.0,30,2019
+34,0,female,1208,Cameroon Women's,72,Women's World Cup,International,1,Regular Season,3,female,865,England Women's,17:30:00.000,2019-12-16T23:09:16.168756,2019-06-23,68362,available,4,1.1.0,30,2019
+35,0,female,1211,Korea Republic Women's,72,Women's World Cup,International,1,Regular Season,4,female,861,France Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-07,22921,available,1,1.1.0,30,2019
+36,0,female,1213,Nigeria Women's,72,Women's World Cup,International,1,Regular Season,3,female,852,Norway Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-08,22924,available,1,1.1.0,30,2019
+37,0,female,1204,Argentina Women's,72,Women's World Cup,International,1,Regular Season,1,female,865,England Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-14,22962,available,2,1.1.0,30,2019
+38,5,female,855,Italy Women's,72,Women's World Cup,International,1,Regular Season,0,female,1212,Jamaica Women's,18:00:00.000,2019-12-16T23:09:16.168756,2019-06-14,22963,available,2,1.1.0,30,2019
+39,1,female,1208,Cameroon Women's,72,Women's World Cup,International,1,Regular Season,3,female,851,Netherlands Women's,15:00:00.000,2019-12-16T23:09:16.168756,2019-06-15,22964,available,2,1.1.0,30,2019
+40,0,female,1215,New Zealand Women's,72,Women's World Cup,International,1,Regular Season,2,female,1206,Canada Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-15,22966,available,2,1.1.0,30,2019
+41,1,female,1203,Brazil Women's,72,Women's World Cup,International,1,Regular Season,2,female,861,France Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-23,69137,available,4,1.1.0,30,2019
+42,1,female,1210,Japan Women's,72,Women's World Cup,International,1,Regular Season,2,female,851,Netherlands Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-25,69188,available,4,1.1.0,30,2019
+43,0,female,1207,China PR Women's,72,Women's World Cup,International,1,Regular Season,2,female,855,Italy Women's,18:00:00.000,2019-12-16T23:09:16.168756,2019-06-25,69191,available,4,1.1.0,30,2019
+44,3,female,865,England Women's,72,Women's World Cup,International,1,Regular Season,0,female,852,Norway Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-27,69199,available,4,1.1.0,30,2019
+45,2,female,1214,United States Women's,72,Women's World Cup,International,1,Regular Season,1,female,861,France Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-06-28,69202,available,4,1.1.0,30,2019
+46,2,female,1214,United States Women's,72,Women's World Cup,International,1,Regular Season,1,female,865,England Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-07-02,69258,available,4,1.1.0,30,2019
+47,0,female,858,Sweden Women's,72,Women's World Cup,International,1,Regular Season,1,female,851,Netherlands Women's,21:00:00.000,2019-12-16T23:09:16.168756,2019-07-03,69284,available,5,1.1.0,30,2019
+48,2,female,858,Sweden Women's,72,Women's World Cup,International,1,Regular Season,1,female,865,England Women's,17:00:00.000,2019-12-16T23:09:16.168756,2019-07-06,69301,available,5,1.1.0,30,2019
+49,2,female,851,Netherlands Women's,72,Women's World Cup,International,1,Regular Season,0,female,855,Italy Women's,15:00:00.000,2019-12-16T23:09:16.168756,2019-06-29,69205,available,5,1.1.0,30,2019
+50,2,female,858,Sweden Women's,72,Women's World Cup,International,1,Regular Season,1,female,857,Germany Women's,18:30:00.000,2019-12-16T23:09:16.168756,2019-06-29,69208,available,4,1.1.0,30,2019
+51,0,female,851,Netherlands Women's,72,Women's World Cup,International,1,Regular Season,2,female,1214,United States Women's,17:00:00.000,2019-12-16T23:09:16.168756,2019-07-07,69321,available,5,1.1.0,30,2019
