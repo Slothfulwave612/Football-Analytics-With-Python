@@ -52,12 +52,14 @@ for path in file_path_matches:
 all_matches_df = pd.concat(matches_list, sort='False')
 
 ## saving the dataframe as csv file
-all_matches_df.to_csv('all_matches_df.csv')
+## renaming to be done
+## all_matches_df.to_csv('all_matches_df.csv')
 
 ## since we have a lot of null values in our dataframe so we will remove it
 ## and create a new dataframe and then save it as a csv file
 all_matches_clean = all_matches_df.dropna(axis=1)
-all_matches_clean.to_csv('all_matches_clean.csv')
+## renmaing
+## all_matches_clean.to_csv('all_matches_clean.csv')
 
 ## obtaining events 
 
@@ -67,56 +69,67 @@ path = '../Statsbomb/data/events'
 ## calling the function to get the list of path to all the matches json files
 file_path_events = uiv.find_json(path, name='events')
 
-path = file_path_events[0]
+event_dict = {}
 
-event_temp = json.load(open(path, 'r', encoding='utf-8'))
-
-event_temp_flatten = [uiv.flatten_json(x) for x in event_temp]
-event_df = pd.DataFrame(event_temp_flatten)
-
-uiv.find_tactics_index(event_temp)
-
-team_list = []
-
-for index in range(0,2):
-    team_dict = {
-            'player_name': [],
-            'team_name': [],
-            'team_id': [],
-            'formation': [],
-            'jersey_num': [],
-            'player_id': [],
-            'player_pos': [],
-            'position_id': []
-            }
+for path in file_path_events:
+    event_temp = json.load(open(path, 'r', encoding='utf-8'))
     
-    team_name = event_temp[index]['team']['name']
-    team_id = event_temp[index]['team']['id']
-    formation = event_temp[index]['tactics']['formation']
-    lineups = event_temp[index]['tactics']['lineup']
+    event_temp_flatten = [uiv.flatten_json(x) for x in event_temp]
     
-    for i in range(len(lineups)):
-        jersey_num = lineups[i]['jersey_number']
-        player_name = lineups[i]['player']['name']
-        player_id = lineups[i]['player']['id']
-        player_pos = lineups[i]['position']['name']
-        pos_id = lineups[i]['position']['id']
+    event_df = pd.DataFrame(event_temp_flatten)
+    
+    uiv.find_tactics_index(event_temp)
+    
+    starting_xi = []
+    id_list = []
+    
+    for index in range(0,2):
+        team_dict = {
+                'player_name': [],
+                'team_name': [],
+                'team_id': [],
+                'formation': [],
+                'jersey_num': [],
+                'player_id': [],
+                'player_pos': [],
+                'position_id': []
+                }
         
-        team_dict['player_name'].append(player_name)
-        team_dict['team_name'].append(team_name)
-        team_dict['team_id'].append(team_id)
-        team_dict['formation'].append(formation)
-        team_dict['jersey_num'].append(jersey_num)
-        team_dict['player_id'].append(player_id)
-        team_dict['player_pos'].append(player_pos)
-        team_dict['position_id'].append(pos_id)
+        team_name = event_temp[index]['team']['name']
+        team_id = event_temp[index]['team']['id']
+        formation = event_temp[index]['tactics']['formation']
+        lineups = event_temp[index]['tactics']['lineup']
         
-    team_list.append(team_dict)
-
-pass_df = event_df.loc[event_df['type_name'] == 'Pass', :].dropna(axis=1)
-
-
-
+        for i in range(len(lineups)):
+            jersey_num = lineups[i]['jersey_number']
+            player_name = lineups[i]['player']['name']
+            player_id = lineups[i]['player']['id']
+            player_pos = lineups[i]['position']['name']
+            pos_id = lineups[i]['position']['id']
+            
+            team_dict['player_name'].append(player_name)
+            team_dict['team_name'].append(team_name)
+            team_dict['team_id'].append(team_id)
+            team_dict['formation'].append(formation)
+            team_dict['jersey_num'].append(jersey_num)
+            team_dict['player_id'].append(player_id)
+            team_dict['player_pos'].append(player_pos)
+            team_dict['position_id'].append(pos_id)
+            
+        starting_xi.append(team_dict)
+        id_list.append(team_id)
+    
+    pass_df1 = event_df.loc[(event_df['type_name'] == 'Pass') & (event_df['team_id'] == id_list[0]), :]
+    pass_df2 = event_df.loc[(event_df['type_name'] == 'Pass') & (event_df['team_id'] == id_list[1]), :]
+    
+    pass_df1 = uiv.make_pass_df(pass_df1, id_list[0])
+    pass_df2 = uiv.make_pass_df(pass_df2, id_list[1])
+    
+    match_id = path.split('/')[-1].split('.')[0]
+    
+    pass_list = [pass_df1, pass_df2]
+    
+    event_dict[match_id] = [starting_xi, pass_list]
 
 
 
