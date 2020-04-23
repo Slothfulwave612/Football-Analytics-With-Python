@@ -17,7 +17,7 @@ def flatten_json(y):
         elif type(x) is list:
             i = 0
             for a in x:
-                flatten(a, name + '_')
+                flatten(a, name + str(i) + '_')
                 i += 1
         else:
             out[name[:-1]] = x
@@ -87,7 +87,61 @@ def find_tactics_index(event_temp):
             if c == 2:
                 return
             
-            
+def make_pass_df(pass_df, id_num):
+    '''
+    Function will make a passing dataframe for the team.
+    
+    Argument:
+    pass_df -- dataframe object, passing dataframe for a particular team.
+    id_num -- int, the team id.
+    
+    Returns:
+    pass_df -- dataframe object, after performating data cleaning.
+    '''
+    
+    cols_to_select = [
+            'location_0',
+            'location_1',
+            'possession',
+            'player_id',
+            'pass_height_name',
+            'pass_recipient_id',
+            'pass_end_location_0',
+            'pass_end_location_1',
+            'pass_length',
+            'pass_angle',
+            'pass_body_part_name'
+            ]
+    pass_df = pass_df.loc[:, cols_to_select]
+    
+    ## now since our pass_recipient_id and pass_body_part_name have some null values
+    ## so filling 0 at pass_recipient_id and 'not-listed' in pass_body_part_name
+    pass_df['pass_recipient_id'].fillna(0, inplace=True)
+    pass_df['pass_body_part_name'].fillna('Other', inplace=True)
+    
+    rename_cols = {
+            'possession': 'Possession',
+            'player_id': 'Passer',
+            'location_0': 'X_Pass',
+            'location_1': 'Y_Pass',
+            'pass_recipient_id': 'Receiver',
+            'pass_end_location_0': 'X_Receive',
+            'pass_end_location_1': 'Y_Receive',
+            'pass_length': 'Pass_Length',
+            'pass_angle': 'Pass_Angle',
+            'pass_body_part_name': 'Body_Part',
+            'pass_height_name': 'Pass_Type'
+            }
+    
+    pass_df.rename(columns=rename_cols, inplace=True)
+    
+    pass_df['poss'] = pass_df.loc[:, 'Possession']
+    pass_df['seq'] = pass_df.groupby('Possession')['poss'].rank(method='first')
+    pass_df.drop('poss', inplace=True, axis=1)
+    
+    pass_df['team_id'] = id_num
+    
+    return pass_df
             
             
             
