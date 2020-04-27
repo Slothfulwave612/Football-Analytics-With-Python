@@ -2,9 +2,7 @@
 
 * **Definition:** *Pitch control* (at a particular location) is the probability that a player could control the ball, assuming it were at that location.
 
-<img src="D:\myPython\Friends of Tracking\Notes\Images\pitch_control.JPG" alt="pitch_control" style="zoom:80%;" />
-
-
+![pitch_control](https://user-images.githubusercontent.com/33928040/80406400-a7a74d80-88e1-11ea-9e0f-769d9c709731.JPG)
 
   * The above was the model that was made by *William Spearman* and his team around 2015-16.
 
@@ -26,7 +24,7 @@
 
   * The **player who is closest to the ball** is in *control of the ball.*
 
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\control.JPG" alt="control" style="zoom:67%;" />
+    ![control](https://user-images.githubusercontent.com/33928040/80406462-baba1d80-88e1-11ea-8bab-b1a7c905a86f.JPG)
 
   * In this plot here, we can see *three players*(two blue players and one red player)
 
@@ -34,7 +32,7 @@
 
   * Extending this concept not just to the ball where it currently is but to the whole pitch, we can actually quantify the region that are controlled by the blue players and the red players using this definition of control.
 
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\voronoi.JPG" alt="voronoi" style="zoom:67%;" />
+    ![voronoi](https://user-images.githubusercontent.com/33928040/80406490-c7d70c80-88e1-11ea-89d1-d5e4921974a8.JPG)
 
   * This leads to **Voronoi Tessellation** of pitch control.
   
@@ -50,7 +48,7 @@
 	
 	* So, here is what we get when we apply the above concept:
 		
-		<img src="D:\myPython\Friends of Tracking\Notes\Images\control_1.JPG" alt="control_1" style="zoom:67%;" />
+	![control_1](https://user-images.githubusercontent.com/33928040/80406554-dfae9080-88e1-11ea-8b9b-b08f3f88d1ef.JPG)
 		
 	* So, here we can see the ball is in red region of control. So by making Voronoi based on time instead of distance changes the dynamics of the system to be more realistic.
 	
@@ -64,9 +62,7 @@
 
   * So by looking at situation like when a ball is out of position on the pitch, then we can compute the control different players have on it and actually see which player ends up making the control touch using our event data. So that allows us to fit this probabilistic model, which then looks like this:
 
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\uncertain.JPG" alt="uncertain" style="zoom:67%;" />
-
-
+    ![uncertain](https://user-images.githubusercontent.com/33928040/80406598-f05f0680-88e1-11ea-9197-5d66e407a06c.JPG)
 
 ## Common Questions:
 
@@ -74,7 +70,7 @@
 
   * Let's look at this following plot:
 
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\pitch.JPG" alt="pitch" style="zoom:67%;" />
+    ![pitch](https://user-images.githubusercontent.com/33928040/80406635-0076e600-88e2-11ea-80d0-aa665ead03dd.JPG)
 
   * In this situation the blue team is attacking from right to left, and the keeper here is in the huge amount of space which he is controlling. However that space is particularly not important because the team is not really doing with it. So the big space the keeper and the center backs of the attacking team are in is not particularly a good indicator of the quality of the possession or the quality of the attack, so it should not be used to measure anything about the teams performance.
 
@@ -88,7 +84,7 @@
 
   * So to be able to deal with that we have to introduce kind of a dynamic control model for ball control.(*A Dynamic Pitch Control*)
 
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\ball_motion.JPG" alt="ball_motion" style="zoom:67%;" />
+    ![ball_motion](https://user-images.githubusercontent.com/33928040/80406686-17b5d380-88e2-11ea-9bd5-7aa22689546e.JPG)
 
 * *Aren't some parts of the pitch are more valuable?*
   
@@ -100,9 +96,7 @@
    
    * So by incorporating that, we can incorporate the concept that *William Spearman* calls *Scoring Opportuinity*, which will allow us to compute the danger of a given situation.
    
-     <img src="D:\myPython\Friends of Tracking\Notes\Images\scoring.JPG" alt="scoring" style="zoom:67%;" />
-
-
+     ![scoring](https://user-images.githubusercontent.com/33928040/80406769-3320de80-88e2-11ea-97f1-18e418fa489e.JPG)
 
 ## Dynamic Control: Control Force
 
@@ -116,36 +110,36 @@
 
 * On integrating this we get an exponential CDF(Cumulative Distribution Function); CDF gives you the probability that a random variable is less than or equal to a certain value.
 
-  <img src="D:\myPython\Friends of Tracking\Notes\Images\controlforce.JPG" alt="controlforce" style="zoom:67%;" />
+  ![controlforce](https://user-images.githubusercontent.com/33928040/80406819-46cc4500-88e2-11ea-9ec0-33f2bfa08b62.JPG)
 
   * So the x-axis is the time a player is in the ball, and the y-axis is the probability that the player is able to make a control touch given that amount of time they are on the ball.
   * This is fit to data and one thing we can see is *90% time it takes less than a second to control the pass*.(as highlighted in the plot)
 
 * Let's now look at a situation, where the ball is moving in one direction along the ground with a little bit of drag, so it is slowing down slightly at every time step and we are going to divide them into equal sized time steps, so let's say these time step are one-tenth of a second(i.e. 0.1 second) long. 
 
-  <img src="D:\myPython\Friends of Tracking\Notes\Images\space1.JPG" alt="space1" style="zoom:67%;" />
+  ![space1](https://user-images.githubusercontent.com/33928040/80406859-58ade800-88e2-11ea-9617-f31ee5e8e914.JPG)
 
   * So, as the ball reaches this point where the *red* player is able to intercept it, and let's say that the pass probability per intercept vector is 10%, so **Line 1: 100% * 10% = 10%**.
 
   * Now when it moves to the next time step, we have to assume that the player was not able to make that control touch at the first time step, so there is now (100 %- 10%) = 90% chance to reach this next point and since 10% is the probability per intercept vector, so **Line 2: 90% * 10% = 9%**.
 
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\space2.JPG" alt="space2" style="zoom:67%;" />
+    ![space2](https://user-images.githubusercontent.com/33928040/80406885-62375000-88e2-11ea-9a1e-3d9988d59f84.JPG)
 
   * And for the third time step, then it will be **Line 3: (90% - 9%) * 10% = 81% * 10% = 8.1%**.
 
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\space3.JPG" alt="space3" style="zoom:67%;" />
+    ![space3](https://user-images.githubusercontent.com/33928040/80406909-6d8a7b80-88e2-11ea-846f-7e1026a8509b.JPG)
 
   * So what we are saying is there is 0.3 second of time step where the *red* player could make a control touch, i.e. could get to the the interception of the ball and make a control touch, and within those 0.3 seconds we give *red* player a total of **10% + 9% + 8.1% = 27.1%** probability of controlling  the pass.
 
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\playera.JPG" alt="playera" style="zoom:67%;" />
+    ![playera](https://user-images.githubusercontent.com/33928040/80406962-7f6c1e80-88e2-11ea-807d-531e21e65923.JPG)
 
   * Assuming *red* player doesn't intercept the ball, then the *blue* player gets a shot to make a control touch, and in first interval, we compute for *blue* player: **Line 1: (81% - 8.1) * 10% = 72.9 * 10% = 7.3%**
 
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\palyer_b.JPG" alt="palyer_b" style="zoom:67%;" />
+    ![palyer_b](https://user-images.githubusercontent.com/33928040/80407001-8d21a400-88e2-11ea-812b-57e49779c4d1.JPG)
 
   * For the second time step for *blue* player, **Line 2: (72.9% - 7.3%) * 10% = 65.6% * 10% = 6.6%**. 
 
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\player_3.JPG" alt="player_3" style="zoom:67%;" />
+    ![player_3](https://user-images.githubusercontent.com/33928040/80407052-9f9bdd80-88e2-11ea-92ff-516e8eb2d767.JPG)
 
   * And for the remaining:
 
@@ -159,7 +153,7 @@
 
     **Total: 34.2% probability of controlling the pass**
 
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\player_4.JPG" alt="player_4" style="zoom:67%;" />
+    ![player_4](https://user-images.githubusercontent.com/33928040/80407087-ad516300-88e2-11ea-946e-7e261b2b7493.JPG)
 
   * **Player A (Red):**
 
@@ -173,9 +167,6 @@
 
   * So this model have nice features, it includes all information listed above(Player A and Player B information), and then this approach allows us to deals with the situation where the **control the region overlaps**, because those two players both have a chance to make a control touch, so by discretizing this integral into smaller and smaller timesteps. we can actually get the probability of each of the two players to make the control touch of the ball even when those control region overlap. 
 
-
-
-
 ## Dynamic Control: Intercepting
 
 * Here what we can do is use some concepts from Physics to compute optimal time-to-intercept assuming a player's maximum speed and acceleration.
@@ -184,11 +175,11 @@
 
 * So, we take this time-to-intercept that we have computed and we effectively put it through a sigmoid distribution.
 
-  <img src="D:\myPython\Friends of Tracking\Notes\Images\sigmoid.JPG" alt="sigmoid" style="zoom:67%;" />
+  ![sigmoid](https://user-images.githubusercontent.com/33928040/80407122-be9a6f80-88e2-11ea-9fdd-fc2826a7c7a1.JPG)
 
 * So this will allow us to evaluate dynamic situation. So let's pick one dynamic situation is passing.
 
-  <img src="D:\myPython\Friends of Tracking\Notes\Images\dynamic.JPG" alt="dynamic" style="zoom:67%;" />
+  ![dynamic](https://user-images.githubusercontent.com/33928040/80407144-cb1ec800-88e2-11ea-82fb-727925e22233.JPG)
 
   * So here in the plot the ball is moving from left to right(we have rotated into the reference frame of the ball, so x-axis represents the ball).
   * Player 0 is close to the trajectory of the ball, but he has to get to the ball very fast, so his control region is relatively small.
@@ -202,15 +193,13 @@
 
 * In order to do that we need ball time-of-flight model, a simple one is *distance/ball_speed*.
 
-  <img src="D:\myPython\Friends of Tracking\Notes\Images\ballflight.JPG" alt="ballflight" style="zoom:67%;" />
+  ![ballflight](https://user-images.githubusercontent.com/33928040/80407176-d83bb700-88e2-11ea-8ce8-b97db7900aad.JPG)
 
   * So here we have the ball time of flight model and you can see the region far from the ball takes about 4.5 seconds for the ball to reach there, for region close it is close to 0 second.
 
   * **Conclusion:** Using a simple model to approximate how long the ball should take to reach the target location, we can create a dynamic control model that is less certain about the control in regions far from the ball's current location.
 
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\dynamicpitch.JPG" alt="dynamicpitch" style="zoom:67%;" />
-
-
+    ![dynamicpitch](https://user-images.githubusercontent.com/33928040/80407207-e558a600-88e2-11ea-8ab3-9666c822b952.JPG)
 
 ## Relevant Pitch Control
 
@@ -220,13 +209,13 @@
 
 * And we can build a simple transition probability model using the pitch control(as input) of the team that is currently in position and the distance from the player who is currently in position.
 
-  <img src="D:\myPython\Friends of Tracking\Notes\Images\rpc.JPG" alt="rpc" style="zoom:67%;" />
+  ![rpc](https://user-images.githubusercontent.com/33928040/80407244-f5708580-88e2-11ea-902f-43636c783984.JPG)
 
   * So this plot basically highlights the relevant region of the pitch for the blue team.
 
 * Using our simple transition model, we can define our relevant pitch control by multiplying transition probability with the control probability.
 
-  <img src="D:\myPython\Friends of Tracking\Notes\Images\rpc2.JPG" alt="rpc2" style="zoom:67%;" />
+  ![rpc2](https://user-images.githubusercontent.com/33928040/80407277-028d7480-88e3-11ea-9b46-5efe635bea72.JPG)
 
   * This is the relevant pitch control, which highlights the regions that the on ball player is likely to pass through(the blue region). 
 
@@ -238,13 +227,13 @@
 
 * Here in the model, we look at the probability of scoring given a control touch at a particular point on the pitch.
 
-  <img src="D:\myPython\Friends of Tracking\Notes\Images\score opp.JPG" alt="score opp" style="zoom:67%;" />
+  ![score opp](https://user-images.githubusercontent.com/33928040/80407317-10db9080-88e3-11ea-8e0b-1f64cb6cfbaf.JPG)
 
   * Now here we can see this model, which represents a value 1 when you are at the goal mouth and becomes vanishingly small far from goal.
 
 * Using our simple value model, we can define our scoring opportuinity by multiplying the relevant pitch control by the probability of scoring at each point on the pitch.
 
-  <img src="D:\myPython\Friends of Tracking\Notes\Images\off ball.JPG" alt="off ball" style="zoom:67%;" />
+  ![off ball](https://user-images.githubusercontent.com/33928040/80407354-1f29ac80-88e3-11ea-93d5-d2caf42a91aa.JPG)
 
   * This *Off Ball Scoring Opportuinity* highlights the regions of the pitch where the next touch in a scoring chain is likely to come from.
   * So this is allowing us to basically weight the pitch control by how dangerous it is.
@@ -254,7 +243,7 @@
 
   * We can build various *scoring opportuinity maps* or a *scoring opportuinity vs time*, to highlight dangerous moment that may have occurred at a given moment in the match.
 
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\obso.JPG" alt="obso" style="zoom:67%;" />
+    ![obso](https://user-images.githubusercontent.com/33928040/80407410-349ed680-88e3-11ea-9778-8b46ea40aeb2.JPG)
 
   * Or how shots from both teams are correlated(Scoring Opportuinity Map), you can see the shots in the particular game(denoted by x) and the circles represents the shots that results in a goal.
 
@@ -273,8 +262,6 @@
   * And here you can see in the fourth match the player did score from those position, making two shots and converting them to goals.
 
     <img src="D:\myPython\Friends of Tracking\Notes\Images\rb_scored.JPG" alt="rb_scored" style="zoom:67%;" />
-
-
 
 ## Recap
 
