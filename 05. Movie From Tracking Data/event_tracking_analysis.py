@@ -16,64 +16,46 @@ Modules Used(2):
 4. pandas -- for data manipulation and analysis
 5. matplotlib -- visualization library.
 """
-import utility_function_viz as ufv
-import utility_function_io as ufio
-import utility_function_velocity as ufvel
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+import utility_function_io as ufio
+import utility_function_viz as ufv
+import utility_function_velocity as ufvel
 
-## setting up data path
-data_dir = '../Metrica_Sports/data'
-game_id = 2
+## setting path and game id
+path = '../Metrica_Sports/data'
+game_id = 1
 
-## reading in the events data
-event_data = ufio.read_event_data(data_dir, game_id)
+## loading in the event data
+event_data = ufio.read_event_data(path, game_id)
 
-## Since Metrica Sports has defined their pitch map under these coordinates
-## (0,0), (0,1), (1,1), (1,0) and so the Start and End positions values are
-## between 0 and 1, since we have made our pitch in metric units so we have
-## to convert these position values
+## loading in tracking data 
+tracking_home = ufio.read_tracking_data(path, game_id, team_name='Home')
+tracking_away = ufio.read_tracking_data(path, game_id, team_name='Away')
+
+## convert the values
 event_data = ufio.convert_values(event_data)
+tracking_home = ufio.convert_values(tracking_home)
+tracking_away = ufio.convert_values(tracking_away)
 
-## reading in tracking data for both home and away teams
-tracking_data_home = ufio.read_tracking_data(data_dir, game_id, 'Home')
-tracking_data_away = ufio.read_tracking_data(data_dir, game_id, 'Away')
+## reverse the direction of the play for the second half
+## so that home team aways attacks from right -> left
+event_data, tracking_home, tracking_away = ufio.rev_direction(event_data, tracking_home, tracking_away)
 
-## convert units to metric unit
-tracking_data_home = ufio.convert_values(tracking_data_home)
-tracking_data_away = ufio.convert_values(tracking_data_away)
+## calculating velocities for each tracking dataframe
+tracking_home = ufvel.cal_velocity(tracking_home)
+tracking_away = ufvel.cal_velocity(tracking_away)
 
-## reverse the direction of play so the home team always attack from left -> right
-tracking_data_home, tracking_data_away, event_data = ufio.reverse_dir(tracking_data_home,
-                                                                      tracking_data_away,
-                                                                      event_data)
+## plotting frame when the first goal was scored by the home team
+fig, ax = ufv.plot_pitch()
+home_team_loc = tracking_home.loc[99032]
+away_team_loc = tracking_away.loc[99032]
+fig, ax = ufv.plot_frame(home_team_loc, away_team_loc, fig, ax)
 
-home_vel = ufvel.calc_player_velocities(tracking_data_home, filter='moving average')
-away_vel = ufvel.calc_player_velocities(tracking_data_away, filter='moving average')
+## creating and saving a movie for our first goal
+home_team = tracking_home.loc[98298: 99032+150]
+away_team = tracking_home.loc[98298: 99032+150]
+ufv.save_match_clip(home_team, away_team, 'home_goal', 'movie')
 
-ufv.save_match_clip(home_vel[73600: 73600+500], away_vel[73600: 73600+500],
-                    path='movie', fname='home_goal_2_')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ufv.save_match_clip(home_team, away_team, 'home_goal', 'movie')
 

@@ -181,7 +181,7 @@ def plot_events(df, fig, ax):
         
     return fig, ax
 
-def plot_frame(home_team_loc, away_team_loc, fig, ax, event_row=None):
+def plot_frame(home_team_loc, away_team_loc, fig, ax):
     '''
     Function will plot a frame for all 11 players at the pitch at 
     any given time.
@@ -195,122 +195,100 @@ def plot_frame(home_team_loc, away_team_loc, fig, ax, event_row=None):
     Retrns:
     fig, ax -- figure and axis object.
     '''    
-    team_colors = ('r', 'b')
-    ## red for home team and blue for away team
+    colors = ('r', 'b')
+    ## red color for home team and blue for away team
     
-    for team, color in zip([home_team_loc, away_team_loc], team_colors):
-        x_cols = [col for col in team.keys() if col[-1] == 'X' and col != 'ball_X']
-        y_cols = [col for col in team.keys() if col[-1] == 'Y' and col != 'ball_Y']
+    for team, color in zip([home_team_loc, away_team_loc], colors):
+        x_cols = [cols for cols in team.keys() if cols[-1] == 'X' and cols[:4] != 'ball']
+        y_cols = [cols for cols in team.keys() if cols[-1] == 'Y' and cols[:4] != 'ball']
         
-        if color == 'r':
-            label = 'Home Team'
-        else:
-            label = 'Away Team'
-            
-        ax.plot(team[x_cols], team[y_cols], color+'o', MarkerSize=10, label=label)
+        ## plotting players
+        ax.plot(team[x_cols], team[y_cols], color+'o', MarkerSize=10, alpha=0.7)
+        
+        vx_cols = ['{}_vx'.format(cols[:-2]) for cols in x_cols]
+        vy_cols = ['{}_vy'.format(cols[:-2]) for cols in y_cols]
+        
+        ## plotting velocity vectors
+        ax.quiver(team[x_cols], team[y_cols], team[vx_cols], team[vy_cols], color=color, 
+                  scale_units='inches', scale=10., width=0.0015, 
+                  headlength=5, headwidth=3, alpha=0.7)
     
-    ax.plot(home_team_loc['ball_X'], away_team_loc['ball_Y'], 'ko', MarkerSize=6)
-    
-    if event_row is not None:
-        ax.annotate('', xy=event_row[['End X', 'End Y']], 
-                    xytext=event_row[['Start X', 'Start Y']],
-                    arrowprops=dict(arrowstyle='->', color='m'))
-    
-    handles, labels = plt.gca().get_legend_handles_labels()
-    by_label = dict(zip(labels, handles))
-    plt.legend(by_label.values(), by_label.keys(), loc='best', bbox_to_anchor=(0.9, 1, 0, 0), fontsize=12)
+    ## plotting ball
+    ax.plot(team['ball_X'], team['ball_Y'], 'ko', alpha=0.7)
     
     return fig, ax
-
-def save_match_clip(home_team, away_team, path, fname, fps=25):
+    
+def save_match_clip(home_team, away_team, fname, fpath, fps=25, colors=('r', 'b')):
     '''
-    Function will generate a movie of tracking data.
+    Function to create and save a match clip.
     
     Arguments:
     home_team -- dataframe object, tracking data for home team.
     away_team -- dataframe object, tracking data for away team.
-    path -- str, path where the movie will be saved.
-    fname -- str, name of the movie.
+    fname -- str, video name.
+    fpath -- str, path where the video will be saved.
     fps -- int, frames per second.
+    colors -- tuple, having color values for home and away teams
     '''
+    ## check if the indices are matched for both the dataframe
+    assert np.all(home_team.index == away_team.index), "Home and away team index must be the same."
     
-    ## making sure that home_team and away team indices matches
-    assert(np.all(home_team.index == away_team.index))
-    
-    ## setting some plot values
+    ## field dimensions
     field_dims = (105, 68)
-    team_colors = ('r', 'b')
-    player_marker_size = 10
-    player_alpha = 0.7
     
-    ## setting the staring index
-    starting_index = home_team.index
+    ## getting the starting index
+    index = home_team.index    
     
-    ## setting figure and movie settings
-    ffmpeg_writer = animation.writers['ffmpeg']
-    metadata = dict(title='Tracking Data', artist='Matplotlib', comment='Metrica Tracking Data Clip')
-    writer = ffmpeg_writer(fps=fps, metadata=metadata)
-    fname = path + '/' + fname + '.mp4'
-    
-    ## creating the football pitch
+    ## figure and movie settings
     fig, ax = plot_pitch()
+    ffmpeg = animation.writers['ffmpeg']
+    writer = ffmpeg(fps=fps)
+    fname = fpath + '/' + fname + '.mp4'
     
-    ## generating movie
-    print('Generating Movie...', end='')
+    print('Generating Moive...', end='')
     
-    with writer.saving(fig, fname, 100):
-        for i in starting_index:
-            fig_objs = []
-            ## creating a list to collect all the axis objects so they can be deleted after each iteration 
+    ## create the clip and save it
+    with writer.saving(fig, fname, dpi=100):
+        for i in index:
+            fig_obj = []
+            ## empty list which will contain axis object 
+            ## so to delete them after each frame
             
-            for team, color in zip([home_team.loc[i], away_team.loc[i]], team_colors):
-                x_cols = [c for c in team.keys() if c[-2:].lower() == '_x' and c != 'ball_X']
-                y_cols = [c for c in team.keys() if c[-2:].lower() == '_y' and c != 'ball_Y']
+            for team, color in zip([home_team.loc[i], away_team.loc[i]], colors):
+                x_cols = [cols for cols in team.keys() if cols[-1] == 'X' and cols != 'ball_X']
+                y_cols = [cols for cols in team.keys() if cols[-1] == 'Y' and cols != 'ball_Y']
                 
-                ## plotting the home players and away players
-                objs, = ax.plot(team[x_cols], team[y_cols], color+'o', MarkerSize=player_marker_size, alpha=player_alpha)
-                fig_objs.append(objs)
+                ## plotting player
+                objs, = ax.plot(team[x_cols], team[y_cols], color+'o', MarkerSize=10, alpha=0.7)
+                fig_obj.append(objs)
                 
-                ## including velocities
-                vx_cols = ['{}_vx'.format(c[:-2]) for c in x_cols]
-                vy_cols = ['{}_vy'.format(c[:-2]) for c in y_cols]
-                objs = ax.quiver(team[x_cols], team[y_cols], team[vx_cols], team[vy_cols], color=color, scale_units='inches',
-                                 scale=10, width=0.0015, headlength=5, headwidth=3, alpha=player_alpha)
-                fig_objs.append(objs)
+                vx_cols = ['{}_vx'.format(cols[:-2]) for cols in x_cols]
+                vy_cols = ['{}_vy'.format(cols[:-2]) for cols in y_cols]
                 
+                ## plotting velocity vectors
+                objs = ax.quiver(team[x_cols], team[y_cols], team[vx_cols], team[vy_cols],
+                                  scale_units='inches', scale=10., width=0.0015, 
+                                  headlength=5, headwidth=3, alpha=0.7)
+                fig_obj.append(objs)
+            
             ## plotting the ball
-            objs, = ax.plot(team['ball_X'], team['ball_Y'], 'ko', MarkerSize=6)
-            fig_objs.append(objs)
+            objs, = ax.plot(team['ball_X'], team['ball_Y'], 'ko', MarkerSize=7, alpha=0.5)
+            fig_obj.append(objs)
             
-            ## including match time at the top
-            frame_mins = int(team['Time [s]'] / 60)
-            frame_secs = (team['Time [s]']/60 - frame_mins) * 60
-            timestring  = '%d: %1.2f' % (frame_mins, frame_secs)
+            ## include match time
+            frame_minus = int(team['Time [s]'] / 60)
+            frame_secs = (team['Time [s]'] / 60 - frame_minus) * 60
+            timestring = '%d: 1.2%f'.format(frame_minus, frame_secs)
+            objs = plt.text(-2.5, field_dims[1] / 2, timestring, fontsize=15)
+            fig_obj.append(objs)
             
-            objs = plt.text(-2.5, field_dims[1]/2 + 1, timestring, fontsize=14)
-            fig_objs.append(objs)
             writer.grab_frame()
             
-            ## delete all axis object (other than our pitch line)
-            for figs in fig_objs:
-                figs.remove()
-    
-    print('Done..')
+            ## delete all figure object
+            for obj in fig_obj:
+                fig_obj.remove(obj)
+        
+    print('done')
     plt.clf()
     plt.close(fig)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+            

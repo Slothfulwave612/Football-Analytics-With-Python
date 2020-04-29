@@ -58,26 +58,6 @@ def convert_values(df):
     df[y_cols] = -1 * (df[y_cols] - 0.5) * field_dims[1]
     
     return df
-
-def reverse_dir(track_home, track_away, event_data):
-    '''
-    Function will flip the coordinate in the second half so that
-    the home team always attacks from left -> right.
-    
-    Arguments:
-    track_home -- dataframe object, tracking data for home side. 
-    track_away -- dataframe object, tracking data for away side.
-    event_data -- datafrma object, event data for the match.
-    
-    Returns:
-    the three dataframes with flipped values for the second half.
-    '''
-    for team in [track_home, track_away, event_data]:
-        second_period_start = team['Period'].idxmax(2)
-        column = [cols for cols in team.columns if cols[-1].lower() in ['x', 'y']]
-        team.loc[second_period_start:, column] *= -1
-        
-    return track_home, track_away, event_data
     
 def read_tracking_data(data_dir, game_id, team_name):
     '''
@@ -121,3 +101,45 @@ def read_tracking_data(data_dir, game_id, team_name):
     
     return track_frame
     
+def rev_direction(event_data, tracking_home, tracking_away):
+    '''
+    Function to reverse the direction of play for the second half
+    so that the home team always attacks from right -> left.
+    
+    Arguments:
+    event_data -- dataframe object, event data for the match.
+    tracking_home -- dataframe object, tacking data for home team.
+    tracking_away -- dataframe object, tracking data for away team.
+    
+    Returns:
+    event_data -- dataframe object, event data for the match.
+    tracking_home -- dataframe object, tacking data for home team.
+    tracking_away -- dataframe object, tracking data for away team.
+    '''
+    for data in [event_data, tracking_home, tracking_away]:
+        second_half_id = data['Period'].idxmax(2)
+        ## getting the starting frame of second half
+        
+        columns = [cols for cols in data.columns if cols[-1] in ['X', 'Y']]
+        ## getting columns for x and y position of ball and players
+        
+        data.loc[second_half_id:, columns] *= -1
+    
+    return event_data, tracking_home, tracking_away
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+

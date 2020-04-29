@@ -6,94 +6,66 @@ Created on Tue Apr 28 19:49:26 2020
 """
 
 import numpy as np
-from scipy import signal
 
-def remove_velocity(team):
+def remove_velocity(df):
     '''
-    Function to remove velocity columns from the dataframe.
+    Function to remove velocity columns(if present) from the dataframe.
     
     Argument:
-    team -- dataframe object, tracking data for a particular team.
+    df -- dataframe object, tracking dataframe.
     
     Returns:
-    team -- dataframe object, dataframe after removing the velocity columns(if present).
+    df -- dataframe object, tracking dataframe.
     '''
-    velocity_cols = ['vx', 'vy', 'ax', 'ay', 'speed', 'acceleration']
-    columns = [cols for cols in team.columns if cols.split('_')[-1].lower() in velocity_cols]
-    team = team.drop(columns=columns)
+    cols_del = ['vx', 'vy', 'speed']
     
-    return team
+    columns = [cols for cols in df.columns if cols.split('_')[-1] in cols_del]
+    
+    df.drop(columns=columns, inplace=True)
+    
+    return df
 
-def calc_player_velocities(team, filter='Savitzky-Golay', window = 7, polyorder = 1, maxspeed = 12):
+def cal_velocity(df, max_speed=12, window=7):
     '''
-    Function to calculate velocities in x and y direction and 
-    the total player speed at every timestamp.
+    Fucntion to calculate velocity for the tracking dataframe.
     
     Argument:
-    team -- dataframe object, tracking data for a team.
-    filter -- smoothing technique.
-    window -- smoothing window size in # of frames.
-    polyorder -- order of polynomial for the 'Savitzky-Golay' filter
-                 default is 1 - a linear fit to the velocity, so the gradient is acceleration.
-    maxspeed -- the maximum speed that a player can realisitically achieve(in meters/second)
-                speed measures that exceeds maxspeed are tagged as outliers and set to NaN.
-
+    df -- dataframe object, tracking dataframe.
+    max_speed -- int, maximum speed a player can achieve(in meters/second).
+    window -- int, smoothing window size in number of frames.
+    
     Returns:
-    team -- dataframe object, the tracking DataFrame with columns for 
-            speed in the x & y direction and total speed added.
+    df -- dataframe object, tracking dataframe.
     '''
+    remove_velocity(df)
+    ## removing velocity columns if present
     
-    ## removing velocities that are already in the dataframe
-    team = remove_velocity(team)
+    ## getting the player ids
+    player_ids = np.unique([cols[:-2] for cols in df.columns if cols.split('_')[0] in ['Home', 'Away']])
+        
+    ## computing the difference in time for each frame
+    dt = df['Time [s]'].diff()
     
-    ## getting player ids
-    player_ids = np.unique([c[:-2] for c in team.columns if c[:4] in ['Home', 'Away']])
-    
-    ## caluculate the time difference, should always be 0.04s
-    dt = team['Time [s]'].diff()
-    
-    ## index for the first frame in the second half
-    second_half_idx = team['Period'].idxmax(2)
-    
-    ## estamiting the velocities for players in the team
     for player in player_ids:
-        ##  calculating unsmoothed estimates of velocity
-        vx = team[player + '_X'].diff() / dt
-        vy = team[player + '_Y'].diff() / dt
+        ## calculating velocities
+        vx = df[player + '_X'].diff() / dt
+        vy = df[player + '_Y'].diff() / dt
         
-        ## remove unsmoothed data points that exceeds the maximum speed
-        raw_speed = np.sqrt(vx**2 + vy**2)      ## magnitude of the vector
-        vx[raw_speed > maxspeed] = np.nan
-        vy[raw_speed > maxspeed] = np.nan
+        ## removing outliers
+        raw_speed = np.sqrt(vx**2 + vy**2)
+        vx[raw_speed > max_speed] = np.nan
+        vy[raw_speed > max_speed] = np.nan
         
-        if filter == 'Savitzky-Golay':
-            ## calculating the first half velocities
-            vx.loc[:second_half_idx] = signal.savgol_filter(vx.loc[:second_half_idx], window_length=window, polyorder=polyorder)
-            vy.loc[:second_half_idx] = signal.savgol_filter(vy.loc[:second_half_idx], window_length=window, polyorder=polyorder)
-            
-            ## calculating the second half velocities
-            vx.loc[second_half_idx:] = signal.savgol_filter(vx.loc[second_half_idx:], window_length=window, polyorder=polyorder)
-            vy.loc[second_half_idx:] = signal.savgol_filter(vy.loc[second_half_idx:], window_length=window, polyorder=polyorder)
+        ## smooting the values
+        ma_window = np.ones(window) / window
+        vx = np.convolve(vx, v=ma_window, mode='same')
+        vy = np.convolve(vy, v=ma_window, mode='same')
         
-        elif filter == 'moving average':
-            ma_window = np.ones(window) / window
-            
-            # calculate first half velocity
-            vx.loc[:second_half_idx] = np.convolve( vx.loc[:second_half_idx] , ma_window, mode='same' ) 
-            vy.loc[:second_half_idx] = np.convolve( vy.loc[:second_half_idx] , ma_window, mode='same' )      
-            
-            # calculate second half velocity
-            vx.loc[second_half_idx:] = np.convolve( vx.loc[second_half_idx:] , ma_window, mode='same' ) 
-            vy.loc[second_half_idx:] = np.convolve( vy.loc[second_half_idx:] , ma_window, mode='same' )
-        
-        team[player + '_vx'] = vx
-        team[player + '_vy'] = vy
-        team[player + '_speed'] = np.sqrt(vx**2 + vy**2)
+        df[player + '_vx'] = vx
+        df[player + '_vy'] = vy
+        df[player + '_speed'] = np.sqrt(vx**2 + vy**2)
     
-    return team
-            
-        
-    
+    return df
     
     
     
