@@ -252,16 +252,14 @@
 * **Off Ball Scoring Opportuinity: Player Analysis**
 
   * So here are the scoring opportuinity maps for a given right back for three different games.
-
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\rb.JPG" alt="rb" style="zoom:67%;" />
+    ![rb](https://user-images.githubusercontent.com/33928040/80735126-dc0f4980-8b2d-11ea-8edf-e5838198207b.JPG)
 
   * So, you can generally see that his scoring opportuinity comes from wide right positions outside the penalty area, where he is clearly operating in space with the possibility of scoring. 
 
   * You can see that the player has not scored in these three games but you can still see that he is getting into those positions from where he can actually score.
 
   * And here you can see in the fourth match the player did score from those position, making two shots and converting them to goals.
-
-    <img src="D:\myPython\Friends of Tracking\Notes\Images\rb_scored.JPG" alt="rb_scored" style="zoom:67%;" />
+    ![rb_scored](https://user-images.githubusercontent.com/33928040/80735133-df0a3a00-8b2d-11ea-9df7-93cbe18ebef1.JPG)
 
 ## Recap
 
