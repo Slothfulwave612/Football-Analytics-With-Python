@@ -71,18 +71,3 @@ def cal_velocity(df, max_speed=12, window=7):
     
     return df
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
