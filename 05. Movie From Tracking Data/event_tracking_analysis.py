@@ -4,20 +4,12 @@ Created on Sun Apr 19 13:15:42 2020
 
 @author: slothfulwave612
 
-Here we will be analysing some event data
-as well as tracking data and will make some
-plots based on the same.
-
-Modules Used(2):
+Modules Used(3):
 ----------------
-1. utility_function_one -- Python module having plot functions.
-2. utility_function_two -- Python module for loading the data sets.
-3. numpy -- numerical computation library.
-4. pandas -- for data manipulation and analysis
-5. matplotlib -- visualization library.
+1. utility_function_viz -- Python module having plot functions.
+2. utility_function_io -- Python module for loading the data sets.
+3. utility_function_velocity -- Python module for velocity functions.
 """
-import numpy as np
-import pandas as pd
 import utility_function_io as ufio
 import utility_function_viz as ufv
 import utility_function_velocity as ufvel
@@ -54,8 +46,5 @@ fig, ax = ufv.plot_frame(home_team_loc, away_team_loc, fig, ax)
 
 ## creating and saving a movie for our first goal
 home_team = tracking_home.loc[98298: 99032+150]
-away_team = tracking_home.loc[98298: 99032+150]
+away_team = tracking_away.loc[98298: 99032+150]
 ufv.save_match_clip(home_team, away_team, 'home_goal', 'movie')
-
-ufv.save_match_clip(home_team, away_team, 'home_goal', 'movie')
-

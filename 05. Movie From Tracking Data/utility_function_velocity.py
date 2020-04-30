@@ -3,6 +3,10 @@
 Created on Tue Apr 28 19:49:26 2020
 
 @author: anmol
+Python module for making functions to compute velocity.
+
+Modules Used(1):
+1. numpy -- numerical computing library.
 """
 
 import numpy as np

@@ -278,7 +278,7 @@ def save_match_clip(home_team, away_team, fname, fpath, fps=25, colors=('r', 'b'
             ## include match time
             frame_minus = int(team['Time [s]'] / 60)
             frame_secs = (team['Time [s]'] / 60 - frame_minus) * 60
-            timestring = '%d: 1.2%f'.format(frame_minus, frame_secs)
+            timestring = '%d: %1.2f' % (frame_minus, frame_secs)
             objs = plt.text(-2.5, field_dims[1] / 2, timestring, fontsize=15)
             fig_obj.append(objs)
             
@@ -286,7 +286,7 @@ def save_match_clip(home_team, away_team, fname, fpath, fps=25, colors=('r', 'b'
             
             ## delete all figure object
             for obj in fig_obj:
-                fig_obj.remove(obj)
+                obj.remove()
         
     print('done')
     plt.clf()
