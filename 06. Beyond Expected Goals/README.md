@@ -267,3 +267,126 @@
 * Additionally we have added some contextual features such as a transition probability model which allows us to build a relevant pitch control model.
 * We have added the time of flight of the ball to allow us to see the dynamic pitch control model and then the same model can be used to evaluate passing situations.
 * And then lastly we have incorporated a scoring value model alongside our transition and pitch control models to be able to build scoring opportuinity model that highlights the regions of the pitch that are controlled that are valuable and the ball is likely to transition to.
+
+## Coding a Pitch Control Model: Overview
+
+* So the basic question the pitch control model seek to answer is: *what options are available to the player on the ball?* or *where can that player pass the ball such that his team are allowed to retain possession of it.*
+
+* Let's see an example:
+
+  ![map](https://user-images.githubusercontent.com/33928040/80953065-6a2e4d00-8e18-11ea-971c-eb38105dcb95.JPG)
+
+  * So here we a plot of an instance of a game.
+
+  * The dot show the position where the players are and the little arrow are the velocity vectors(i.e. where they are running in that particular instance), the longer the arrow the faster they are moving.
+
+  * Player 20 in the blue team is in the possession of the ball.
+
+  * So in terms of passing options, given the motion from right to left, perhaps there are some passing options around player 23 around player 24.
+
+  * The Pitch Control models enables you to quantify these options directly.
+
+    ![pitch_map](https://user-images.githubusercontent.com/33928040/80953249-c42f1280-8e18-11ea-8d57-81c61d562078.JPG)
+
+  *  So the red region in the field now indicate, the areas in which the red team are likely to gain control of the ball if player 20 was to pass the ball to those locations, whereas the blue regions indicate the areas in which the blue team were likely to retain control of the possession if the ball was passed to those location.
+
+  * And the model captures not only the instantaneous positions of the players but also where they are running. So if a player is moving quickly they are much more likely to control the space they are moving into rather than the space that they currently occupy.
+
+* **Building a pitch control model:**
+
+  * If we want to build a pitch control model there are essentially three things that we need to calculate.
+
+  * For a given location on a pitch:
+
+    **1.** *How long would it take for the ball to arrive?*
+
+    **2.** *How long would it take for each player to arrive?*
+
+    **3.** *What is the total probability that each team will control the ball after it has arrived?*
+
+  * And if we want to calculate a full pitch control surface like in the above figure, then we need to repeat these calculations for all locations on the pitch.
+
+## Ball Time to Arrival
+
+* Let's look at this figure:
+
+  ![ball_time](https://user-images.githubusercontent.com/33928040/80953273-d14c0180-8e18-11ea-823e-2141c9496e04.JPG)
+
+  * So the following figure shows that the player20(from the last figure) was in the possession of the ball at start position and lets imagine he want to move the ball to the end position, which is a distance of about 21 meters.
+  * **Note:** In this model that we are building we are assuming that the ball moves with a constant speed of 15 m/s.
+  * So it will take 1.4 second to arrive to the end position from the start position.
+
+## Player Time To Arrival:
+
+* Let's now look at how long it would take each of the players to arrive at the target position of the ball given their initial position and velocity at the moment that the pass is played.
+
+* And in this model there are number of key assumption:
+
+  * Players have a maximum speed of 5 m/s
+
+  * Players have a maximum acceleration of 7 m/s<sup>2</sup>
+
+  * Players take the fastest possible path
+
+## Simple Approximation For Arrival Time
+
+* Two-step process:
+
+  * There is an initial *reaction time* of 0.7 seconds. During this time each player continues along their current trajectory.
+  * After 0.7 seconds, the player runs directly towards the target location at their maximum speed of 5 m/s
+
+* So let's see the two closest players to the target location in our example.
+
+  ![two_closest](https://user-images.githubusercontent.com/33928040/80953364-fb9dbf00-8e18-11ea-8d7c-fc3a04964655.JPG)
+
+  * We have player 4 on the red team and player 24 on the blue team, and again the arrow indicates the velocities of each player at the moment of the pass is played.
+
+  * And so here are the trajectories the player would take under our simple approximate process.
+
+    ![two_traj](https://user-images.githubusercontent.com/33928040/80953445-27b94000-8e19-11ea-904a-be38d8d956a1.JPG)
+
+  * Here the little dots indicates the player would be after their initial reaction time, so for the first 0.7 second player 4 carries on along his initial trajectory and then after 0.7 second turns and runs at his maximum speed towards the target location.
+
+  * Player 24 was moving along the right direction, so just continue along his path for the reaction period and then again moves on to the target location at his maximum speed.
+
+  * And in this calculation it would take 2 seconds for player 4 to reach the target location and 1.5 seconds for player 24.
+
+## The Control Probability
+
+* So, we have calculated how long it will take a player and the ball to get to the target location, but how long it would take for each player to control the ball.
+
+* In his paper, *William* assume that players that are in the vicinity of the ball within a given time interval Δt, the probability of controlling the ball is λ*Δt, where λ is a free parameter in his model that determines how quickly the player is tend to control the ball.
+
+* In his model he suggests λ should be equal to 4.30 1/s, which is basically saying that it takes around 0.23 seconds for a player to control the ball.
+
+  ![controlforce](https://user-images.githubusercontent.com/33928040/80953586-749d1680-8e19-11ea-85df-5883ea8a73a2.JPG)
+
+## Ball Control: Exact Arrival Time
+
+* So lets go back to our example and look again at the two players that start off closest to the target location, player 4 in the red team and player 24 in the red team.
+
+  ![examplr](https://user-images.githubusercontent.com/33928040/80953638-8bdc0400-8e19-11ea-93e6-8ab8bdda34f7.JPG)
+
+  * So we have already calculated that the ball will arrive at the target location after 1.4 seconds, player 24 after 1.5 seconds and player 4 by 2 seconds.
+
+    ![pass_probab](https://user-images.githubusercontent.com/33928040/80953684-a615e200-8e19-11ea-8f15-2e222e3519e7.JPG)
+
+  * So this chart above, shows you the probability that the ball is controlled by one of the two players as a function of time since the pass is played.
+
+* Now, *William* described in his model incorporates some uncertainity in the player arrival time which he models using a sigmoid distribution with a standard deviation of 0.45 seconds.
+
+  ![sigmoid](https://user-images.githubusercontent.com/33928040/80953769-cb0a5500-8e19-11ea-91aa-8e40c3115ea3.JPG)
+
+## Uncertain Player Arrival Times
+
+* Now if we incorporate this into our model we see that the probability that the ball is controlled by the either player changes significantly.
+
+  ![sigmoid_probab](https://user-images.githubusercontent.com/33928040/80953799-d78ead80-8e19-11ea-8e8c-e7d80f714400.JPG)
+
+  * And the reason for this is that the ball is assumed to have arrived exactly after 1.4 seconds but now there is some uncertainity in the arrival time of the players there is actually less window for player 24 to control the ball such that his final probability that he ends up controlling the ball reduced from 0.93 to 0.7 and the probability of player 4 controlling the ball increases correspondingly to about 0.3.
+
+## Pitch Control Program
+
+* So the way in which we calculate the full pitch control surface is by breaking down the field down into the grid of little pixels and within each pixel. 
+* And within each pixel we calculate the time it will the ball to arrive from its current location, the time it will take all the players to arrive and then the probability that each player will be able to control the ball and therefore each team will be able to control the ball.
+* And then we repeat that by moving across the grid and calculating it in every single pixel.
