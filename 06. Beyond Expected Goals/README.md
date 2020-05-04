@@ -1,3 +1,21 @@
+## Content:
+  * [Pitch Control](#pitch-control).
+  * [Developing Pitch Control](#developing-pitch-control)
+  * [Common Questions](#common-questions)
+  * [Dynamic Control: Control Force](#dynamic-control:-control-force)
+  * [Dynamic Control: Intercepting](#dynamic-control:-intercepting)
+  * [Dynamic Pitch Control](#dynamic-pitch-control)
+  * [Relevant Pitch Control](#relevant-pitch-control)
+  * [Scoring Opportuinity](#scoring-opportuinity)
+  * [Recap](#recap)
+  * [Coding a Pitch Control Model: Overview](#coding-a-pitch-control-model:-overview)
+  * [Ball Time to Arrival](#Ball-Time-to-Arrival)
+  * [Player Time To Arrival](#Player-Time-To-Arrival)
+  * [Simple Approximation For Arrival Time](#Simple-Approximation-For-Arrival-Time)
+  * [The Control Probability](#The-Control-Probability)
+  * [Uncertain Player Arrival Times](#Uncertain-Player-Arrival-Times)
+  * [Pitch Control Program](#Pitch-Control-Program)
+
 # Pitch Control
 
 * **Definition:** *Pitch control* (at a particular location) is the probability that a player could control the ball, assuming it were at that location.
