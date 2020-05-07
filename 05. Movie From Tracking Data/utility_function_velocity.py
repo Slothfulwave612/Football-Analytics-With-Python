@@ -2,7 +2,7 @@
 """
 Created on Tue Apr 28 19:49:26 2020
 
-@author: anmol
+@author: slothfulwave612
 Python module for making functions to compute velocity.
 
 Modules Used(1):
