@@ -43,9 +43,12 @@ fig, ax = ufvr.make_voronoi_plot(tracking_home.loc[53027], tracking_away.loc[530
 fig.savefig('voronoi_plot.jpg')
 
 ## home and away team frames
-home_team = tracking_home.loc[52507: 53049+150]
-away_team = tracking_away.loc[52507: 53049+150]
-events = range(52507, 53049+150)
+home_team = tracking_home.loc[3069: 4419+30]
+away_team = tracking_away.loc[3069: 4419+30]
+events = range(3069, 4419+30)
+
+## make Delaunay Triangles
+ufvr.make_movie(home_team, away_team, events=events, fname='goal_movie', team='home', velocity=True)
 
 ## making match clip: contains voronoi triangles
 ufvr.make_voronoi_movie(home_team, away_team, events=events, velocity=True)
