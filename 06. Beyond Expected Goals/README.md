@@ -1,3 +1,7 @@
+* Links to the videos from where these notes were made:
+  * [Liverpool FC data scientist William Spearman's masterclass in pitch control](https://www.youtube.com/watch?v=X9PrwPyolyU)
+  * [Advanced football analytics: building and applying a pitch control model in python](https://www.youtube.com/watch?v=5X1cSehLg6s&t=1239s)
+
 ## Content:
   * [Pitch Control](#pitch-control).
   * [Developing Pitch Control](#developing-pitch-control)
