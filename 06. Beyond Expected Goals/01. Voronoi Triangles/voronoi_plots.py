@@ -19,7 +19,7 @@ import utility_function_velocity as ufvel
 import utility_function_voronoi as ufvr
 
 ## setting path and game id
-path = '../Metrica_Sports/data'
+path = '../../Metrica_Sports/data'
 game_id = 2
 
 ## loading in the tracking data
