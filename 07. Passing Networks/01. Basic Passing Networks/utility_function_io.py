@@ -16,7 +16,7 @@ def get_competitions():
     Returns:
     comp_df -- dataframe for competition data.
     '''
-    comp_data = json.load(open('../Statsbomb/data/competitions.json'))
+    comp_data = json.load(open('../../Statsbomb/data/competitions.json'))
     comp_df = pd.DataFrame(comp_data)
     
     return comp_df
@@ -65,7 +65,7 @@ def get_matches(comp_id, season_id):
     matches_df -- dataframe object, containing all the matches 
     '''
     ## setting path to the file
-    path = '../Statsbomb/data/matches/{0}/{1}.json'.format(comp_id, season_id)
+    path = '../../Statsbomb/data/matches/{0}/{1}.json'.format(comp_id, season_id)
     
     ## loading up the data from json file
     match_data = json.load(open(path))
@@ -145,7 +145,7 @@ def make_event_df(match_id):
     event_df -- dataframe object, the event dataframe for the particular match.
     '''
     ## setting path for the required file
-    path = '../Statsbomb/data/events/{}.json'.format(match_id)
+    path = '../../Statsbomb/data/events/{}.json'.format(match_id)
     
     ## reading in the json file
     event_json = json.load(open(path, encoding='utf-8'))
@@ -168,7 +168,7 @@ def load_lineups(match_id):
     
     '''
     ## setting path for the required file
-    path = '../Statsbomb/data/lineups/{}.json'.format(match_id)
+    path = '../../Statsbomb/data/lineups/{}.json'.format(match_id)
     
     ## reading in the json file
     lineup_json = json.load(open(path, encoding='utf-8'))
