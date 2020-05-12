@@ -5,6 +5,7 @@ Created on Tue May 12 20:27:19 2020
 @author: slothfulwave612
 """
 
+import numpy as np
 import pandas as pd
 import json
 
@@ -16,7 +17,7 @@ def get_competitions():
     Returns:
     comp_df -- dataframe for competition data.
     '''
-    comp_data = json.load(open('../../Statsbomb/data/competitions.json'))
+    comp_data = json.load(open('../Statsbomb/data/competitions.json'))
     comp_df = pd.DataFrame(comp_data)
     
     return comp_df
@@ -65,7 +66,7 @@ def get_matches(comp_id, season_id):
     matches_df -- dataframe object, containing all the matches 
     '''
     ## setting path to the file
-    path = '../../Statsbomb/data/matches/{0}/{1}.json'.format(comp_id, season_id)
+    path = '../Statsbomb/data/matches/{0}/{1}.json'.format(comp_id, season_id)
     
     ## loading up the data from json file
     match_data = json.load(open(path))
@@ -136,41 +137,127 @@ def getting_match_id(match_df, req_home_team, req_away_team):
 
 def make_event_df(match_id):
     '''
-    Function for making event dataframe.
+    Function for making event dataframe and return the linups as well.
     
     Argument:
     match_id -- int, the required match id for which event data will be constructed.
     
     Returns:
     event_df -- dataframe object, the event dataframe for the particular match.
+    lineups -- lineups for the match.
     '''
     ## setting path for the required file
-    path = '../../Statsbomb/data/events/{}.json'.format(match_id)
+    path = '../Statsbomb/data/events/{}.json'.format(match_id)
     
     ## reading in the json file
     event_json = json.load(open(path, encoding='utf-8'))
     
-    ## flattening the json file
-    event_flatten = [flatten_json(x) for x in event_json]
+    ## lineups for the game
+    lineups = event_json[0:2]
     
-    event_df = pd.DataFrame(event_flatten)
-    
-    return event_df
+    return event_json[4:], lineups
 
-def load_lineups(match_id):
+def get_straters(lineup):
     '''
-    Function for loading lineups.
+    Function for getting the player's name and their jersey numbers.
     
     Argument:
-    match_id -- int, the required match id for which event data will be constructed
+    lineup -- dict, containing the team lineup data.
     
     Returns:
-    
+    players -- dict, containing player id as key and name, jersey number as its value(nested dict)        
     '''
-    ## setting path for the required file
-    path = '../../Statsbomb/data/lineups/{}.json'.format(match_id)
+    players = {p['player']['id']: {'name': p['player']['name'],
+                                  'jersey': p['jersey_number']} for p in lineup['tactics']['lineup']}
     
-    ## reading in the json file
-    lineup_json = json.load(open(path, encoding='utf-8'))
+    return players
     
-    return lineup_json
+def passing_matrix(pass_data):
+    '''
+    Function to make a passing matrix, it will contain the total number 
+    of passes from player_A to player_B.
+    
+    Argument:
+    pass_data -- dict, containing passing data for a team.
+    
+    Returns:
+    pass_matrix -- matrix containing total number of passes between each players.
+    '''
+    ## initialize a pass matrix as an empty dictionary
+    pass_matrix = {}
+    
+    for pdata in pass_data:
+        if 'outcome' not in pdata['pass'].keys():
+            passer_id = pdata['player']['id']
+            recipient_id = pdata['pass']['recipient']['id']
+            
+            a, b = sorted([passer_id, recipient_id])
+            
+            if pass_matrix.get(a) == None:
+                pass_matrix[a] = {}
+            
+            if pass_matrix[a].get(b) == None:
+                pass_matrix[a][b] = 0
+            
+            pass_matrix[a][b] += 1
+    
+    return pass_matrix
+
+
+def get_avg_player_pos(event, players):
+    '''
+    Function to get average position for each player.
+    
+    Argumrnts:
+    event -- dict, containing event data for a team.
+    players -- dict, containing starting XI.
+    
+    Returns:
+    avg_position -- dict, containing avg position for each player.
+    '''
+    ## initializing a position matrix as empty dictionary
+    position_matrix = {}
+    
+    for e in event:
+        if e.get('player') != None:
+            player_id = e['player']['id']
+            
+            if position_matrix.get(player_id) == None:
+                position_matrix[player_id] = {'x': [], 'y': []}
+            
+            if e.get('location') != None:
+                position_matrix[player_id]['x'].append(e['location'][0])
+                position_matrix[player_id]['y'].append(e['location'][1])
+    
+    avg_position = {k: [np.mean(v['x']), np.mean(v['y'])] 
+                                    for k, v in position_matrix.items() if k in players.keys()}
+    
+    return avg_position
+
+def vol_passes_exchanged(pass_matrix, players, avg_position):
+    '''
+    Function to get volume of passes exchanged between each player.
+    
+    Arguments:
+    pass_matrix -- matrix containing total number of passes between each players.
+    players -- dict, containing starting XI.
+    avg_position -- dict, containing avg position for each player.
+    
+    Returns:
+    lines -- containing the x and y position for two players between which passes were made.
+    weights -- containing the number of passes between the two players.
+    '''
+    lines = []
+    weights = []
+    
+    for k, v in pass_matrix.items():
+        if players.get(k) != None:
+            origin = avg_position[k]
+            
+            for k_, v_ in pass_matrix[k].items():
+                if players.get(k_) != None:
+                    dest = avg_position[k_]
+                    lines.append([*origin, *dest])
+                    weights.append(v_)
+    
+    return lines, weights
