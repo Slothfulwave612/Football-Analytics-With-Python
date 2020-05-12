@@ -1,7 +1,8 @@
+# -*- coding: utf-8 -*-
 """
 Created on Tue May 12 20:31:09 2020
 
-@author: anmol
+@author: slothfulwave612
 """
 import utility_function_io as ufio
 import utility_function_viz as ufv
@@ -26,6 +27,24 @@ match_df.columns = match_df_cols                        ## renaming the columns
 match_id = ufio.getting_match_id(match_df, 'Barcelona', 'Real Madrid')
 
 ## making event dataframe for the particular match
-event_df = ufio.make_event_df(match_id)
+events, lineups = ufio.make_event_df(match_id)
 
-## loading up the lineups for the match
+## getting our home team players
+home_lineup = lineups[0]
+players = ufio.get_straters(home_lineup)
+
+## getting event values for Barcelona
+team_id = home_lineup['team']['id']
+event_barca = [e for e in events if e['team']['id'] == team_id]
+
+## getting the pass events for Barcelona
+pass_barca = [e for e in event_barca if e['type']['name'] == 'Pass']
+
+## generating passing matrix
+pass_matrix = ufio.passing_matrix(pass_barca)
+
+## generating average player location
+avg_location = ufio.get_avg_player_pos(event_barca, players)
+
+## generating volumes of passes exchanged between player
+lines, weights = ufio.vol_passes_exchanged(pass_matrix, players, avg_location)
