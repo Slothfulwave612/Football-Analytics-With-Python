@@ -3,9 +3,18 @@
 Created on Tue May 12 20:31:09 2020
 
 @author: slothfulwave612
+
+Modules Used(4):-
+1. numpy -- numerical computing library.
+2. matplotlib -- plotting library for the Python.
+3. utility_function_io -- Python module for i/o operation.
+4. utility_function_viz -- Python module for visualization.
 """
+
+import numpy as np
+import matplotlib.pyplot as plt
 import utility_function_io as ufio
-import utility_function_viz as ufv
+import utility_function_viz as ufvz
 
 ## making dataframe for competitions
 comp_df = ufio.get_competitions()
@@ -48,3 +57,26 @@ avg_location = ufio.get_avg_player_pos(event_barca, players)
 
 ## generating volumes of passes exchanged between player
 lines, weights = ufio.vol_passes_exchanged(pass_matrix, players, avg_location)
+
+## creating a pitchmap
+fig, ax = plt.subplots(figsize=(20, 12))
+fig, ax = ufvz.createPitch(120, 80, 'yards', 'gray', fig, ax)
+
+## defining lambda functions
+fill_adj = lambda x: 0.8 / (1 + np.exp(-(x-20)*0.2))
+weight_adj = lambda x: 2 / (1 + np.exp(-(x-10)*0.2))
+
+## creating lines for passes
+ax = ufvz.show_lines(ax, lines, weights, weight_adj, fill_adj)
+
+## drawing each player's position
+ax = ufvz.draw_points(ax, [xy for k, xy in avg_location.items()])
+
+## assigning jersey numbers to each player position
+ax = ufvz.draw_numbers(ax, avg_location, players)
+
+## setting labels
+ax = ufvz.label_players(ax)
+
+## saving the figure
+fig.savefig('Passing Network.jpg')
