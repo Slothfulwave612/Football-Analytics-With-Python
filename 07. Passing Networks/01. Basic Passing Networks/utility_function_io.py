@@ -3,6 +3,13 @@
 Created on Tue May 12 20:27:19 2020
 
 @author: slothfulwave612
+
+Python module for i/o operations.
+
+Modules Used(3):-
+1. numpy -- numerical computing library.
+2. pandas -- data manipulation and analysis library.
+3. json -- Python library to work with JSON data.
 """
 
 import numpy as np
@@ -227,7 +234,7 @@ def get_avg_player_pos(event, players):
             
             if e.get('location') != None:
                 position_matrix[player_id]['x'].append(e['location'][0])
-                position_matrix[player_id]['y'].append(e['location'][1])
+                position_matrix[player_id]['y'].append(80 - e['location'][1])
     
     avg_position = {k: [np.mean(v['x']), np.mean(v['y'])] 
                                     for k, v in position_matrix.items() if k in players.keys()}
