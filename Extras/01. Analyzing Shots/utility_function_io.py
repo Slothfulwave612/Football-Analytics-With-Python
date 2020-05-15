@@ -7,8 +7,8 @@ Created on Tue May 12 20:27:19 2020
 Python module for i/o operations.
 
 Modules Used(3):-
-1. numpy -- numerical computing library.
-2. pandas -- data manipulation and analysis library.
+1. pandas -- data manipulation and analysis library.
+2. datetime -- Python library for datetime manipulation.
 3. json -- Python library to work with JSON data.
 """
 
@@ -217,6 +217,7 @@ def get_selected_events(scoring_df_ids):
         
         temp_shot = temp_df.loc[
                 (temp_df['type_name'] == 'Shot') & (temp_df['player_name'] == 'Lionel Andrés Messi Cuccittini')
+                & (temp_df['shot_outcome_name'] != 'Blocked') & (temp_df['shot_outcome_name'] != 'Wayward')
                 ].copy()
         
         if c == 0:
@@ -225,5 +226,6 @@ def get_selected_events(scoring_df_ids):
         else:
             shots_df = pd.concat([shots_df, temp_shot], sort=True)
     
-    return shots_df
-                    
+    shots_df.dropna(axis=1, inplace=True)
+
+    return shots_df     
