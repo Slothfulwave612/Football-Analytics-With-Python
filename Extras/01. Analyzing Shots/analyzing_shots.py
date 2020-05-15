@@ -4,13 +4,14 @@ Created on Tue May 12 20:31:09 2020
 
 @author: slothfulwave612
 
-Modules Used(4):-
-1. numpy -- numerical computing library.
-2. matplotlib -- plotting library for the Python.
+Python file for making shot plot.
+
+Modules Used(2):-
 3. utility_function_io -- Python module for i/o operation.
 4. utility_function_viz -- Python module for visualization.
 """
 import utility_function_io as ufio
+import utility_function_viz as ufvz
 
 ## making dataframe for competitions
 comp_df = ufio.get_competitions()
@@ -32,7 +33,7 @@ match_df.columns = match_df_cols                        ## renaming the columns
 match_df = ufio.convert_to_datetime(match_df)
 
 ## the start date and end date 
-start_date = '2012-11-11'
+start_date = '2012-11-10'
 end_date = '2013-05-13'
 
 ## creating our required dataframe
@@ -44,3 +45,12 @@ scoring_df_ids = list(scoring_df['match_id'].unique())
 ## making the required dataframe
 ## for the shots taken by Messi in his 21 games
 shots_df = ufio.get_selected_events(scoring_df_ids)
+
+## plotting our goal post
+fig, ax = ufvz.create_goal_post()
+
+## plotting shots
+ax = ufvz.plot_shots(shots_df, ax)
+
+## saving figure
+fig.savefig('shot_taken')
