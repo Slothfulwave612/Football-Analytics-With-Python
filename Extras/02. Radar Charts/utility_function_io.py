@@ -263,61 +263,6 @@ def get_pass_stats(event_df, player_name, min_played):
     
     return pass_per, assist, key_pass, through_ball
 
-def get_int_tackles(event_df, player_name, min_played):
-    '''
-    Function to calculate iterception + tackles.
-    
-    Arguments:
-    event_df -- dataframe object, containing event data.
-    player_name -- str, the player name.
-    min_played -- int, minutes played by the player.
-    
-    Returns:
-    int_tackle -- float, total number of interceptions and tackles(per 90).
-    '''
-    interception = sum( (event_df['player_name'] == player_name) & 
-                        (event_df['type_name'] == 'Interception') & 
-                        ( (event_df['interception_outcome_name'] == 'Won') | 
-                          (event_df['interception_outcome_name'] == 'Success in Play') | 
-                          (event_df['interception_outcome_name'] == 'Success Out') ) )
-    ## total number of intercpetion by the player
-    
-    tackle = sum( (event_df['player_name'] == player_name) & 
-                  (event_df['type_name'] == 'Tackle') & 
-                  ( (event_df['duel_outcome_name'] == 'Won') | 
-                    (event_df['duel_outcome_name'] == 'Success in Play') | 
-                    (event_df['duel_outcome_name'] == 'Success Out') ) )
-    ## total number of tackles by the player
-    
-    int_tackle = interception + tackle
-    ## summing them 
-    
-    int_tackle = convert_to_per_90(int_tackle, min_played)
-    ## convert to per_90
-    
-    return int_tackle
-
-def dispossessed(event_df, player_name, min_played):
-    '''
-    Function to count how many times player got dispossessed.
-    
-    Arguments:
-    event_df -- dataframe object, containing event data.
-    player_name -- str, the player name.
-    min_played -- int, minutes played by the players.
-    
-    Returns:
-    diss -- float, dispossessed(per 90) count.
-    '''
-    diss = sum( (event_df['player_name'] == player_name) & 
-                (event_df['type_name'] == 'Dispossessed') )
-    ## number of times player has been dispossessed
-    
-    diss = convert_to_per_90(diss, min_played)
-    ## convert to per_90
-    
-    return diss
-
 def succ_dribbles(event_df, player_name, min_played):
     '''
     Function to count successful dribbles.

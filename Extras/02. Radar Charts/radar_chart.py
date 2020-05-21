@@ -7,14 +7,12 @@ Created on Mon May 18 20:04:07 2020
 Here we will create radar charts for Lionel Messi, 
 Neymar and Luis Suarez for 2014-15 La Liga season.
 
-Modules Used(3):-
+Modules Used(2):-
 1. uitilty_function_io -- module for i/o operations.
 2. utility_function_viz -- module for visualization operations.
-3. matplotlib -- visualization library.
 """
 import utility_function_io as ufio
 import utility_function_viz as ufvz
-import matplotlib.pyplot as plt
 
 ## making dataframe for competitions
 comp_df = ufio.get_competitions()
@@ -58,16 +56,6 @@ leo_pass_per, leo_assist, leo_key_pass, leo_through_ball = ufio.get_pass_stats(e
 ney_pass_per, ney_assist, ney_key_pass, ney_through_ball = ufio.get_pass_stats(event_df, player_2, min_2)
 suz_pass_per, suz_assist, suz_key_pass, suz_through_ball = ufio.get_pass_stats(event_df, player_3, min_3)
 
-## getting interceptions + tackles
-leo_int_tackle = ufio.get_int_tackles(event_df, player_1, min_1)
-ney_int_tackle = ufio.get_int_tackles(event_df, player_2, min_2)
-suz_int_tackle = ufio.get_int_tackles(event_df, player_3, min_3)
-
-## getting dispossessed count
-leo_diss = ufio.dispossessed(event_df, player_1, min_1)
-ney_diss = ufio.dispossessed(event_df, player_2, min_2)
-suz_diss = ufio.dispossessed(event_df, player_3, min_3)
-
 ## getting successful dribbles
 leo_dribble = ufio.succ_dribbles(event_df, player_1, min_1)
 ney_dribble = ufio.succ_dribbles(event_df, player_2, min_2)
@@ -83,24 +71,25 @@ leo_goals = ufio.convert_to_per_90(leo_goals, min_1)
 ney_goals = ufio.convert_to_per_90(ney_goals, min_2)
 suz_goals = ufio.convert_to_per_90(suz_goals, min_1)
 
-## creating radar chart
-params = ['Non-Penalty Goals', 'Shots', 'Shooting %', 'Passing %', 'Assists', 'Key Passes',
-          'Through Balls', 'Int + Tackles', 'Dispossessed', 'Successful Dribbles', 'Goal Conversion %']
+## labels, and ranges
+labels = ['Non-Penalty Goals', 'Shots', 'Shooting %', 'Passing %', 'Assists', 'Key Passes',
+              'Through Balls', 'Successful Dribbles', 'Goal Conversion %']
+    
+ranges = [(0.5, 1.03), (0.5, 5.5), (10, 55), (1, 85), (0.1, 0.7), (0.5, 3), 
+                (0.5, 6), (0.7, 10), (20, 70)]
+        ## note for different stats you have to chage the range values
+   
+## stats 
+leo_stats = [leo_goals, leo_shots, leo_shot_per, leo_pass_per, leo_assist, leo_key_pass,
+             leo_through_ball, leo_dribble, leo_gcr]
 
-ranges = [(0.1, 0.8), (1.7, 5.0), (27, 55), (67.5, 85), (0.08, 0.48), (1.01, 2.01),
-          (0.4, 1.8), (0.7, 2.5), (3.0, 1.0), (1.0, 5.5), (20, 50)]
+ney_stats = [ney_goals, ney_shots, ney_shot_per, ney_pass_per, ney_assist, ney_key_pass,
+             ney_through_ball, ney_dribble, ney_gcr]
 
-leo_data = [leo_goals, leo_shots, leo_shot_per, leo_pass_per, leo_assist, leo_key_pass,
-            leo_through_ball, leo_int_tackle, leo_diss, leo_dribble, leo_gcr]
+suz_stats = [suz_goals, suz_shots, suz_shot_per, suz_pass_per, suz_assist, suz_key_pass,
+             suz_through_ball, suz_dribble, suz_gcr]
 
-
-
-## first for Leo Messi
-
-
-
-
-
-
-        
-        
+## plotting radar charts
+ufvz.plot_player_data(labels, ranges, leo_stats, title='Lionel Messi: La Liga: 2014-15', save_title='leo')
+ufvz.plot_player_data(labels, ranges, ney_stats, title='Neymar: La Liga: 2014-15', save_title='ney')
+ufvz.plot_player_data(labels, ranges, suz_stats, title='Luis Suarez: La Liga: 2014-15', save_title='suz')
