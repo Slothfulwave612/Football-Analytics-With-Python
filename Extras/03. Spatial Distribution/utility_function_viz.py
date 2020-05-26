@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue May 12 20:27:24 2020
+Created on Tue May 26 01:24:36 2020
 
 @author: slothfulwave612
 
@@ -12,7 +12,6 @@ Modules Used(1):-
 
 import matplotlib.pyplot as plt
 from matplotlib.patches import Arc
-import matplotlib.patches as patches
 
 def createPitch(length,width, unity,linecolor, fig, ax): # in meters
     # Code by @JPJ_dejong
