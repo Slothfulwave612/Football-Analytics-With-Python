@@ -6,17 +6,21 @@ Created on Tue May 26 01:24:36 2020
 
 Python module for visualization.
 
-Modules Used(1):-
-1. matplotlib -- plotting library.
+Modules Used(3):-
+1. numpy -- numerical computing library.
+2. matplotlib -- plotting library.
+3. scipy -- Python library used for scientific computing and technical computing. 
 """
 
+import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Arc
+from scipy.ndimage import gaussian_filter
 
-def createPitch(length,width, unity,linecolor, fig, ax): # in meters
-    # Code by @JPJ_dejong
-
+def createPitch(length, width, linecolor, ax): 
     """
+    Code by @JPJ_dejong
+    
     creates a plot in which the 'length' is the length of the pitch (goal to goal).
     And 'width' is the width of the pitch (sideline to sideline). 
     Fill in the unity in meters or in yards.
@@ -85,8 +89,56 @@ def createPitch(length,width, unity,linecolor, fig, ax): # in meters
         #Draw Arcs
         ax.add_patch(leftArc)
         ax.add_patch(rightArc)
-                
+    
     #Tidy Axes
     plt.axis('off')
     
-    return fig,ax
+    return ax
+
+def plot_spatial_distribution(model, x_bins, y_bins, x_scale, y_scale, title_save, title_plot, player_dict):
+    '''
+    Function to plot the spatial distribution.
+    
+    Arguments:
+    model -- dict, containing NMF model based on the position of the player.
+    x_bins -- int, size of x_bins.
+    y_bins -- int, size of y_bins.
+    x_scale -- list
+    y_scale -- list
+    title_save -- str, title for our plot in the file system
+    title_plot -- str, plot's title
+    player_dict -- dict of player id.
+    '''
+    fig, axes = plt.subplots(1, 3, figsize=(20, 4))
+    count = 0
+    
+    for key, value in model.items():
+        ax = axes[count]
+        
+        ax = createPitch(length=120, width=80, linecolor='#444444', ax=ax)
+        ##ax.title.set_text(player_dict[key], )
+        ax.set_title(player_dict[key], fontsize=15)
+                         
+        z = np.rot90(gaussian_filter(value.components_[0].reshape(x_scale, y_scale), sigma=1.5), 1)
+        
+        ax.contourf(x_bins, y_bins, z,
+                    zorder=2,
+                    levels=10,
+                    alpha=0.7,
+                    cmap='Purples')
+        
+        count += 1
+        
+        ax.axis('off')
+        
+    ## adding title
+    plt.suptitle(title_plot, y=0.08, fontsize=20, color='#000000')
+    
+    ## to fit plots within your figure cleanly
+    plt.tight_layout()
+    
+    ## saving figure
+    fig.savefig(title_save)
+    
+    ## closing all plot
+    plt.close('all')

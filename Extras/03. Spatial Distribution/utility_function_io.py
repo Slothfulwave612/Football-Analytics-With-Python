@@ -6,10 +6,11 @@ Created on Tue May 26 01:24:36 2020
 
 Python module for i/o operations.
 
-Modules Used(3):-
+Modules Used(4):-
 1. numpy -- numerical computing library.
 2. pandas -- data manipulation and analysis library.
 3. json -- Python library to work with JSON data.
+4. sklearn -- machine learning library for the Python programming language.
 """
 
 import numpy as np
@@ -72,7 +73,7 @@ def get_matches(comp_id, season_id):
     season_id -- int, the season id.
     
     Returns:
-    matches_df -- dataframe object, containing all the matches 
+    match_df -- dataframe object, containing all the matches 
     '''
     ## setting path to the file
     path = '../Statsbomb/data/matches/{0}/{1}.json'.format(comp_id, season_id)
@@ -86,18 +87,9 @@ def get_matches(comp_id, season_id):
     ## creating a dataframe
     match_df = pd.DataFrame(match_flatten)
     
-    return match_df
-
-def renaming_columns(match_df_cols):
-    '''
-    Function for renaming match dataframe columns.
+    match_df_cols = list(match_df.columns)
     
-    Argument:
-    match_df_cols -- columns of match dataframe.
-    
-    Returns:
-    match_df_cols -- list with renamed column names.
-    '''
+    ## renaming the dataframe
     for i in range(len(match_df_cols)):
         if match_df_cols[i].count('away_team') == 2:
             ## for away_team columns
@@ -118,8 +110,10 @@ def renaming_columns(match_df_cols):
         elif match_df_cols[i].count('season') == 2:
             ## for away_team columns
             match_df_cols[i] = match_df_cols[i][len('season_'):]
+
+    match_df.columns = match_df_cols 
         
-    return match_df_cols
+    return match_df
         
         
 def getting_match_id(match_df, req_home_team, req_away_team):
@@ -144,6 +138,38 @@ def getting_match_id(match_df, req_home_team, req_away_team):
 
     return match_id_required
 
+def get_req_matches(comp_id, season_list, team_1, team_2):
+    '''
+    Function to get required match ids for particular seasons.
+    
+    Arguments:
+    comp_id -- int, competition id.
+    season_list -- list, containing season ids.
+    team_1 -- str, first team name.
+    team_2 -- str, second team name.
+    
+    Returns:
+    match_ids -- dict, containing season_id -> match_id 
+                       as key -> value pair.
+    '''
+    match_dict = {}
+    match_ids = {}
+    
+    for season_id in season_list:
+        match_info = get_matches(comp_id, season_id)
+        match_dict[season_id] = match_info
+        
+        if season_id == 41:
+            home_team = team_2
+            away_team = team_1
+        else:
+            home_team = team_1
+            away_team = team_2
+        
+        match_ids[season_id] = getting_match_id(match_info, home_team, away_team)
+    
+    return match_ids
+
 def make_event_df(match_id):
     '''
     Function for making event dataframe.
@@ -166,43 +192,22 @@ def make_event_df(match_id):
     return df
 
 
-def get_season_events(comp_id, match_ids):
+def get_required_events(player_list, match_id):
     '''
-    Function for getting all events for each matches played in the season.
+    Function to make event dataframe for only the specified players.
     
     Arguments:
-    comp_id -- int, competition id.
-    match_ids -- list, of match id.
+    player_list -- list, of players.
+    match_id -- int, match id.
     
     Returns:
-    event_df -- dataframe object.
+    required_df -- dataframe object.
     '''
-    c = 0
+    df = make_event_df(match_id)
     
-    for match_id in match_ids:
-        temp_df = make_event_df(match_id)
-        
-        if c == 0:
-            event_df = temp_df
-            c = 1
-        else:
-            event_df = pd.concat([event_df, temp_df], sort=True)
-
-    return event_df  
-
-def make_messi_events(event_df):
-    '''
-    Function for making event dataframe for Lionel Messi.
+    required_df = df.loc[df['player_name'].isin(player_list)]
     
-    Argument:
-    event_df -- dataframe object, containing event data.
-    
-    Returns:
-    messi_df -- dataframe object, containing event data of Lionel Messi.
-    '''
-    messi_df = event_df.loc[event_df['player_name'] == 'Lionel Andrés Messi Cuccittini']
-    
-    return messi_df
+    return required_df
 
 def make_lists(x_scale, y_scale):
     '''
@@ -235,17 +240,22 @@ def cumulative_actions(messi_df, x_scale, y_scale, x_bins, y_bins):
     Returns:
     player -- matrix
     '''
-    player = np.zeros((x_scale, y_scale))
+    players = {}
     
     for row_num, data in messi_df.iterrows():
+        player_id = data['player_id']
+        
+        if players.get(player_id) is None:
+            players[player_id] = np.zeros((x_scale, y_scale))
+        
         try:
             x_bin = int(np.digitize(data['location'][0], x_bins[1:], right=True))
             y_bin = int(np.digitize(data['location'][1], y_bins[1:], right=True))
-            player[x_bin, y_bin] += 1
+            players[player_id][x_bin][y_bin] += 1
         except:
             pass
     
-    return player
+    return players
 
 def non_neg_matrix_factorization(player):
     '''
@@ -253,30 +263,23 @@ def non_neg_matrix_factorization(player):
     player matrix into fit_transform.
     
     Argument:
-    player -- matrix
+    player -- dict
     
     Return:
-    model -- NMF model.
+    model_dict -- NMF model dict.
     '''
-    player = [np.matrix.flatten(player)]
+    model_dict = {}
+
+    for key, value in player.items():
+        player = [np.matrix.flatten(value)]
     
-    comps = 30
+        comps = 30
     
-    model = NMF(n_components=comps, init='random', random_state=0)
+        model = NMF(n_components=comps, init='random', random_state=0)
     
-    model.fit(player)
+        model.fit(player)
+        
+        model_dict[key] = model
     
-    return model
-
-
-
-
-
-
-
-
-
-
-
-
-            
+    return model_dict
+      
