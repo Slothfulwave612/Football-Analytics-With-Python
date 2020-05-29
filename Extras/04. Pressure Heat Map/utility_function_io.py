@@ -6,11 +6,10 @@ Created on Fri May 29 20:39:19 2020
 
 Python module for i/o operations.
 
-Modules Used(4):-
+Modules Used(3):-
 1. numpy -- numerical computing library.
 2. pandas -- data manipulation and analysis library.
 3. json -- Python library to work with JSON data.
-4. sklearn -- machine learning library for the Python programming language.
 """
 
 import pandas as pd
