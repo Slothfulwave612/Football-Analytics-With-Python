@@ -6,9 +6,11 @@ Created on Fri May 29 20:39:19 2020
 
 Python module for visualization.
 
-Modules Used(2):-
+Modules Used(4):-
 1. numpy -- numerical computing library.
 2. matplotlib -- plotting library.
+3. mlp_toolkits -- provide more functionality for plotting
+4. utility_function_io -- module containing i/o functions.
 """
 
 import numpy as np
