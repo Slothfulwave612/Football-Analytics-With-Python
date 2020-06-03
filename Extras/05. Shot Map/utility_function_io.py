@@ -157,16 +157,17 @@ def make_event_df(match_id):
     
     return df
       
-def make_shots_event(match_ids, player):
+def full_season_events(match_ids, team_name):
     '''
-    Function to make shots event dataframe for a particular player.
+    Function to make event dataframe for full season for the team
+    the player plays in.
     
     Arguments:
     match_id -- list, list of match id.
-    player -- str, name of the player.
+    team_name -- str, name of the team for which the player plays.
     
     Returns:
-    shot_df -- dataframe object.
+    event_df -- dataframe object, containing event data for the whole season.
     '''
     c = 0
     
@@ -178,10 +179,39 @@ def make_shots_event(match_ids, player):
             c = 1
         else:
             event_df = pd.concat([event_df, temp_df], sort=True)
-        
-    shot_df = event_df.loc[
-                           (event_df['player_name'] == player) &
-                           (event_df['type_name'] == 'Shot')
-                          ]
     
-    return shot_df
+    event_df = event_df[event_df['team_name'] == team_name]
+    
+    return event_df
+
+def get_through_balls_id(event_df):
+    '''
+    Function to get the id associated with a through ball pass in the event dataframe.
+    
+    Argument:
+    event_df -- dataframe object, event data for the whole season.
+    
+    Returns:
+    thorugh_ids -- dict, containing the ids for the thorugh ball pass.
+                         key will be the id value will be True.
+    '''
+    through_ids = dict()
+    
+    for index, row in event_df.iterrows():
+        if (row['pass_goal_assist'] == True) & (row['pass_through_ball'] == True):
+            through_ids[ row['id'] ] = True
+        
+    return through_ids
+
+
+
+
+
+
+
+
+
+
+
+
+

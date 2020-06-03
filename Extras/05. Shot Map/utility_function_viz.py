@@ -53,24 +53,17 @@ def vertical_shot_pitch(linecolor, fig=None, ax=None):
     
     return fig, ax    
     
-def plot_shot_map(shot_df, through_ids):
-    '''
-    Function to plot the shot map.
-    
-    Arguments:
-    shot_df -- dataframe object, containing all shots
-    '''
+def foo_bar():
     fig, ax = vertical_shot_pitch(linecolor='#444444')
-    ## making a pitch map    
     
     rect_x, rect_y = 10, 85
     drect_x, drect_y = 15, 85
     brect_x, brect_y = 20, 85
     
-    rect = plt.Rectangle((rect_x, rect_y), 3.5, 3, fill=False)
-    drect1 = plt.Rectangle((drect_x, drect_y), 3.5, 3, fill=False)
-    drect2 = plt.Rectangle((drect_x + 0.35, drect_y+0.32), 2.8, 2.3, fill=False)
-    brect = plt.Rectangle((brect_x, brect_y), 3.5, 3, lw=2.7, fill=False)
+    rect = plt.Rectangle((rect_x, rect_y), 4, 3.5, fill=False)
+    drect1 = plt.Rectangle((drect_x, drect_y), 4, 3.5, fill=False)
+    drect2 = plt.Rectangle((drect_x + 0.35, drect_y + 0.32), 3.3, 2.9, fill=False)
+    brect = plt.Rectangle((brect_x, brect_y), 4, 3.5, lw=2.7, fill=False)
     
     ax.add_patch(rect)
     ax.add_patch(drect1)
@@ -103,7 +96,41 @@ def plot_shot_map(shot_df, through_ids):
     ax.add_patch(kite)
     ax.add_patch(dkite_1)
     ax.add_patch(dkite_2)
-    ax.add_patch(bkite)
+    ax.add_patch(bkite)  
+    
+    circle_x, circle_y = 59, 86
+    dcircle_x, dcircle_y = 65, 86
+    bcircle_x, bcircle_y = 70, 86
+    
+    ax.axis('equal')
+    
+    circle = plt.Circle((circle_x, circle_y), radius=1.85, fill=False)
+    dcircle_1 = plt.Circle((dcircle_x, dcircle_y), radius=1.55, fill=False)
+    dcircle_2 = plt.Circle((dcircle_x, dcircle_y), radius=2.1, fill=False)
+    bcircle = plt.Circle((bcircle_x, bcircle_y), radius=1.85, lw=2.7, fill=False)
+    
+    ax.add_patch(circle)
+    ax.add_patch(dcircle_1)
+    ax.add_patch(dcircle_2)
+    ax.add_patch(bcircle)
+    
+    pent_x, pent_y = 1, 86
+    dpent_x, dpent_y = 74, 86
+    bpent_x, bpent_y = 77, 86
+    
+    pent = Polygon([[pent_x, pent_y + 2], [pent_x + 2, pent_y + 1], [pent_x + 2, pent_y - 1],
+                    [pent_x, pent_y - 2], [pent_x - 2, pent_y - 1], [pent_x - 2, pent_y + 1]], fill=False)
+    dpent = Polygon([[dpent_x, dpent_y + 2], [dpent_x + 2, dpent_y + 1], [dpent_x + 2, dpent_y - 1],
+                    [dpent_x, dpent_y - 2], [dpent_x - 2, dpent_y - 1], [dpent_x - 2, dpent_y + 1]], fill=False)
+    dpent_2 = Polygon([[dpent_x, dpent_y + 2.3], [dpent_x + 2.3, dpent_y + 1.175], [dpent_x + 2.3, dpent_y - 1.175],
+                       [dpent_x, dpent_y - 2.3], [dpent_x - 2.3, dpent_y - 1.175], [dpent_x - 2.3, dpent_y + 1.175]], fill=False)
+    bpent = Polygon([[bpent_x, bpent_y + 2], [bpent_x + 2, bpent_y + 1], [bpent_x + 2, bpent_y - 1],
+                    [bpent_x, bpent_y - 2], [bpent_x - 2, bpent_y - 1], [bpent_x - 2, bpent_y + 1]], fill=False, lw=2.7)
+    
+    ax.add_patch(pent)
+    ax.add_patch(dpent)
+    ax.add_patch(dpent_2)
+    ax.add_patch(bpent)
     
     fig
     

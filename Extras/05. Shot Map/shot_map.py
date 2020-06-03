@@ -24,5 +24,18 @@ match_df = ufio.get_matches(comp_id, season_id)
 ## listing all the match ids
 match_ids = list(match_df['match_id'].unique())
 
-## shot dataframe
-shot_df = ufio.make_shots_event(match_ids, player='Lionel Andrés Messi Cuccittini')
+## event dataframe for the whole season
+team = 'Barcelona'
+event_df = ufio.full_season_events(match_ids, team)
+
+## making shot dataframe for a particular player
+player_name = 'Lionel Andrés Messi Cuccittini'
+shot_df = event_df.loc[
+                        (event_df['player_name'] == player_name) &
+                        (event_df['type_name'] == 'Shot')
+                      ]
+
+## getting through ball pass ids from event dataframe
+through_ids = ufio.get_through_balls_id(event_df)
+
+f = shot_df.loc[]
