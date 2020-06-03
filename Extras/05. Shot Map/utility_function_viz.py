@@ -10,15 +10,15 @@ Modules Used(1):-
 1. matplotlib -- plotting library.
 """
 import matplotlib.pyplot as plt
-from matplotlib.patches import Arc
+from matplotlib.patches import Arc, Rectangle, Circle, Polygon
 
-def vertical_shot_pitch(linecolor, ax=None): 
+def vertical_shot_pitch(linecolor, fig=None, ax=None): 
     '''
     Function for plotting pitch map.
     
     Arguments:
     linecolor -- str, linecolor.
-    ax -- axis object; default set to None.
+    fig, ax -- figure and axis object; default set to None.
     
     Returns:
     fig, ax -- figure and axis objects.
@@ -51,4 +51,68 @@ def vertical_shot_pitch(linecolor, ax=None):
     #Tidy Axes
     plt.axis('off')
     
-    return fig, ax
+    return fig, ax    
+    
+def plot_shot_map(shot_df, through_ids):
+    '''
+    Function to plot the shot map.
+    
+    Arguments:
+    shot_df -- dataframe object, containing all shots
+    '''
+    fig, ax = vertical_shot_pitch(linecolor='#444444')
+    ## making a pitch map    
+    
+    rect_x, rect_y = 10, 85
+    drect_x, drect_y = 15, 85
+    brect_x, brect_y = 20, 85
+    
+    rect = plt.Rectangle((rect_x, rect_y), 3.5, 3, fill=False)
+    drect1 = plt.Rectangle((drect_x, drect_y), 3.5, 3, fill=False)
+    drect2 = plt.Rectangle((drect_x + 0.35, drect_y+0.32), 2.8, 2.3, fill=False)
+    brect = plt.Rectangle((brect_x, brect_y), 3.5, 3, lw=2.7, fill=False)
+    
+    ax.add_patch(rect)
+    ax.add_patch(drect1)
+    ax.add_patch(drect2)
+    ax.add_patch(brect)
+    
+    tri_x, tri_y = 27, 86
+    dtri_x, dtri_y = 32, 86
+    btri_x, btri_y = 37, 86
+    
+    tri = Polygon([[tri_x - 1.75, tri_y - 1.75], [tri_x + 1.75, tri_y - 1.75], [tri_x, tri_y + 1.75]], fill=False)
+    dtri_1 = Polygon([[dtri_x - 1.5, dtri_y - 1.5], [dtri_x + 1.5, dtri_y - 1.5], [dtri_x, dtri_y + 1.5]], fill=False)
+    dtri_2 = Polygon([[dtri_x - 2.1, dtri_y - 1.8], [dtri_x + 2.1, dtri_y - 1.8], [dtri_x, dtri_y + 2.3]], fill=False)
+    btri = Polygon([[btri_x - 1.75, btri_y - 1.75], [btri_x + 1.75, btri_y - 1.75], [btri_x, btri_y + 1.75]], fill=False, lw=2.7)
+    
+    ax.add_patch(tri)
+    ax.add_patch(dtri_1)
+    ax.add_patch(dtri_2)
+    ax.add_patch(btri)
+    
+    kite_x, kite_y = 42, 86
+    dkite_x, dkite_y = 47, 86
+    bkite_x, bkite_y = 51, 86
+    
+    kite = Polygon([[kite_x - 1.75, kite_y], [kite_x, kite_y + 1.75], [kite_x + 1.75, kite_y], [kite_x, kite_y - 2]], fill=False)
+    dkite_1 = Polygon([[dkite_x - 1.5, dkite_y], [dkite_x, dkite_y + 1.5], [dkite_x + 1.5, dkite_y], [dkite_x, dkite_y - 1.75]], fill=False)
+    dkite_2 = Polygon([[dkite_x - 2, dkite_y], [dkite_x, dkite_y + 2], [dkite_x + 2, dkite_y], [dkite_x, dkite_y - 2.25]], fill=False)
+    bkite = Polygon([[bkite_x - 1.75, bkite_y], [bkite_x, bkite_y + 1.75], [bkite_x + 1.75, bkite_y], [bkite_x, bkite_y - 2]], fill=False, lw=2.7)
+    
+    ax.add_patch(kite)
+    ax.add_patch(dkite_1)
+    ax.add_patch(dkite_2)
+    ax.add_patch(bkite)
+    
+    fig
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
