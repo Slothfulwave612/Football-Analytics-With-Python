@@ -6,11 +6,9 @@ Created on Fri May 29 20:39:19 2020
 
 Python module for visualization.
 
-Modules Used(4):-
+Modules Used(2):-
 1. numpy -- numerical computing library.
 2. matplotlib -- plotting library.
-3. mlp_toolkits -- provide more functionality for plotting
-4. utility_function_io -- module containing i/o functions.
 """
 
 import numpy as np
@@ -98,14 +96,15 @@ def createPitch(length, width, linecolor, ax):
     
     return ax
 
-def make_pressure_map(match_ids, team_name, season):
+def make_pressure_map(match_ids, team_name, season, competition):
     '''
     Function to make a preesure map for the entire season.
     
     Argument:
     match_ids -- list, containing match ids for a particular season.
     team_name -- str, the name of the team.
-    season -- str, season
+    season -- str, season.
+    competition -- str, name of the competition.
     '''
     ## making a subplot
     fig, ax = plt.subplots(figsize=(15, 8))
@@ -122,7 +121,7 @@ def make_pressure_map(match_ids, team_name, season):
         event_df = ufio.make_event_df(match)
             
         for _, row in event_df.iterrows():
-            if row['type_name'] == 'Pressure' and row['team_name'] == 'Barcelona':
+            if row['type_name'] == 'Pressure' and row['team_name'] == team_name:
                 loc_x = row['location'][0]
                 loc_y = row['location'][1]
                 
@@ -153,7 +152,7 @@ def make_pressure_map(match_ids, team_name, season):
     
     ## labelling the plot
     ax.text(-5, 87, team_name, fontsize=23)
-    ax.text(-5, 83, 'Pressure Heat Map | La Liga {}'.format(season), fontsize=17)
+    ax.text(-5, 83, 'Pressure Heat Map | {} {}'.format(competition, season), fontsize=17)
     
     ## displaying the colorbar
     axins = inset_axes(ax,

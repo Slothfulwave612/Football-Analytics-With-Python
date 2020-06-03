@@ -17,8 +17,8 @@ import utility_function_viz as ufvz
 comp_df = ufio.get_competitions()
 
 ## La Liga Competition
-comp_id = 11
-season_id = 4
+comp_id = 16
+season_id = 24
 
 ## getting all the matches
 match_df = ufio.get_matches(comp_id, season_id)
@@ -27,4 +27,4 @@ match_df = ufio.get_matches(comp_id, season_id)
 match_ids = list(match_df['match_id'].unique())
 
 ## making the pressure map
-ufvz.make_pressure_map(match_ids, 'BARCELONA', '2018-19')
+ufvz.make_pressure_map(match_ids, 'Bayern Munich', '2012-13', 'UEFA Champions League')
