@@ -1,0 +1,5 @@
+lines.linewidth : 0.9
+lines.color: 555555
+patch.linewidth: 1
+text.color : 121212
+axes.grid: False
